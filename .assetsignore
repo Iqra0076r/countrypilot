@@ -1,3 +1,4 @@
+# Cloudflare asset exclusions
 .git/
 .git/**
 .github/
