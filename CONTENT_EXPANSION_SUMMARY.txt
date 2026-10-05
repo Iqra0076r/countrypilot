@@ -1,0 +1,43 @@
+PLANATLAS — 195 COUNTRY CONTENT EXPANSION
+
+Countries: 195
+Existing articles retained: 800
+New long-form core articles: 975
+Total articles: 1,775
+Country hubs: 195
+New country hubs added: 175
+Total HTML pages: 2,003
+
+Five new guide types per country:
+1. Visa & Entry Requirements Guide
+2. Travel Insurance & Health Guide
+3. Travel Safety & Security Guide
+4. Travel Tools & Planning Guide
+5. Complete Country Travel Guide
+
+Long-form new article length:
+Minimum: 1,579 words
+Average: 1,827 words
+Maximum: 2,330 words
+
+New country-wide categories:
+- Travel Insurance & Health: 195 guides
+- Travel Safety: 195 guides
+- Travel Tools: 195 guides
+- Country Guides: 195 guides
+- Visas & Immigration now includes 245 guides total
+
+Technical audit:
+- Broken internal references: 0
+- Missing local images: 0
+- Duplicate HTML IDs: 0
+- Missing page titles: 0
+- Missing meta descriptions: 0
+- External Canva image URLs: 0
+- example.com references: 0
+- Search index articles: 1,775
+- Country tool destinations linked to country hubs: 195
+- New duplicate SEO titles: 0
+- New duplicate meta descriptions: 0
+
+Updated: 2026-10-05

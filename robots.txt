@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://countrypilot.info/sitemap.xml

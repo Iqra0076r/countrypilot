@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="CountryPilot globe mark">
+  <defs><linearGradient id="o" x1="0" x2="1"><stop stop-color="#ff8a1a"/><stop offset="1" stop-color="#f45b0a"/></linearGradient><clipPath id="c"><circle cx="56" cy="58" r="41"/></clipPath></defs>
+  <circle cx="56" cy="58" r="43" fill="#07589c"/>
+  <g clip-path="url(#c)" fill="#27a94f"><path d="M18 44c12-10 22-13 30-10 6 3 3 11 12 13 5 2 7 8 2 12-6 5-13-2-19 3-6 5-9 16-18 15-9-1-16-11-18-21z"/><path d="M55 77c11-7 19-1 28 4 6 4 12 11 17 18H54c-7-8-8-16 1-22z"/><path d="M74 22c11 2 19 9 27 17l-8 10c-8-1-15-4-20-10-4-5-4-11 1-17z"/></g>
+  <path d="M13 89c22 4 54-3 76-21 14-11 24-23 31-38-13 25-26 41-43 52-23 15-50 19-69 9z" fill="url(#o)"/>
+  <path d="M88 24l17-16c3-3 7-1 6 3l-3 9 8 2c4 1 4 5 1 7l-21 6z" fill="#073d78"/>
+  <path d="M43 24c10-6 19-8 27-6l-6 7-12 4z" fill="#fff" opacity=".86"/>
+</svg>

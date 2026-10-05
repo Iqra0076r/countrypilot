@@ -1,0 +1,17 @@
+{
+  "countries": 195,
+  "existing_articles": 800,
+  "new_articles": 975,
+  "total_articles": 1775,
+  "new_country_hubs": 175,
+  "total_country_hubs": 195,
+  "new_categories": [
+    "Travel Insurance & Health",
+    "Travel Safety",
+    "Travel Tools",
+    "Country Guides"
+  ],
+  "new_article_word_count_min": 1579,
+  "new_article_word_count_max": 2330,
+  "new_article_word_count_avg": 1827.2
+}

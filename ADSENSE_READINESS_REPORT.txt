@@ -1,0 +1,49 @@
+CountryPilot — AdSense readiness implementation report
+===================================================
+Date: 2026-10-05
+
+Scope
+-----
+All 1775 existing articles were retained. No article URL was deleted. Existing article information was preserved and high-frequency framework paragraphs were supplemented with article/section/source-specific context.
+
+Implemented
+-----------
+- Expanded About page: 656 words.
+- Expanded Contact page: 326 words; email is hello@countrypilot.info.
+- Expanded Privacy Policy: 921 words, including Google advertising-cookie/personalized-ad disclosures and consent/CMP explanation.
+- Expanded Editorial Policy: 688 words, including Who/How/Why and AI/software-assisted workflow transparency.
+- Expanded Sources Policy: 558 words with source hierarchy.
+- Expanded Corrections Policy: 299 words.
+- Expanded Disclaimer: 330 words.
+- Added CountryPilot Editorial Team profile: 306 words.
+- Linked all 1775 article bylines to the Editorial Team profile.
+- Added article-specific research/verification notes to all 1775 articles.
+- Added 6373 source-type labels. Every article has 2–6 external references (median 3, average 3.59).
+- Replaced public blanket “Verified 2026-10-05” / “Last verified” labels with truthful update language.
+- Added trust links to 2003 pages that contain the standard site footer.
+- Updated the global Facebook link to the supplied page.
+- Fixed the homepage Travel Safety category URL.
+- Marked Search and 404 as noindex,follow and data-ad-eligible=false.
+- Updated search-result imagery to article-specific generated images.
+- Removed Search from the sitemap and added the Editorial Team page.
+
+Content repetition check (internal heuristic, not a Google metric)
+---------------------------------------------------------------
+After contextualization, the median article has 0.0% of paragraph-word volume in exact paragraphs repeated on 10+ article pages. The 90th percentile is 3.81%. This is materially lower than the prior build. Semantic quality still depends on whether each guide genuinely helps users; no technical metric can guarantee AdSense approval.
+
+Technical validation
+--------------------
+- HTML pages: 2004
+- Internal links checked: 129465
+- Broken internal links: 0
+- HTML parse errors: 0
+- Public old Facebook links remaining: 0
+- Public blanket Verified labels remaining: 0
+
+Account-specific items that cannot be truthfully pre-filled
+----------------------------------------------------------
+1. AdSense publisher ID / AdSense code: NOT inserted. Google supplies this per account/site.
+2. Live ads.txt: NOT created with a fake ID. ads.txt.example is included. After AdSense supplies the real publisher ID, publish the exact seller line at /ads.txt.
+3. Google-certified CMP: NOT activated because it must be configured for the connected AdSense site/account. Use Google Privacy & messaging or another Google-certified TCF CMP before serving personalized ads to EEA/UK/Switzerland users.
+
+See ADSENSE_ACTIVATION.md for the final activation steps.

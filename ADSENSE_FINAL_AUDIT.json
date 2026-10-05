@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-05",
+  "html_pages": 2004,
+  "articles": 1775,
+  "article_bylines_linked": 1775,
+  "article_research_notes": 1775,
+  "source_badges": 6373,
+  "sources_per_article": {
+    "min": 2,
+    "median": 3,
+    "mean": 3.59,
+    "max": 6
+  },
+  "duplicate_paragraph_word_heuristic": {
+    "10": {
+      "median_pct": 0.0,
+      "p90_pct": 3.81,
+      "max_pct": 25.2
+    },
+    "20": {
+      "median_pct": 0.0,
+      "p90_pct": 0.0,
+      "max_pct": 0.0
+    },
+    "50": {
+      "median_pct": 0.0,
+      "p90_pct": 0.0,
+      "max_pct": 0.0
+    }
+  },
+  "internal_links_checked": 129465,
+  "broken_internal_links": [],
+  "html_parse_errors": [],
+  "trust_page_word_counts": {
+    "about/index.html": 656,
+    "contact/index.html": 326,
+    "privacy/index.html": 921,
+    "editorial-policy/index.html": 688,
+    "sources-policy/index.html": 558,
+    "corrections-policy/index.html": 299,
+    "disclaimer/index.html": 330,
+    "authors/countrypilot-editorial-team/index.html": 306
+  },
+  "pages_with_footer_legal_links": 2003,
+  "old_facebook_link_pages": 0,
+  "new_facebook_link_pages": 2003,
+  "public_verified_label_pages": 0,
+  "search_noindex": true,
+  "404_noindex": true,
+  "adsense_code_pages": 0,
+  "ads_txt_live_exists": false,
+  "ads_txt_example_exists": true,
+  "cmp_status": "Not activated: requires AdSense/site-specific certified CMP setup after account connection."
+}

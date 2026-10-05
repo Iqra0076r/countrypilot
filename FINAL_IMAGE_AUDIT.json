@@ -1,0 +1,12 @@
+{
+  "total_article_variant_files": 100,
+  "total_html_pages": 2003,
+  "total_img_refs_checked": 10870,
+  "broken_img_refs_found": 1,
+  "broken_samples": [
+    [
+      "search/index.html",
+      "${x.image}"
+    ]
+  ]
+}

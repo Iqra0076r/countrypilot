@@ -1,0 +1,17 @@
+CountryPilot layout repair — 05 Oct 2026
+
+Completed:
+- Fixed CountryPilot logo/wordmark/tagline collision on phone widths.
+- Kept the dedicated CountryPilot globe + airplane logo beside the site title.
+- Added explicit logo dimensions to prevent layout shift.
+- Hid the long publication tagline on small phones where it crowded the brand.
+- Improved tablet/mobile hero contrast so white text stays readable across the image.
+- Strengthened responsive sizing of hero heading, copy and search bar.
+- Prevented hidden mobile navigation from appearing until Menu is opened.
+- Confirmed Menu opens and Escape closes it correctly on mobile.
+- Prevented horizontal page overflow at tested widths 360, 390, 768 and 1440 px.
+- Added favicon and Apple touch icon using the CountryPilot brand mark.
+- Applied shared collision fixes across all HTML pages.
+
+Representative templates checked:
+Homepage, all-categories, category archive, country page, article page, search page and about page.

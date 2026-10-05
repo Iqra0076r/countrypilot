@@ -1,0 +1,21 @@
+{
+  "brand": "PlanAtlas",
+  "domain": "https://planatlas.info",
+  "source_framework": "BeyondSEO (beyondtahir/beyondseo)",
+  "html_pages_processed": 2003,
+  "sitemap_urls": 2001,
+  "changes": [
+    "Rebranded Pathway Atlas to PlanAtlas across visible text and structured data",
+    "Added unique canonical URLs on planatlas.info",
+    "Added Open Graph and Twitter large-image metadata",
+    "Rebuilt JSON-LD with Organization, WebSite, page type, BreadcrumbList and BlogPosting relationships where applicable",
+    "Added PlanAtlas publisher/author entity relationships and absolute image URLs",
+    "Updated article and hub titles while preserving existing intent-specific descriptions",
+    "Added/standardized category and static-page meta descriptions",
+    "Added HTML lang=en and expanded robots preview directives",
+    "Set first content image to eager/high-priority and remaining images to lazy loading",
+    "Generated production sitemap.xml for canonical indexable pages",
+    "Generated robots.txt pointing to production sitemap",
+    "Noindexed internal search and 404 pages"
+  ]
+}

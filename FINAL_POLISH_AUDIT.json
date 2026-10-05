@@ -1,0 +1,28 @@
+{
+  "search_dataset_items": 1775,
+  "search_unique_images": 100,
+  "search_runtime_image_template": true,
+  "search_runtime_image_has_dimensions": true,
+  "search_missing_image_paths": 0,
+  "variant_files": 100,
+  "variant_bad_dimensions": [],
+  "static_img_elements": 10869,
+  "broken_static_image_refs": 0,
+  "missing_alt": 0,
+  "missing_width_height": 0,
+  "missing_decoding": 0,
+  "listing_adjacent_duplicate_images": 0,
+  "listing_duplicate_pages": [],
+  "template_crop_rules": {
+    "index.html": true,
+    "category/visas-immigration/index.html": true,
+    "country/afghanistan/index.html": true,
+    "article/afghanistan-visa-entry-requirements-guide/index.html": true,
+    "search/index.html": true
+  },
+  "old_absolute_seo_image_refs": 0,
+  "new_absolute_seo_image_refs": 7783,
+  "internal_links_checked": 88042,
+  "broken_internal_links": 0,
+  "broken_internal_samples": []
+}

@@ -1,0 +1,16 @@
+{
+  "generated_image_assets": [
+    "banking-finance.webp",
+    "country-guides.webp",
+    "digital-nomad-legal.webp",
+    "jobs-work-permits.webp",
+    "relocation-accommodation.webp",
+    "study-abroad-education.webp",
+    "travel-insurance-health.webp",
+    "travel-safety-security.webp",
+    "travel-tools-planning.webp",
+    "visas-immigration.webp"
+  ],
+  "total_generated_assets": 10,
+  "legacy_svg_refs_removed_from_html": true
+}

@@ -1,0 +1,9 @@
+{
+  "version": "2026-10-05",
+  "default_ad_eligible": true,
+  "excluded_paths": [
+    "/404.html",
+    "/search/"
+  ],
+  "notes": "Use this file as a deployment reference. The site currently contains no AdSense ad code."
+}

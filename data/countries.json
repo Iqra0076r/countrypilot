@@ -1,0 +1,7022 @@
+[
+  {
+    "country": "Afghanistan",
+    "slug": "afghanistan",
+    "capital": "Kabul",
+    "currencies": [
+      "AFN"
+    ],
+    "languages": [
+      "Pushto",
+      "Uzbek",
+      "Turkmen"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+93"
+    ],
+    "timezones": [
+      "UTC+04:30"
+    ],
+    "borders": [
+      "Iran, Islamic Republic of",
+      "Pakistan",
+      "Turkmenistan",
+      "Uzbekistan",
+      "Tajikistan",
+      "China"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/afghanistan/index.html",
+    "core_guides": [
+      "article/afghanistan-visa-entry-requirements-guide/index.html",
+      "article/afghanistan-travel-insurance-health-guide/index.html",
+      "article/afghanistan-travel-safety-security-guide/index.html",
+      "article/afghanistan-travel-tools-planning-guide/index.html",
+      "article/afghanistan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Afghanistan"
+  },
+  {
+    "country": "Albania",
+    "slug": "albania",
+    "capital": "Tirana",
+    "currencies": [
+      "ALL"
+    ],
+    "languages": [
+      "Albanian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+355"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Montenegro",
+      "Greece",
+      "North Macedonia",
+      "KOS"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/albania/index.html",
+    "core_guides": [
+      "article/albania-visa-entry-requirements-guide/index.html",
+      "article/albania-travel-insurance-health-guide/index.html",
+      "article/albania-travel-safety-security-guide/index.html",
+      "article/albania-travel-tools-planning-guide/index.html",
+      "article/albania-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Albania"
+  },
+  {
+    "country": "Algeria",
+    "slug": "algeria",
+    "capital": "Algiers",
+    "currencies": [
+      "DZD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+213"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Tunisia",
+      "Libya",
+      "Niger",
+      "Western Sahara",
+      "Mauritania",
+      "Mali",
+      "Morocco"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/algeria/index.html",
+    "core_guides": [
+      "article/algeria-visa-entry-requirements-guide/index.html",
+      "article/algeria-travel-insurance-health-guide/index.html",
+      "article/algeria-travel-safety-security-guide/index.html",
+      "article/algeria-travel-tools-planning-guide/index.html",
+      "article/algeria-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Algeria"
+  },
+  {
+    "country": "Andorra",
+    "slug": "andorra",
+    "capital": "Andorra la Vella",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Catalan"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+376"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "France",
+      "Spain"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/andorra/index.html",
+    "core_guides": [
+      "article/andorra-visa-entry-requirements-guide/index.html",
+      "article/andorra-travel-insurance-health-guide/index.html",
+      "article/andorra-travel-safety-security-guide/index.html",
+      "article/andorra-travel-tools-planning-guide/index.html",
+      "article/andorra-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Andorra"
+  },
+  {
+    "country": "Angola",
+    "slug": "angola",
+    "capital": "Luanda",
+    "currencies": [
+      "AOA"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+244"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Congo",
+      "Congo, The Democratic Republic of the",
+      "Zambia",
+      "Namibia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/angola/index.html",
+    "core_guides": [
+      "article/angola-visa-entry-requirements-guide/index.html",
+      "article/angola-travel-insurance-health-guide/index.html",
+      "article/angola-travel-safety-security-guide/index.html",
+      "article/angola-travel-tools-planning-guide/index.html",
+      "article/angola-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Angola"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "slug": "antigua-and-barbuda",
+    "capital": "Saint John's",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1268"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/antigua-and-barbuda/index.html",
+    "core_guides": [
+      "article/antigua-and-barbuda-visa-entry-requirements-guide/index.html",
+      "article/antigua-and-barbuda-travel-insurance-health-guide/index.html",
+      "article/antigua-and-barbuda-travel-safety-security-guide/index.html",
+      "article/antigua-and-barbuda-travel-tools-planning-guide/index.html",
+      "article/antigua-and-barbuda-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Antigua%20and%20Barbuda"
+  },
+  {
+    "country": "Argentina",
+    "slug": "argentina",
+    "capital": "Buenos Aires",
+    "currencies": [
+      "ARS"
+    ],
+    "languages": [
+      "Spanish",
+      "Guarani"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+54"
+    ],
+    "timezones": [
+      "UTC−03:00"
+    ],
+    "borders": [
+      "Bolivia, Plurinational State of",
+      "Brazil",
+      "Chile",
+      "Paraguay",
+      "Uruguay"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/argentina/index.html",
+    "core_guides": [
+      "article/argentina-visa-entry-requirements-guide/index.html",
+      "article/argentina-travel-insurance-health-guide/index.html",
+      "article/argentina-travel-safety-security-guide/index.html",
+      "article/argentina-travel-tools-planning-guide/index.html",
+      "article/argentina-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Argentina"
+  },
+  {
+    "country": "Armenia",
+    "slug": "armenia",
+    "capital": "Yerevan",
+    "currencies": [
+      "AMD"
+    ],
+    "languages": [
+      "Armenian",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+374"
+    ],
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "borders": [
+      "Azerbaijan",
+      "Georgia",
+      "Iran, Islamic Republic of",
+      "Türkiye"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/armenia/index.html",
+    "core_guides": [
+      "article/armenia-visa-entry-requirements-guide/index.html",
+      "article/armenia-travel-insurance-health-guide/index.html",
+      "article/armenia-travel-safety-security-guide/index.html",
+      "article/armenia-travel-tools-planning-guide/index.html",
+      "article/armenia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Armenia"
+  },
+  {
+    "country": "Australia",
+    "slug": "australia",
+    "capital": "Canberra",
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "calling_codes": [
+      "+61"
+    ],
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:30",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:30",
+      "UTC+10:00",
+      "UTC+10:30",
+      "UTC+11:30"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/australia/index.html",
+    "core_guides": [
+      "article/australia-visa-entry-requirements-guide/index.html",
+      "article/australia-travel-insurance-health-guide/index.html",
+      "article/australia-travel-safety-security-guide/index.html",
+      "article/australia-travel-tools-planning-guide/index.html",
+      "article/australia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Australia"
+  },
+  {
+    "country": "Austria",
+    "slug": "austria",
+    "capital": "Vienna",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "German"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+43"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Czechia",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Liechtenstein",
+      "Slovakia",
+      "Slovenia",
+      "Switzerland"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/austria/index.html",
+    "core_guides": [
+      "article/austria-visa-entry-requirements-guide/index.html",
+      "article/austria-travel-insurance-health-guide/index.html",
+      "article/austria-travel-safety-security-guide/index.html",
+      "article/austria-travel-tools-planning-guide/index.html",
+      "article/austria-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Austria"
+  },
+  {
+    "country": "Azerbaijan",
+    "slug": "azerbaijan",
+    "capital": "Baku",
+    "currencies": [
+      "AZN"
+    ],
+    "languages": [
+      "Azerbaijani",
+      "Armenian"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+994"
+    ],
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "borders": [
+      "Armenia",
+      "Georgia",
+      "Iran, Islamic Republic of",
+      "Russian Federation",
+      "Türkiye"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/azerbaijan/index.html",
+    "core_guides": [
+      "article/azerbaijan-visa-entry-requirements-guide/index.html",
+      "article/azerbaijan-travel-insurance-health-guide/index.html",
+      "article/azerbaijan-travel-safety-security-guide/index.html",
+      "article/azerbaijan-travel-tools-planning-guide/index.html",
+      "article/azerbaijan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Azerbaijan"
+  },
+  {
+    "country": "Bahamas",
+    "slug": "bahamas",
+    "capital": "Nassau",
+    "currencies": [
+      "BSD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1242"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bahamas/index.html",
+    "core_guides": [
+      "article/bahamas-visa-entry-requirements-guide/index.html",
+      "article/bahamas-travel-insurance-health-guide/index.html",
+      "article/bahamas-travel-safety-security-guide/index.html",
+      "article/bahamas-travel-tools-planning-guide/index.html",
+      "article/bahamas-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bahamas"
+  },
+  {
+    "country": "Bahrain",
+    "slug": "bahrain",
+    "capital": "Manama",
+    "currencies": [
+      "BHD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+973"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bahrain/index.html",
+    "core_guides": [
+      "article/bahrain-visa-entry-requirements-guide/index.html",
+      "article/bahrain-travel-insurance-health-guide/index.html",
+      "article/bahrain-travel-safety-security-guide/index.html",
+      "article/bahrain-travel-tools-planning-guide/index.html",
+      "article/bahrain-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bahrain"
+  },
+  {
+    "country": "Bangladesh",
+    "slug": "bangladesh",
+    "capital": "Dhaka",
+    "currencies": [
+      "BDT"
+    ],
+    "languages": [
+      "Bengali"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+880"
+    ],
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "borders": [
+      "Myanmar",
+      "India"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bangladesh/index.html",
+    "core_guides": [
+      "article/bangladesh-visa-entry-requirements-guide/index.html",
+      "article/bangladesh-travel-insurance-health-guide/index.html",
+      "article/bangladesh-travel-safety-security-guide/index.html",
+      "article/bangladesh-travel-tools-planning-guide/index.html",
+      "article/bangladesh-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bangladesh"
+  },
+  {
+    "country": "Barbados",
+    "slug": "barbados",
+    "capital": "Bridgetown",
+    "currencies": [
+      "BBD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1246"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/barbados/index.html",
+    "core_guides": [
+      "article/barbados-visa-entry-requirements-guide/index.html",
+      "article/barbados-travel-insurance-health-guide/index.html",
+      "article/barbados-travel-safety-security-guide/index.html",
+      "article/barbados-travel-tools-planning-guide/index.html",
+      "article/barbados-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Barbados"
+  },
+  {
+    "country": "Belarus",
+    "slug": "belarus",
+    "capital": "Minsk",
+    "currencies": [
+      "BYR"
+    ],
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+375"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Latvia",
+      "Lithuania",
+      "Poland",
+      "Russian Federation",
+      "Ukraine"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/belarus/index.html",
+    "core_guides": [
+      "article/belarus-visa-entry-requirements-guide/index.html",
+      "article/belarus-travel-insurance-health-guide/index.html",
+      "article/belarus-travel-safety-security-guide/index.html",
+      "article/belarus-travel-tools-planning-guide/index.html",
+      "article/belarus-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Belarus"
+  },
+  {
+    "country": "Belgium",
+    "slug": "belgium",
+    "capital": "Brussels",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+32"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "France",
+      "Germany",
+      "Luxembourg",
+      "Netherlands"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/belgium/index.html",
+    "core_guides": [
+      "article/belgium-visa-entry-requirements-guide/index.html",
+      "article/belgium-travel-insurance-health-guide/index.html",
+      "article/belgium-travel-safety-security-guide/index.html",
+      "article/belgium-travel-tools-planning-guide/index.html",
+      "article/belgium-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Belgium"
+  },
+  {
+    "country": "Belize",
+    "slug": "belize",
+    "capital": "Belmopan",
+    "currencies": [
+      "BZD"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+501"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Guatemala",
+      "Mexico"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/belize/index.html",
+    "core_guides": [
+      "article/belize-visa-entry-requirements-guide/index.html",
+      "article/belize-travel-insurance-health-guide/index.html",
+      "article/belize-travel-safety-security-guide/index.html",
+      "article/belize-travel-tools-planning-guide/index.html",
+      "article/belize-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Belize"
+  },
+  {
+    "country": "Benin",
+    "slug": "benin",
+    "capital": "Porto-Novo",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+229"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Burkina Faso",
+      "Niger",
+      "Nigeria",
+      "Togo"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/benin/index.html",
+    "core_guides": [
+      "article/benin-visa-entry-requirements-guide/index.html",
+      "article/benin-travel-insurance-health-guide/index.html",
+      "article/benin-travel-safety-security-guide/index.html",
+      "article/benin-travel-tools-planning-guide/index.html",
+      "article/benin-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Benin"
+  },
+  {
+    "country": "Bhutan",
+    "slug": "bhutan",
+    "capital": "Thimphu",
+    "currencies": [
+      "BTN",
+      "INR"
+    ],
+    "languages": [
+      "Dzongkha"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+975"
+    ],
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "borders": [
+      "China",
+      "India"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bhutan/index.html",
+    "core_guides": [
+      "article/bhutan-visa-entry-requirements-guide/index.html",
+      "article/bhutan-travel-insurance-health-guide/index.html",
+      "article/bhutan-travel-safety-security-guide/index.html",
+      "article/bhutan-travel-tools-planning-guide/index.html",
+      "article/bhutan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bhutan"
+  },
+  {
+    "country": "Bolivia",
+    "slug": "bolivia",
+    "capital": "Sucre",
+    "currencies": [
+      "BOB",
+      "BOV"
+    ],
+    "languages": [
+      "Spanish",
+      "Aymara",
+      "Quechua"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+591"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Paraguay",
+      "Peru"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bolivia/index.html",
+    "core_guides": [
+      "article/bolivia-visa-entry-requirements-guide/index.html",
+      "article/bolivia-travel-insurance-health-guide/index.html",
+      "article/bolivia-travel-safety-security-guide/index.html",
+      "article/bolivia-travel-tools-planning-guide/index.html",
+      "article/bolivia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bolivia"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "slug": "bosnia-and-herzegovina",
+    "capital": "Sarajevo",
+    "currencies": [
+      "BAM"
+    ],
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+387"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Croatia",
+      "Montenegro",
+      "Serbia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/bosnia-and-herzegovina/index.html",
+    "core_guides": [
+      "article/bosnia-and-herzegovina-visa-entry-requirements-guide/index.html",
+      "article/bosnia-and-herzegovina-travel-insurance-health-guide/index.html",
+      "article/bosnia-and-herzegovina-travel-safety-security-guide/index.html",
+      "article/bosnia-and-herzegovina-travel-tools-planning-guide/index.html",
+      "article/bosnia-and-herzegovina-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bosnia%20and%20Herzegovina"
+  },
+  {
+    "country": "Botswana",
+    "slug": "botswana",
+    "capital": "Gaborone",
+    "currencies": [
+      "BWP"
+    ],
+    "languages": [
+      "English",
+      "Tswana"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "calling_codes": [
+      "+267"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Namibia",
+      "South Africa",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/botswana/index.html",
+    "core_guides": [
+      "article/botswana-visa-entry-requirements-guide/index.html",
+      "article/botswana-travel-insurance-health-guide/index.html",
+      "article/botswana-travel-safety-security-guide/index.html",
+      "article/botswana-travel-tools-planning-guide/index.html",
+      "article/botswana-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Botswana"
+  },
+  {
+    "country": "Brazil",
+    "slug": "brazil",
+    "capital": "Brasília",
+    "currencies": [
+      "BRL"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+55"
+    ],
+    "timezones": [
+      "UTC−05:00",
+      "UTC−04:00",
+      "UTC−03:00",
+      "UTC−02:00"
+    ],
+    "borders": [
+      "Argentina",
+      "Bolivia, Plurinational State of",
+      "Colombia",
+      "French Guiana",
+      "Guyana",
+      "Paraguay",
+      "Peru",
+      "Suriname",
+      "Uruguay",
+      "Venezuela, Bolivarian Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/brazil/index.html",
+    "core_guides": [
+      "article/brazil-visa-entry-requirements-guide/index.html",
+      "article/brazil-travel-insurance-health-guide/index.html",
+      "article/brazil-travel-safety-security-guide/index.html",
+      "article/brazil-travel-tools-planning-guide/index.html",
+      "article/brazil-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Brazil"
+  },
+  {
+    "country": "Brunei",
+    "slug": "brunei",
+    "capital": "Bandar Seri Begawan",
+    "currencies": [
+      "BND"
+    ],
+    "languages": [
+      "Malay (macrolanguage)"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+673"
+    ],
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "borders": [
+      "Malaysia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/brunei/index.html",
+    "core_guides": [
+      "article/brunei-visa-entry-requirements-guide/index.html",
+      "article/brunei-travel-insurance-health-guide/index.html",
+      "article/brunei-travel-safety-security-guide/index.html",
+      "article/brunei-travel-tools-planning-guide/index.html",
+      "article/brunei-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Brunei"
+  },
+  {
+    "country": "Bulgaria",
+    "slug": "bulgaria",
+    "capital": "Sofia",
+    "currencies": [
+      "BGN"
+    ],
+    "languages": [
+      "Bulgarian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+359"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Greece",
+      "North Macedonia",
+      "Romania",
+      "Serbia",
+      "Türkiye"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/bulgaria/index.html",
+    "core_guides": [
+      "article/bulgaria-visa-entry-requirements-guide/index.html",
+      "article/bulgaria-travel-insurance-health-guide/index.html",
+      "article/bulgaria-travel-safety-security-guide/index.html",
+      "article/bulgaria-travel-tools-planning-guide/index.html",
+      "article/bulgaria-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Bulgaria"
+  },
+  {
+    "country": "Burkina Faso",
+    "slug": "burkina-faso",
+    "capital": "Ouagadougou",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French",
+      "Fulah"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+226"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Benin",
+      "Côte d'Ivoire",
+      "Ghana",
+      "Mali",
+      "Niger",
+      "Togo"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/burkina-faso/index.html",
+    "core_guides": [
+      "article/burkina-faso-visa-entry-requirements-guide/index.html",
+      "article/burkina-faso-travel-insurance-health-guide/index.html",
+      "article/burkina-faso-travel-safety-security-guide/index.html",
+      "article/burkina-faso-travel-tools-planning-guide/index.html",
+      "article/burkina-faso-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Burkina%20Faso"
+  },
+  {
+    "country": "Burundi",
+    "slug": "burundi",
+    "capital": "Bujumbura",
+    "currencies": [
+      "BIF"
+    ],
+    "languages": [
+      "French",
+      "Rundi"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+257"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Congo, The Democratic Republic of the",
+      "Rwanda",
+      "Tanzania, United Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/burundi/index.html",
+    "core_guides": [
+      "article/burundi-visa-entry-requirements-guide/index.html",
+      "article/burundi-travel-insurance-health-guide/index.html",
+      "article/burundi-travel-safety-security-guide/index.html",
+      "article/burundi-travel-tools-planning-guide/index.html",
+      "article/burundi-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Burundi"
+  },
+  {
+    "country": "Cabo Verde",
+    "slug": "cabo-verde",
+    "capital": "Praia",
+    "currencies": [
+      "CVE"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+238"
+    ],
+    "timezones": [
+      "UTC−01:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/cabo-verde/index.html",
+    "core_guides": [
+      "article/cabo-verde-visa-entry-requirements-guide/index.html",
+      "article/cabo-verde-travel-insurance-health-guide/index.html",
+      "article/cabo-verde-travel-safety-security-guide/index.html",
+      "article/cabo-verde-travel-tools-planning-guide/index.html",
+      "article/cabo-verde-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Cabo%20Verde"
+  },
+  {
+    "country": "Cambodia",
+    "slug": "cambodia",
+    "capital": "Phnom Penh",
+    "currencies": [
+      "KHR"
+    ],
+    "languages": [
+      "Khmer"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+855"
+    ],
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "borders": [
+      "Lao People's Democratic Republic",
+      "Thailand",
+      "Viet Nam"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/cambodia/index.html",
+    "core_guides": [
+      "article/cambodia-visa-entry-requirements-guide/index.html",
+      "article/cambodia-travel-insurance-health-guide/index.html",
+      "article/cambodia-travel-safety-security-guide/index.html",
+      "article/cambodia-travel-tools-planning-guide/index.html",
+      "article/cambodia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Cambodia"
+  },
+  {
+    "country": "Cameroon",
+    "slug": "cameroon",
+    "capital": "Yaoundé",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+237"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Congo",
+      "Equatorial Guinea",
+      "Gabon",
+      "Nigeria"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/cameroon/index.html",
+    "core_guides": [
+      "article/cameroon-visa-entry-requirements-guide/index.html",
+      "article/cameroon-travel-insurance-health-guide/index.html",
+      "article/cameroon-travel-safety-security-guide/index.html",
+      "article/cameroon-travel-tools-planning-guide/index.html",
+      "article/cameroon-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Cameroon"
+  },
+  {
+    "country": "Canada",
+    "slug": "canada",
+    "capital": "Ottawa",
+    "currencies": [
+      "CAD"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "calling_codes": [
+      "+1"
+    ],
+    "timezones": [
+      "UTC−08:00",
+      "UTC−07:00",
+      "UTC−06:00",
+      "UTC−05:00",
+      "UTC−04:00",
+      "UTC−03:30"
+    ],
+    "borders": [
+      "United States"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/canada/index.html",
+    "core_guides": [
+      "article/canada-visa-entry-requirements-guide/index.html",
+      "article/canada-travel-insurance-health-guide/index.html",
+      "article/canada-travel-safety-security-guide/index.html",
+      "article/canada-travel-tools-planning-guide/index.html",
+      "article/canada-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Canada"
+  },
+  {
+    "country": "Central African Republic",
+    "slug": "central-african-republic",
+    "capital": "Bangui",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "French",
+      "Sango"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+236"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Cameroon",
+      "Chad",
+      "Congo, The Democratic Republic of the",
+      "Congo",
+      "South Sudan",
+      "Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/central-african-republic/index.html",
+    "core_guides": [
+      "article/central-african-republic-visa-entry-requirements-guide/index.html",
+      "article/central-african-republic-travel-insurance-health-guide/index.html",
+      "article/central-african-republic-travel-safety-security-guide/index.html",
+      "article/central-african-republic-travel-tools-planning-guide/index.html",
+      "article/central-african-republic-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Central%20African%20Republic"
+  },
+  {
+    "country": "Chad",
+    "slug": "chad",
+    "capital": "N'Djamena",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+235"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Cameroon",
+      "Central African Republic",
+      "Libya",
+      "Niger",
+      "Nigeria",
+      "South Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/chad/index.html",
+    "core_guides": [
+      "article/chad-visa-entry-requirements-guide/index.html",
+      "article/chad-travel-insurance-health-guide/index.html",
+      "article/chad-travel-safety-security-guide/index.html",
+      "article/chad-travel-tools-planning-guide/index.html",
+      "article/chad-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Chad"
+  },
+  {
+    "country": "Chile",
+    "slug": "chile",
+    "capital": "Santiago",
+    "currencies": [
+      "CLF",
+      "CLP"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+56"
+    ],
+    "timezones": [
+      "UTC−06:00",
+      "UTC−04:00"
+    ],
+    "borders": [
+      "Argentina",
+      "Bolivia, Plurinational State of",
+      "Peru"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/chile/index.html",
+    "core_guides": [
+      "article/chile-visa-entry-requirements-guide/index.html",
+      "article/chile-travel-insurance-health-guide/index.html",
+      "article/chile-travel-safety-security-guide/index.html",
+      "article/chile-travel-tools-planning-guide/index.html",
+      "article/chile-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Chile"
+  },
+  {
+    "country": "China",
+    "slug": "china",
+    "capital": "Beijing",
+    "currencies": [
+      "CNY"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "calling_codes": [
+      "+86"
+    ],
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "borders": [
+      "Afghanistan",
+      "Bhutan",
+      "Myanmar",
+      "Hong Kong",
+      "India",
+      "Kazakhstan",
+      "Korea, Democratic People's Republic of",
+      "Kyrgyzstan",
+      "Lao People's Democratic Republic",
+      "Macao",
+      "Mongolia",
+      "Pakistan",
+      "Russian Federation",
+      "Tajikistan",
+      "Viet Nam"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/china/index.html",
+    "core_guides": [
+      "article/china-visa-entry-requirements-guide/index.html",
+      "article/china-travel-insurance-health-guide/index.html",
+      "article/china-travel-safety-security-guide/index.html",
+      "article/china-travel-tools-planning-guide/index.html",
+      "article/china-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=China"
+  },
+  {
+    "country": "Colombia",
+    "slug": "colombia",
+    "capital": "Bogotá",
+    "currencies": [
+      "COP"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+57"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [
+      "Brazil",
+      "Ecuador",
+      "Panama",
+      "Peru",
+      "Venezuela, Bolivarian Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/colombia/index.html",
+    "core_guides": [
+      "article/colombia-visa-entry-requirements-guide/index.html",
+      "article/colombia-travel-insurance-health-guide/index.html",
+      "article/colombia-travel-safety-security-guide/index.html",
+      "article/colombia-travel-tools-planning-guide/index.html",
+      "article/colombia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Colombia"
+  },
+  {
+    "country": "Comoros",
+    "slug": "comoros",
+    "capital": "Moroni",
+    "currencies": [
+      "KMF"
+    ],
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+269"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/comoros/index.html",
+    "core_guides": [
+      "article/comoros-visa-entry-requirements-guide/index.html",
+      "article/comoros-travel-insurance-health-guide/index.html",
+      "article/comoros-travel-safety-security-guide/index.html",
+      "article/comoros-travel-tools-planning-guide/index.html",
+      "article/comoros-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Comoros"
+  },
+  {
+    "country": "Congo, Democratic Republic of the",
+    "slug": "congo-democratic-republic-of-the",
+    "capital": "Kinshasa",
+    "currencies": [
+      "CDF"
+    ],
+    "languages": [
+      "French",
+      "Lingala",
+      "Kongo",
+      "Swahili (macrolanguage)",
+      "Luba-Katanga"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+243"
+    ],
+    "timezones": [
+      "UTC+01:00",
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Angola",
+      "Burundi",
+      "Central African Republic",
+      "Congo",
+      "Rwanda",
+      "South Sudan",
+      "Tanzania, United Republic of",
+      "Uganda",
+      "Zambia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/congo-democratic-republic-of-the/index.html",
+    "core_guides": [
+      "article/congo-democratic-republic-of-the-visa-entry-requirements-guide/index.html",
+      "article/congo-democratic-republic-of-the-travel-insurance-health-guide/index.html",
+      "article/congo-democratic-republic-of-the-travel-safety-security-guide/index.html",
+      "article/congo-democratic-republic-of-the-travel-tools-planning-guide/index.html",
+      "article/congo-democratic-republic-of-the-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Congo%2C%20Democratic%20Republic%20of%20the"
+  },
+  {
+    "country": "Congo, Republic of the",
+    "slug": "congo-republic-of-the",
+    "capital": "Brazzaville",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "French",
+      "Lingala"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+242"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Angola",
+      "Cameroon",
+      "Central African Republic",
+      "Congo, The Democratic Republic of the",
+      "Gabon"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/congo-republic-of-the/index.html",
+    "core_guides": [
+      "article/congo-republic-of-the-visa-entry-requirements-guide/index.html",
+      "article/congo-republic-of-the-travel-insurance-health-guide/index.html",
+      "article/congo-republic-of-the-travel-safety-security-guide/index.html",
+      "article/congo-republic-of-the-travel-tools-planning-guide/index.html",
+      "article/congo-republic-of-the-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Congo%2C%20Republic%20of%20the"
+  },
+  {
+    "country": "Costa Rica",
+    "slug": "costa-rica",
+    "capital": "San José",
+    "currencies": [
+      "CRC"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+506"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Nicaragua",
+      "Panama"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/costa-rica/index.html",
+    "core_guides": [
+      "article/costa-rica-visa-entry-requirements-guide/index.html",
+      "article/costa-rica-travel-insurance-health-guide/index.html",
+      "article/costa-rica-travel-safety-security-guide/index.html",
+      "article/costa-rica-travel-tools-planning-guide/index.html",
+      "article/costa-rica-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Costa%20Rica"
+  },
+  {
+    "country": "Côte d’Ivoire",
+    "slug": "cote-d-ivoire",
+    "capital": "Yamoussoukro",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+225"
+    ],
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "borders": [
+      "Burkina Faso",
+      "Ghana",
+      "Guinea",
+      "Liberia",
+      "Mali"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/cote-d-ivoire/index.html",
+    "core_guides": [
+      "article/cote-d-ivoire-visa-entry-requirements-guide/index.html",
+      "article/cote-d-ivoire-travel-insurance-health-guide/index.html",
+      "article/cote-d-ivoire-travel-safety-security-guide/index.html",
+      "article/cote-d-ivoire-travel-tools-planning-guide/index.html",
+      "article/cote-d-ivoire-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=C%C3%B4te%20d%E2%80%99Ivoire"
+  },
+  {
+    "country": "Croatia",
+    "slug": "croatia",
+    "capital": "Zagreb",
+    "currencies": [
+      "HRK"
+    ],
+    "languages": [
+      "Croatian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+385"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Bosnia and Herzegovina",
+      "Hungary",
+      "Montenegro",
+      "Serbia",
+      "Slovenia"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/croatia/index.html",
+    "core_guides": [
+      "article/croatia-visa-entry-requirements-guide/index.html",
+      "article/croatia-travel-insurance-health-guide/index.html",
+      "article/croatia-travel-safety-security-guide/index.html",
+      "article/croatia-travel-tools-planning-guide/index.html",
+      "article/croatia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Croatia"
+  },
+  {
+    "country": "Cuba",
+    "slug": "cuba",
+    "capital": "Havana",
+    "currencies": [
+      "CUC",
+      "CUP"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+53"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/cuba/index.html",
+    "core_guides": [
+      "article/cuba-visa-entry-requirements-guide/index.html",
+      "article/cuba-travel-insurance-health-guide/index.html",
+      "article/cuba-travel-safety-security-guide/index.html",
+      "article/cuba-travel-tools-planning-guide/index.html",
+      "article/cuba-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Cuba"
+  },
+  {
+    "country": "Cyprus",
+    "slug": "cyprus",
+    "capital": "Nicosia",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Modern Greek (1453-)",
+      "Turkish",
+      "Armenian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+357"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "United Kingdom"
+    ],
+    "schengen": false,
+    "eu": true,
+    "country_hub": "country/cyprus/index.html",
+    "core_guides": [
+      "article/cyprus-visa-entry-requirements-guide/index.html",
+      "article/cyprus-travel-insurance-health-guide/index.html",
+      "article/cyprus-travel-safety-security-guide/index.html",
+      "article/cyprus-travel-tools-planning-guide/index.html",
+      "article/cyprus-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Cyprus"
+  },
+  {
+    "country": "Czechia",
+    "slug": "czechia",
+    "capital": "Prague",
+    "currencies": [
+      "CZK"
+    ],
+    "languages": [
+      "Czech",
+      "Slovak"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+420"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Germany",
+      "Poland",
+      "Slovakia"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/czechia/index.html",
+    "core_guides": [
+      "article/czechia-visa-entry-requirements-guide/index.html",
+      "article/czechia-travel-insurance-health-guide/index.html",
+      "article/czechia-travel-safety-security-guide/index.html",
+      "article/czechia-travel-tools-planning-guide/index.html",
+      "article/czechia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Czechia"
+  },
+  {
+    "country": "Denmark",
+    "slug": "denmark",
+    "capital": "Copenhagen",
+    "currencies": [
+      "DKK"
+    ],
+    "languages": [
+      "Danish"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+45"
+    ],
+    "timezones": [
+      "UTC−04:00",
+      "UTC−03:00",
+      "UTC−01:00",
+      "UTC",
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Germany"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/denmark/index.html",
+    "core_guides": [
+      "article/denmark-visa-entry-requirements-guide/index.html",
+      "article/denmark-travel-insurance-health-guide/index.html",
+      "article/denmark-travel-safety-security-guide/index.html",
+      "article/denmark-travel-tools-planning-guide/index.html",
+      "article/denmark-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Denmark"
+  },
+  {
+    "country": "Djibouti",
+    "slug": "djibouti",
+    "capital": "Djibouti",
+    "currencies": [
+      "DJF"
+    ],
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+253"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Eritrea",
+      "Ethiopia",
+      "Somalia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/djibouti/index.html",
+    "core_guides": [
+      "article/djibouti-visa-entry-requirements-guide/index.html",
+      "article/djibouti-travel-insurance-health-guide/index.html",
+      "article/djibouti-travel-safety-security-guide/index.html",
+      "article/djibouti-travel-tools-planning-guide/index.html",
+      "article/djibouti-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Djibouti"
+  },
+  {
+    "country": "Dominica",
+    "slug": "dominica",
+    "capital": "Roseau",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1767"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/dominica/index.html",
+    "core_guides": [
+      "article/dominica-visa-entry-requirements-guide/index.html",
+      "article/dominica-travel-insurance-health-guide/index.html",
+      "article/dominica-travel-safety-security-guide/index.html",
+      "article/dominica-travel-tools-planning-guide/index.html",
+      "article/dominica-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Dominica"
+  },
+  {
+    "country": "Dominican Republic",
+    "slug": "dominican-republic",
+    "capital": "Santo Domingo",
+    "currencies": [
+      "DOP"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1809",
+      "+1829",
+      "+1849"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [
+      "Haiti"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/dominican-republic/index.html",
+    "core_guides": [
+      "article/dominican-republic-visa-entry-requirements-guide/index.html",
+      "article/dominican-republic-travel-insurance-health-guide/index.html",
+      "article/dominican-republic-travel-safety-security-guide/index.html",
+      "article/dominican-republic-travel-tools-planning-guide/index.html",
+      "article/dominican-republic-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Dominican%20Republic"
+  },
+  {
+    "country": "Ecuador",
+    "slug": "ecuador",
+    "capital": "Quito",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+593"
+    ],
+    "timezones": [
+      "UTC−06:00",
+      "UTC−05:00"
+    ],
+    "borders": [
+      "Colombia",
+      "Peru"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/ecuador/index.html",
+    "core_guides": [
+      "article/ecuador-visa-entry-requirements-guide/index.html",
+      "article/ecuador-travel-insurance-health-guide/index.html",
+      "article/ecuador-travel-safety-security-guide/index.html",
+      "article/ecuador-travel-tools-planning-guide/index.html",
+      "article/ecuador-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Ecuador"
+  },
+  {
+    "country": "Egypt",
+    "slug": "egypt",
+    "capital": "Cairo",
+    "currencies": [
+      "EGP"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+20"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Israel",
+      "Libya",
+      "Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/egypt/index.html",
+    "core_guides": [
+      "article/egypt-visa-entry-requirements-guide/index.html",
+      "article/egypt-travel-insurance-health-guide/index.html",
+      "article/egypt-travel-safety-security-guide/index.html",
+      "article/egypt-travel-tools-planning-guide/index.html",
+      "article/egypt-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Egypt"
+  },
+  {
+    "country": "El Salvador",
+    "slug": "el-salvador",
+    "capital": "San Salvador",
+    "currencies": [
+      "SVC",
+      "USD"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+503"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Guatemala",
+      "Honduras"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/el-salvador/index.html",
+    "core_guides": [
+      "article/el-salvador-visa-entry-requirements-guide/index.html",
+      "article/el-salvador-travel-insurance-health-guide/index.html",
+      "article/el-salvador-travel-safety-security-guide/index.html",
+      "article/el-salvador-travel-tools-planning-guide/index.html",
+      "article/el-salvador-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=El%20Salvador"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "slug": "equatorial-guinea",
+    "capital": "Malabo",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "Spanish",
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+240"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Cameroon",
+      "Gabon"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/equatorial-guinea/index.html",
+    "core_guides": [
+      "article/equatorial-guinea-visa-entry-requirements-guide/index.html",
+      "article/equatorial-guinea-travel-insurance-health-guide/index.html",
+      "article/equatorial-guinea-travel-safety-security-guide/index.html",
+      "article/equatorial-guinea-travel-tools-planning-guide/index.html",
+      "article/equatorial-guinea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Equatorial%20Guinea"
+  },
+  {
+    "country": "Eritrea",
+    "slug": "eritrea",
+    "capital": "Asmara",
+    "currencies": [
+      "ERN"
+    ],
+    "languages": [
+      "Tigrinya",
+      "Arabic",
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+291"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Djibouti",
+      "Ethiopia",
+      "Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/eritrea/index.html",
+    "core_guides": [
+      "article/eritrea-visa-entry-requirements-guide/index.html",
+      "article/eritrea-travel-insurance-health-guide/index.html",
+      "article/eritrea-travel-safety-security-guide/index.html",
+      "article/eritrea-travel-tools-planning-guide/index.html",
+      "article/eritrea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Eritrea"
+  },
+  {
+    "country": "Estonia",
+    "slug": "estonia",
+    "capital": "Tallinn",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Estonian"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+372"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Latvia",
+      "Russian Federation"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/estonia/index.html",
+    "core_guides": [
+      "article/estonia-visa-entry-requirements-guide/index.html",
+      "article/estonia-travel-insurance-health-guide/index.html",
+      "article/estonia-travel-safety-security-guide/index.html",
+      "article/estonia-travel-tools-planning-guide/index.html",
+      "article/estonia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Estonia"
+  },
+  {
+    "country": "Eswatini",
+    "slug": "eswatini",
+    "capital": "Lobamba",
+    "currencies": [
+      "SZL"
+    ],
+    "languages": [
+      "English",
+      "Swati"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "calling_codes": [
+      "+268"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Mozambique",
+      "South Africa"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/eswatini/index.html",
+    "core_guides": [
+      "article/eswatini-visa-entry-requirements-guide/index.html",
+      "article/eswatini-travel-insurance-health-guide/index.html",
+      "article/eswatini-travel-safety-security-guide/index.html",
+      "article/eswatini-travel-tools-planning-guide/index.html",
+      "article/eswatini-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Eswatini"
+  },
+  {
+    "country": "Ethiopia",
+    "slug": "ethiopia",
+    "capital": "Addis Ababa",
+    "currencies": [
+      "ETB"
+    ],
+    "languages": [
+      "Amharic"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+251"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Djibouti",
+      "Eritrea",
+      "Kenya",
+      "Somalia",
+      "South Sudan",
+      "Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/ethiopia/index.html",
+    "core_guides": [
+      "article/ethiopia-visa-entry-requirements-guide/index.html",
+      "article/ethiopia-travel-insurance-health-guide/index.html",
+      "article/ethiopia-travel-safety-security-guide/index.html",
+      "article/ethiopia-travel-tools-planning-guide/index.html",
+      "article/ethiopia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Ethiopia"
+  },
+  {
+    "country": "Fiji",
+    "slug": "fiji",
+    "capital": "Suva",
+    "currencies": [
+      "FJD"
+    ],
+    "languages": [
+      "English",
+      "Fijian",
+      "Hindi",
+      "Urdu"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "calling_codes": [
+      "+679"
+    ],
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/fiji/index.html",
+    "core_guides": [
+      "article/fiji-visa-entry-requirements-guide/index.html",
+      "article/fiji-travel-insurance-health-guide/index.html",
+      "article/fiji-travel-safety-security-guide/index.html",
+      "article/fiji-travel-tools-planning-guide/index.html",
+      "article/fiji-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Fiji"
+  },
+  {
+    "country": "Finland",
+    "slug": "finland",
+    "capital": "Helsinki",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+358"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Norway",
+      "Sweden",
+      "Russian Federation"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/finland/index.html",
+    "core_guides": [
+      "article/finland-visa-entry-requirements-guide/index.html",
+      "article/finland-travel-insurance-health-guide/index.html",
+      "article/finland-travel-safety-security-guide/index.html",
+      "article/finland-travel-tools-planning-guide/index.html",
+      "article/finland-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Finland"
+  },
+  {
+    "country": "France",
+    "slug": "france",
+    "capital": "Paris",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+33"
+    ],
+    "timezones": [
+      "UTC−10:00",
+      "UTC−09:30",
+      "UTC−09:00",
+      "UTC−08:00",
+      "UTC−04:00",
+      "UTC−03:00",
+      "UTC+01:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    "borders": [
+      "Andorra",
+      "Belgium",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Monaco",
+      "Spain",
+      "Switzerland"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/france/index.html",
+    "core_guides": [
+      "article/france-visa-entry-requirements-guide/index.html",
+      "article/france-travel-insurance-health-guide/index.html",
+      "article/france-travel-safety-security-guide/index.html",
+      "article/france-travel-tools-planning-guide/index.html",
+      "article/france-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=France"
+  },
+  {
+    "country": "Gabon",
+    "slug": "gabon",
+    "capital": "Libreville",
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+241"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Cameroon",
+      "Congo",
+      "Equatorial Guinea"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/gabon/index.html",
+    "core_guides": [
+      "article/gabon-visa-entry-requirements-guide/index.html",
+      "article/gabon-travel-insurance-health-guide/index.html",
+      "article/gabon-travel-safety-security-guide/index.html",
+      "article/gabon-travel-tools-planning-guide/index.html",
+      "article/gabon-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Gabon"
+  },
+  {
+    "country": "Gambia",
+    "slug": "gambia",
+    "capital": "Banjul",
+    "currencies": [
+      "GMD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+220"
+    ],
+    "timezones": [],
+    "borders": [
+      "Senegal"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/gambia/index.html",
+    "core_guides": [
+      "article/gambia-visa-entry-requirements-guide/index.html",
+      "article/gambia-travel-insurance-health-guide/index.html",
+      "article/gambia-travel-safety-security-guide/index.html",
+      "article/gambia-travel-tools-planning-guide/index.html",
+      "article/gambia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Gambia"
+  },
+  {
+    "country": "Georgia",
+    "slug": "georgia",
+    "capital": "Tbilisi",
+    "currencies": [
+      "GEL"
+    ],
+    "languages": [
+      "Georgian"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+995"
+    ],
+    "timezones": [],
+    "borders": [
+      "Armenia",
+      "Azerbaijan",
+      "Russian Federation",
+      "Türkiye"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/georgia/index.html",
+    "core_guides": [
+      "article/georgia-visa-entry-requirements-guide/index.html",
+      "article/georgia-travel-insurance-health-guide/index.html",
+      "article/georgia-travel-safety-security-guide/index.html",
+      "article/georgia-travel-tools-planning-guide/index.html",
+      "article/georgia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Georgia"
+  },
+  {
+    "country": "Germany",
+    "slug": "germany",
+    "capital": "Berlin",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "German"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+49"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Belgium",
+      "Czechia",
+      "Denmark",
+      "France",
+      "Luxembourg",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/germany/index.html",
+    "core_guides": [
+      "article/germany-visa-entry-requirements-guide/index.html",
+      "article/germany-travel-insurance-health-guide/index.html",
+      "article/germany-travel-safety-security-guide/index.html",
+      "article/germany-travel-tools-planning-guide/index.html",
+      "article/germany-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Germany"
+  },
+  {
+    "country": "Ghana",
+    "slug": "ghana",
+    "capital": "Accra",
+    "currencies": [
+      "GHS"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+233"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Burkina Faso",
+      "Côte d'Ivoire",
+      "Togo"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/ghana/index.html",
+    "core_guides": [
+      "article/ghana-visa-entry-requirements-guide/index.html",
+      "article/ghana-travel-insurance-health-guide/index.html",
+      "article/ghana-travel-safety-security-guide/index.html",
+      "article/ghana-travel-tools-planning-guide/index.html",
+      "article/ghana-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Ghana"
+  },
+  {
+    "country": "Greece",
+    "slug": "greece",
+    "capital": "Athens",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Modern Greek (1453-)"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+30"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Albania",
+      "Bulgaria",
+      "Türkiye",
+      "North Macedonia"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/greece/index.html",
+    "core_guides": [
+      "article/greece-visa-entry-requirements-guide/index.html",
+      "article/greece-travel-insurance-health-guide/index.html",
+      "article/greece-travel-safety-security-guide/index.html",
+      "article/greece-travel-tools-planning-guide/index.html",
+      "article/greece-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Greece"
+  },
+  {
+    "country": "Grenada",
+    "slug": "grenada",
+    "capital": "St. George's",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1473"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/grenada/index.html",
+    "core_guides": [
+      "article/grenada-visa-entry-requirements-guide/index.html",
+      "article/grenada-travel-insurance-health-guide/index.html",
+      "article/grenada-travel-safety-security-guide/index.html",
+      "article/grenada-travel-tools-planning-guide/index.html",
+      "article/grenada-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Grenada"
+  },
+  {
+    "country": "Guatemala",
+    "slug": "guatemala",
+    "capital": "Guatemala City",
+    "currencies": [
+      "GTQ"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+502"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Belize",
+      "El Salvador",
+      "Honduras",
+      "Mexico"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/guatemala/index.html",
+    "core_guides": [
+      "article/guatemala-visa-entry-requirements-guide/index.html",
+      "article/guatemala-travel-insurance-health-guide/index.html",
+      "article/guatemala-travel-safety-security-guide/index.html",
+      "article/guatemala-travel-tools-planning-guide/index.html",
+      "article/guatemala-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Guatemala"
+  },
+  {
+    "country": "Guinea",
+    "slug": "guinea",
+    "capital": "Conakry",
+    "currencies": [
+      "GNF"
+    ],
+    "languages": [
+      "French",
+      "Fulah"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+224"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Côte d'Ivoire",
+      "Guinea-Bissau",
+      "Liberia",
+      "Mali",
+      "Senegal",
+      "Sierra Leone"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/guinea/index.html",
+    "core_guides": [
+      "article/guinea-visa-entry-requirements-guide/index.html",
+      "article/guinea-travel-insurance-health-guide/index.html",
+      "article/guinea-travel-safety-security-guide/index.html",
+      "article/guinea-travel-tools-planning-guide/index.html",
+      "article/guinea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Guinea"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "slug": "guinea-bissau",
+    "capital": "Bissau",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+245"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Guinea",
+      "Senegal"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/guinea-bissau/index.html",
+    "core_guides": [
+      "article/guinea-bissau-visa-entry-requirements-guide/index.html",
+      "article/guinea-bissau-travel-insurance-health-guide/index.html",
+      "article/guinea-bissau-travel-safety-security-guide/index.html",
+      "article/guinea-bissau-travel-tools-planning-guide/index.html",
+      "article/guinea-bissau-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Guinea-Bissau"
+  },
+  {
+    "country": "Guyana",
+    "slug": "guyana",
+    "capital": "Georgetown",
+    "currencies": [
+      "GYD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+592"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [
+      "Brazil",
+      "Suriname",
+      "Venezuela, Bolivarian Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/guyana/index.html",
+    "core_guides": [
+      "article/guyana-visa-entry-requirements-guide/index.html",
+      "article/guyana-travel-insurance-health-guide/index.html",
+      "article/guyana-travel-safety-security-guide/index.html",
+      "article/guyana-travel-tools-planning-guide/index.html",
+      "article/guyana-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Guyana"
+  },
+  {
+    "country": "Haiti",
+    "slug": "haiti",
+    "capital": "Port-au-Prince",
+    "currencies": [
+      "HTG",
+      "USD"
+    ],
+    "languages": [
+      "French",
+      "Haitian"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+509"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [
+      "Dominican Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/haiti/index.html",
+    "core_guides": [
+      "article/haiti-visa-entry-requirements-guide/index.html",
+      "article/haiti-travel-insurance-health-guide/index.html",
+      "article/haiti-travel-safety-security-guide/index.html",
+      "article/haiti-travel-tools-planning-guide/index.html",
+      "article/haiti-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Haiti"
+  },
+  {
+    "country": "Holy See",
+    "slug": "holy-see",
+    "capital": "Vatican City",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Italian",
+      "Latin"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+39"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Italy"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/holy-see/index.html",
+    "core_guides": [
+      "article/holy-see-visa-entry-requirements-guide/index.html",
+      "article/holy-see-travel-insurance-health-guide/index.html",
+      "article/holy-see-travel-safety-security-guide/index.html",
+      "article/holy-see-travel-tools-planning-guide/index.html",
+      "article/holy-see-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Holy%20See"
+  },
+  {
+    "country": "Honduras",
+    "slug": "honduras",
+    "capital": "Tegucigalpa",
+    "currencies": [
+      "HNL"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+504"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Guatemala",
+      "El Salvador",
+      "Nicaragua"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/honduras/index.html",
+    "core_guides": [
+      "article/honduras-visa-entry-requirements-guide/index.html",
+      "article/honduras-travel-insurance-health-guide/index.html",
+      "article/honduras-travel-safety-security-guide/index.html",
+      "article/honduras-travel-tools-planning-guide/index.html",
+      "article/honduras-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Honduras"
+  },
+  {
+    "country": "Hungary",
+    "slug": "hungary",
+    "capital": "Budapest",
+    "currencies": [
+      "HUF"
+    ],
+    "languages": [
+      "Hungarian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+36"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Croatia",
+      "Romania",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Ukraine"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/hungary/index.html",
+    "core_guides": [
+      "article/hungary-visa-entry-requirements-guide/index.html",
+      "article/hungary-travel-insurance-health-guide/index.html",
+      "article/hungary-travel-safety-security-guide/index.html",
+      "article/hungary-travel-tools-planning-guide/index.html",
+      "article/hungary-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Hungary"
+  },
+  {
+    "country": "Iceland",
+    "slug": "iceland",
+    "capital": "Reykjavik",
+    "currencies": [
+      "ISK"
+    ],
+    "languages": [
+      "Icelandic"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+354"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [],
+    "schengen": true,
+    "eu": false,
+    "country_hub": "country/iceland/index.html",
+    "core_guides": [
+      "article/iceland-visa-entry-requirements-guide/index.html",
+      "article/iceland-travel-insurance-health-guide/index.html",
+      "article/iceland-travel-safety-security-guide/index.html",
+      "article/iceland-travel-tools-planning-guide/index.html",
+      "article/iceland-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Iceland"
+  },
+  {
+    "country": "India",
+    "slug": "india",
+    "capital": "New Delhi",
+    "currencies": [
+      "INR"
+    ],
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+91"
+    ],
+    "timezones": [
+      "UTC+05:30"
+    ],
+    "borders": [
+      "Afghanistan",
+      "Bangladesh",
+      "Bhutan",
+      "Myanmar",
+      "China",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/india/index.html",
+    "core_guides": [
+      "article/india-visa-entry-requirements-guide/index.html",
+      "article/india-travel-insurance-health-guide/index.html",
+      "article/india-travel-safety-security-guide/index.html",
+      "article/india-travel-tools-planning-guide/index.html",
+      "article/india-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=India"
+  },
+  {
+    "country": "Indonesia",
+    "slug": "indonesia",
+    "capital": "Jakarta",
+    "currencies": [
+      "IDR"
+    ],
+    "languages": [
+      "Indonesian"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+62"
+    ],
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00"
+    ],
+    "borders": [
+      "Timor-Leste",
+      "Malaysia",
+      "Papua New Guinea"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/indonesia/index.html",
+    "core_guides": [
+      "article/indonesia-visa-entry-requirements-guide/index.html",
+      "article/indonesia-travel-insurance-health-guide/index.html",
+      "article/indonesia-travel-safety-security-guide/index.html",
+      "article/indonesia-travel-tools-planning-guide/index.html",
+      "article/indonesia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Indonesia"
+  },
+  {
+    "country": "Iran",
+    "slug": "iran",
+    "capital": "Tehran",
+    "currencies": [
+      "IRR"
+    ],
+    "languages": [
+      "Persian"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+98"
+    ],
+    "timezones": [
+      "UTC+03:30"
+    ],
+    "borders": [
+      "Afghanistan",
+      "Armenia",
+      "Azerbaijan",
+      "Iraq",
+      "Pakistan",
+      "Türkiye",
+      "Turkmenistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/iran/index.html",
+    "core_guides": [
+      "article/iran-visa-entry-requirements-guide/index.html",
+      "article/iran-travel-insurance-health-guide/index.html",
+      "article/iran-travel-safety-security-guide/index.html",
+      "article/iran-travel-tools-planning-guide/index.html",
+      "article/iran-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Iran"
+  },
+  {
+    "country": "Iraq",
+    "slug": "iraq",
+    "capital": "Baghdad",
+    "currencies": [
+      "IQD"
+    ],
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+964"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Iran, Islamic Republic of",
+      "Jordan",
+      "Kuwait",
+      "Saudi Arabia",
+      "Syrian Arab Republic",
+      "Türkiye"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/iraq/index.html",
+    "core_guides": [
+      "article/iraq-visa-entry-requirements-guide/index.html",
+      "article/iraq-travel-insurance-health-guide/index.html",
+      "article/iraq-travel-safety-security-guide/index.html",
+      "article/iraq-travel-tools-planning-guide/index.html",
+      "article/iraq-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Iraq"
+  },
+  {
+    "country": "Ireland",
+    "slug": "ireland",
+    "capital": "Dublin",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Irish",
+      "English"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+353"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "United Kingdom"
+    ],
+    "schengen": false,
+    "eu": true,
+    "country_hub": "country/ireland/index.html",
+    "core_guides": [
+      "article/ireland-visa-entry-requirements-guide/index.html",
+      "article/ireland-travel-insurance-health-guide/index.html",
+      "article/ireland-travel-safety-security-guide/index.html",
+      "article/ireland-travel-tools-planning-guide/index.html",
+      "article/ireland-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Ireland"
+  },
+  {
+    "country": "Israel",
+    "slug": "israel",
+    "capital": "Jerusalem",
+    "currencies": [
+      "ILS"
+    ],
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+972"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Egypt",
+      "Jordan",
+      "Lebanon",
+      "Syrian Arab Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/israel/index.html",
+    "core_guides": [
+      "article/israel-visa-entry-requirements-guide/index.html",
+      "article/israel-travel-insurance-health-guide/index.html",
+      "article/israel-travel-safety-security-guide/index.html",
+      "article/israel-travel-tools-planning-guide/index.html",
+      "article/israel-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Israel"
+  },
+  {
+    "country": "Italy",
+    "slug": "italy",
+    "capital": "Rome",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Italian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+39"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "France",
+      "San Marino",
+      "Slovenia",
+      "Switzerland",
+      "Holy See (Vatican City State)"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/italy/index.html",
+    "core_guides": [
+      "article/italy-visa-entry-requirements-guide/index.html",
+      "article/italy-travel-insurance-health-guide/index.html",
+      "article/italy-travel-safety-security-guide/index.html",
+      "article/italy-travel-tools-planning-guide/index.html",
+      "article/italy-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Italy"
+  },
+  {
+    "country": "Jamaica",
+    "slug": "jamaica",
+    "capital": "Kingston",
+    "currencies": [
+      "JMD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1876"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/jamaica/index.html",
+    "core_guides": [
+      "article/jamaica-visa-entry-requirements-guide/index.html",
+      "article/jamaica-travel-insurance-health-guide/index.html",
+      "article/jamaica-travel-safety-security-guide/index.html",
+      "article/jamaica-travel-tools-planning-guide/index.html",
+      "article/jamaica-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Jamaica"
+  },
+  {
+    "country": "Japan",
+    "slug": "japan",
+    "capital": "Tokyo",
+    "currencies": [
+      "JPY"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "calling_codes": [
+      "+81"
+    ],
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/japan/index.html",
+    "core_guides": [
+      "article/japan-visa-entry-requirements-guide/index.html",
+      "article/japan-travel-insurance-health-guide/index.html",
+      "article/japan-travel-safety-security-guide/index.html",
+      "article/japan-travel-tools-planning-guide/index.html",
+      "article/japan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Japan"
+  },
+  {
+    "country": "Jordan",
+    "slug": "jordan",
+    "capital": "Amman",
+    "currencies": [
+      "JOD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+962"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Iraq",
+      "Israel",
+      "Saudi Arabia",
+      "Syrian Arab Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/jordan/index.html",
+    "core_guides": [
+      "article/jordan-visa-entry-requirements-guide/index.html",
+      "article/jordan-travel-insurance-health-guide/index.html",
+      "article/jordan-travel-safety-security-guide/index.html",
+      "article/jordan-travel-tools-planning-guide/index.html",
+      "article/jordan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Jordan"
+  },
+  {
+    "country": "Kazakhstan",
+    "slug": "kazakhstan",
+    "capital": "Astana",
+    "currencies": [
+      "KZT"
+    ],
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "calling_codes": [
+      "+76",
+      "+77"
+    ],
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:00"
+    ],
+    "borders": [
+      "China",
+      "Kyrgyzstan",
+      "Russian Federation",
+      "Turkmenistan",
+      "Uzbekistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/kazakhstan/index.html",
+    "core_guides": [
+      "article/kazakhstan-visa-entry-requirements-guide/index.html",
+      "article/kazakhstan-travel-insurance-health-guide/index.html",
+      "article/kazakhstan-travel-safety-security-guide/index.html",
+      "article/kazakhstan-travel-tools-planning-guide/index.html",
+      "article/kazakhstan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Kazakhstan"
+  },
+  {
+    "country": "Kenya",
+    "slug": "kenya",
+    "capital": "Nairobi",
+    "currencies": [
+      "KES"
+    ],
+    "languages": [
+      "English",
+      "Swahili (macrolanguage)"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+254"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Ethiopia",
+      "Somalia",
+      "South Sudan",
+      "Tanzania, United Republic of",
+      "Uganda"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/kenya/index.html",
+    "core_guides": [
+      "article/kenya-visa-entry-requirements-guide/index.html",
+      "article/kenya-travel-insurance-health-guide/index.html",
+      "article/kenya-travel-safety-security-guide/index.html",
+      "article/kenya-travel-tools-planning-guide/index.html",
+      "article/kenya-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Kenya"
+  },
+  {
+    "country": "Kiribati",
+    "slug": "kiribati",
+    "capital": "South Tarawa",
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "calling_codes": [
+      "+686"
+    ],
+    "timezones": [
+      "UTC+12:00",
+      "UTC+13:00",
+      "UTC+14:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/kiribati/index.html",
+    "core_guides": [
+      "article/kiribati-visa-entry-requirements-guide/index.html",
+      "article/kiribati-travel-insurance-health-guide/index.html",
+      "article/kiribati-travel-safety-security-guide/index.html",
+      "article/kiribati-travel-tools-planning-guide/index.html",
+      "article/kiribati-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Kiribati"
+  },
+  {
+    "country": "Kuwait",
+    "slug": "kuwait",
+    "capital": "Kuwait City",
+    "currencies": [
+      "KWD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+965"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Iran, Islamic Republic of",
+      "Saudi Arabia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/kuwait/index.html",
+    "core_guides": [
+      "article/kuwait-visa-entry-requirements-guide/index.html",
+      "article/kuwait-travel-insurance-health-guide/index.html",
+      "article/kuwait-travel-safety-security-guide/index.html",
+      "article/kuwait-travel-tools-planning-guide/index.html",
+      "article/kuwait-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Kuwait"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "slug": "kyrgyzstan",
+    "capital": "Bishkek",
+    "currencies": [
+      "KGS"
+    ],
+    "languages": [
+      "Kirghiz",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "calling_codes": [
+      "+996"
+    ],
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "borders": [
+      "China",
+      "Kazakhstan",
+      "Tajikistan",
+      "Uzbekistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/kyrgyzstan/index.html",
+    "core_guides": [
+      "article/kyrgyzstan-visa-entry-requirements-guide/index.html",
+      "article/kyrgyzstan-travel-insurance-health-guide/index.html",
+      "article/kyrgyzstan-travel-safety-security-guide/index.html",
+      "article/kyrgyzstan-travel-tools-planning-guide/index.html",
+      "article/kyrgyzstan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Kyrgyzstan"
+  },
+  {
+    "country": "Laos",
+    "slug": "laos",
+    "capital": "Vientiane",
+    "currencies": [
+      "LAK"
+    ],
+    "languages": [
+      "Lao"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+856"
+    ],
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "borders": [
+      "Myanmar",
+      "Cambodia",
+      "China",
+      "Thailand",
+      "Viet Nam"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/laos/index.html",
+    "core_guides": [
+      "article/laos-visa-entry-requirements-guide/index.html",
+      "article/laos-travel-insurance-health-guide/index.html",
+      "article/laos-travel-safety-security-guide/index.html",
+      "article/laos-travel-tools-planning-guide/index.html",
+      "article/laos-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Laos"
+  },
+  {
+    "country": "Latvia",
+    "slug": "latvia",
+    "capital": "Riga",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Latvian"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+371"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Belarus",
+      "Estonia",
+      "Lithuania",
+      "Russian Federation"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/latvia/index.html",
+    "core_guides": [
+      "article/latvia-visa-entry-requirements-guide/index.html",
+      "article/latvia-travel-insurance-health-guide/index.html",
+      "article/latvia-travel-safety-security-guide/index.html",
+      "article/latvia-travel-tools-planning-guide/index.html",
+      "article/latvia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Latvia"
+  },
+  {
+    "country": "Lebanon",
+    "slug": "lebanon",
+    "capital": "Beirut",
+    "currencies": [
+      "LBP"
+    ],
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+961"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Israel",
+      "Syrian Arab Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/lebanon/index.html",
+    "core_guides": [
+      "article/lebanon-visa-entry-requirements-guide/index.html",
+      "article/lebanon-travel-insurance-health-guide/index.html",
+      "article/lebanon-travel-safety-security-guide/index.html",
+      "article/lebanon-travel-tools-planning-guide/index.html",
+      "article/lebanon-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Lebanon"
+  },
+  {
+    "country": "Lesotho",
+    "slug": "lesotho",
+    "capital": "Maseru",
+    "currencies": [
+      "LSL",
+      "ZAR"
+    ],
+    "languages": [
+      "English",
+      "Southern Sotho"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "calling_codes": [
+      "+266"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "South Africa"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/lesotho/index.html",
+    "core_guides": [
+      "article/lesotho-visa-entry-requirements-guide/index.html",
+      "article/lesotho-travel-insurance-health-guide/index.html",
+      "article/lesotho-travel-safety-security-guide/index.html",
+      "article/lesotho-travel-tools-planning-guide/index.html",
+      "article/lesotho-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Lesotho"
+  },
+  {
+    "country": "Liberia",
+    "slug": "liberia",
+    "capital": "Monrovia",
+    "currencies": [
+      "LRD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+231"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Guinea",
+      "Côte d'Ivoire",
+      "Sierra Leone"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/liberia/index.html",
+    "core_guides": [
+      "article/liberia-visa-entry-requirements-guide/index.html",
+      "article/liberia-travel-insurance-health-guide/index.html",
+      "article/liberia-travel-safety-security-guide/index.html",
+      "article/liberia-travel-tools-planning-guide/index.html",
+      "article/liberia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Liberia"
+  },
+  {
+    "country": "Libya",
+    "slug": "libya",
+    "capital": "Tripoli",
+    "currencies": [
+      "LYD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+218"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Algeria",
+      "Chad",
+      "Egypt",
+      "Niger",
+      "Sudan",
+      "Tunisia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/libya/index.html",
+    "core_guides": [
+      "article/libya-visa-entry-requirements-guide/index.html",
+      "article/libya-travel-insurance-health-guide/index.html",
+      "article/libya-travel-safety-security-guide/index.html",
+      "article/libya-travel-tools-planning-guide/index.html",
+      "article/libya-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Libya"
+  },
+  {
+    "country": "Liechtenstein",
+    "slug": "liechtenstein",
+    "capital": "Vaduz",
+    "currencies": [
+      "CHF"
+    ],
+    "languages": [
+      "German"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+423"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Switzerland"
+    ],
+    "schengen": true,
+    "eu": false,
+    "country_hub": "country/liechtenstein/index.html",
+    "core_guides": [
+      "article/liechtenstein-visa-entry-requirements-guide/index.html",
+      "article/liechtenstein-travel-insurance-health-guide/index.html",
+      "article/liechtenstein-travel-safety-security-guide/index.html",
+      "article/liechtenstein-travel-tools-planning-guide/index.html",
+      "article/liechtenstein-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Liechtenstein"
+  },
+  {
+    "country": "Lithuania",
+    "slug": "lithuania",
+    "capital": "Vilnius",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Lithuanian"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+370"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Belarus",
+      "Latvia",
+      "Poland",
+      "Russian Federation"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/lithuania/index.html",
+    "core_guides": [
+      "article/lithuania-visa-entry-requirements-guide/index.html",
+      "article/lithuania-travel-insurance-health-guide/index.html",
+      "article/lithuania-travel-safety-security-guide/index.html",
+      "article/lithuania-travel-tools-planning-guide/index.html",
+      "article/lithuania-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Lithuania"
+  },
+  {
+    "country": "Luxembourg",
+    "slug": "luxembourg",
+    "capital": "Luxembourg",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "French",
+      "German",
+      "Luxembourgish"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+352"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Belgium",
+      "France",
+      "Germany"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/luxembourg/index.html",
+    "core_guides": [
+      "article/luxembourg-visa-entry-requirements-guide/index.html",
+      "article/luxembourg-travel-insurance-health-guide/index.html",
+      "article/luxembourg-travel-safety-security-guide/index.html",
+      "article/luxembourg-travel-tools-planning-guide/index.html",
+      "article/luxembourg-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Luxembourg"
+  },
+  {
+    "country": "Madagascar",
+    "slug": "madagascar",
+    "capital": "Antananarivo",
+    "currencies": [
+      "MGA"
+    ],
+    "languages": [
+      "French",
+      "Malagasy"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+261"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/madagascar/index.html",
+    "core_guides": [
+      "article/madagascar-visa-entry-requirements-guide/index.html",
+      "article/madagascar-travel-insurance-health-guide/index.html",
+      "article/madagascar-travel-safety-security-guide/index.html",
+      "article/madagascar-travel-tools-planning-guide/index.html",
+      "article/madagascar-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Madagascar"
+  },
+  {
+    "country": "Malawi",
+    "slug": "malawi",
+    "capital": "Lilongwe",
+    "currencies": [
+      "MWK"
+    ],
+    "languages": [
+      "English",
+      "Nyanja"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+265"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Mozambique",
+      "Tanzania, United Republic of",
+      "Zambia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/malawi/index.html",
+    "core_guides": [
+      "article/malawi-visa-entry-requirements-guide/index.html",
+      "article/malawi-travel-insurance-health-guide/index.html",
+      "article/malawi-travel-safety-security-guide/index.html",
+      "article/malawi-travel-tools-planning-guide/index.html",
+      "article/malawi-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Malawi"
+  },
+  {
+    "country": "Malaysia",
+    "slug": "malaysia",
+    "capital": "Kuala Lumpur",
+    "currencies": [
+      "MYR"
+    ],
+    "languages": [
+      "Malay"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+60"
+    ],
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "borders": [
+      "Brunei Darussalam",
+      "Indonesia",
+      "Thailand"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/malaysia/index.html",
+    "core_guides": [
+      "article/malaysia-visa-entry-requirements-guide/index.html",
+      "article/malaysia-travel-insurance-health-guide/index.html",
+      "article/malaysia-travel-safety-security-guide/index.html",
+      "article/malaysia-travel-tools-planning-guide/index.html",
+      "article/malaysia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Malaysia"
+  },
+  {
+    "country": "Maldives",
+    "slug": "maldives",
+    "capital": "Malé",
+    "currencies": [
+      "MVR"
+    ],
+    "languages": [
+      "Dhivehi"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+960"
+    ],
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/maldives/index.html",
+    "core_guides": [
+      "article/maldives-visa-entry-requirements-guide/index.html",
+      "article/maldives-travel-insurance-health-guide/index.html",
+      "article/maldives-travel-safety-security-guide/index.html",
+      "article/maldives-travel-tools-planning-guide/index.html",
+      "article/maldives-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Maldives"
+  },
+  {
+    "country": "Mali",
+    "slug": "mali",
+    "capital": "Bamako",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+223"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Algeria",
+      "Burkina Faso",
+      "Guinea",
+      "Côte d'Ivoire",
+      "Mauritania",
+      "Niger",
+      "Senegal"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mali/index.html",
+    "core_guides": [
+      "article/mali-visa-entry-requirements-guide/index.html",
+      "article/mali-travel-insurance-health-guide/index.html",
+      "article/mali-travel-safety-security-guide/index.html",
+      "article/mali-travel-tools-planning-guide/index.html",
+      "article/mali-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mali"
+  },
+  {
+    "country": "Malta",
+    "slug": "malta",
+    "capital": "Valletta",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Maltese",
+      "English"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+356"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/malta/index.html",
+    "core_guides": [
+      "article/malta-visa-entry-requirements-guide/index.html",
+      "article/malta-travel-insurance-health-guide/index.html",
+      "article/malta-travel-safety-security-guide/index.html",
+      "article/malta-travel-tools-planning-guide/index.html",
+      "article/malta-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Malta"
+  },
+  {
+    "country": "Marshall Islands",
+    "slug": "marshall-islands",
+    "capital": "Majuro",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "English",
+      "Marshallese"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "calling_codes": [
+      "+692"
+    ],
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/marshall-islands/index.html",
+    "core_guides": [
+      "article/marshall-islands-visa-entry-requirements-guide/index.html",
+      "article/marshall-islands-travel-insurance-health-guide/index.html",
+      "article/marshall-islands-travel-safety-security-guide/index.html",
+      "article/marshall-islands-travel-tools-planning-guide/index.html",
+      "article/marshall-islands-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Marshall%20Islands"
+  },
+  {
+    "country": "Mauritania",
+    "slug": "mauritania",
+    "capital": "Nouakchott",
+    "currencies": [
+      "MRO"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+222"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Algeria",
+      "Mali",
+      "Senegal",
+      "Western Sahara"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mauritania/index.html",
+    "core_guides": [
+      "article/mauritania-visa-entry-requirements-guide/index.html",
+      "article/mauritania-travel-insurance-health-guide/index.html",
+      "article/mauritania-travel-safety-security-guide/index.html",
+      "article/mauritania-travel-tools-planning-guide/index.html",
+      "article/mauritania-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mauritania"
+  },
+  {
+    "country": "Mauritius",
+    "slug": "mauritius",
+    "capital": "Port Louis",
+    "currencies": [
+      "MUR"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+230"
+    ],
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mauritius/index.html",
+    "core_guides": [
+      "article/mauritius-visa-entry-requirements-guide/index.html",
+      "article/mauritius-travel-insurance-health-guide/index.html",
+      "article/mauritius-travel-safety-security-guide/index.html",
+      "article/mauritius-travel-tools-planning-guide/index.html",
+      "article/mauritius-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mauritius"
+  },
+  {
+    "country": "Mexico",
+    "slug": "mexico",
+    "capital": "Mexico City",
+    "currencies": [
+      "MXN"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+52"
+    ],
+    "timezones": [
+      "UTC−08:00",
+      "UTC−07:00",
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Belize",
+      "Guatemala",
+      "United States"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mexico/index.html",
+    "core_guides": [
+      "article/mexico-visa-entry-requirements-guide/index.html",
+      "article/mexico-travel-insurance-health-guide/index.html",
+      "article/mexico-travel-safety-security-guide/index.html",
+      "article/mexico-travel-tools-planning-guide/index.html",
+      "article/mexico-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mexico"
+  },
+  {
+    "country": "Micronesia",
+    "slug": "micronesia",
+    "capital": "Palikir",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "calling_codes": [
+      "+691"
+    ],
+    "timezones": [
+      "UTC+10:00",
+      "UTC+11"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/micronesia/index.html",
+    "core_guides": [
+      "article/micronesia-visa-entry-requirements-guide/index.html",
+      "article/micronesia-travel-insurance-health-guide/index.html",
+      "article/micronesia-travel-safety-security-guide/index.html",
+      "article/micronesia-travel-tools-planning-guide/index.html",
+      "article/micronesia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Micronesia"
+  },
+  {
+    "country": "Moldova",
+    "slug": "moldova",
+    "capital": "Chișinău",
+    "currencies": [
+      "MDL"
+    ],
+    "languages": [
+      "Romanian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+373"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Romania",
+      "Ukraine"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/moldova/index.html",
+    "core_guides": [
+      "article/moldova-visa-entry-requirements-guide/index.html",
+      "article/moldova-travel-insurance-health-guide/index.html",
+      "article/moldova-travel-safety-security-guide/index.html",
+      "article/moldova-travel-tools-planning-guide/index.html",
+      "article/moldova-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Moldova"
+  },
+  {
+    "country": "Monaco",
+    "slug": "monaco",
+    "capital": "Monaco",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+377"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "France"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/monaco/index.html",
+    "core_guides": [
+      "article/monaco-visa-entry-requirements-guide/index.html",
+      "article/monaco-travel-insurance-health-guide/index.html",
+      "article/monaco-travel-safety-security-guide/index.html",
+      "article/monaco-travel-tools-planning-guide/index.html",
+      "article/monaco-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Monaco"
+  },
+  {
+    "country": "Mongolia",
+    "slug": "mongolia",
+    "capital": "Ulan Bator",
+    "currencies": [
+      "MNT"
+    ],
+    "languages": [
+      "Mongolian"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "calling_codes": [
+      "+976"
+    ],
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00"
+    ],
+    "borders": [
+      "China",
+      "Russian Federation"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mongolia/index.html",
+    "core_guides": [
+      "article/mongolia-visa-entry-requirements-guide/index.html",
+      "article/mongolia-travel-insurance-health-guide/index.html",
+      "article/mongolia-travel-safety-security-guide/index.html",
+      "article/mongolia-travel-tools-planning-guide/index.html",
+      "article/mongolia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mongolia"
+  },
+  {
+    "country": "Montenegro",
+    "slug": "montenegro",
+    "capital": "Podgorica",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Montenegrin"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+382"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Albania",
+      "Bosnia and Herzegovina",
+      "Croatia",
+      "Kosovo",
+      "Serbia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/montenegro/index.html",
+    "core_guides": [
+      "article/montenegro-visa-entry-requirements-guide/index.html",
+      "article/montenegro-travel-insurance-health-guide/index.html",
+      "article/montenegro-travel-safety-security-guide/index.html",
+      "article/montenegro-travel-tools-planning-guide/index.html",
+      "article/montenegro-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Montenegro"
+  },
+  {
+    "country": "Morocco",
+    "slug": "morocco",
+    "capital": "Rabat",
+    "currencies": [
+      "MAD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+212"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Algeria",
+      "Western Sahara",
+      "Spain"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/morocco/index.html",
+    "core_guides": [
+      "article/morocco-visa-entry-requirements-guide/index.html",
+      "article/morocco-travel-insurance-health-guide/index.html",
+      "article/morocco-travel-safety-security-guide/index.html",
+      "article/morocco-travel-tools-planning-guide/index.html",
+      "article/morocco-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Morocco"
+  },
+  {
+    "country": "Mozambique",
+    "slug": "mozambique",
+    "capital": "Maputo",
+    "currencies": [
+      "MZN"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+258"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Malawi",
+      "South Africa",
+      "Eswatini",
+      "Tanzania, United Republic of",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/mozambique/index.html",
+    "core_guides": [
+      "article/mozambique-visa-entry-requirements-guide/index.html",
+      "article/mozambique-travel-insurance-health-guide/index.html",
+      "article/mozambique-travel-safety-security-guide/index.html",
+      "article/mozambique-travel-tools-planning-guide/index.html",
+      "article/mozambique-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Mozambique"
+  },
+  {
+    "country": "Myanmar",
+    "slug": "myanmar",
+    "capital": "Naypyidaw",
+    "currencies": [
+      "MMK"
+    ],
+    "languages": [
+      "Burmese"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+95"
+    ],
+    "timezones": [
+      "UTC+06:30"
+    ],
+    "borders": [
+      "Bangladesh",
+      "China",
+      "India",
+      "Laos",
+      "Thailand"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/myanmar/index.html",
+    "core_guides": [
+      "article/myanmar-visa-entry-requirements-guide/index.html",
+      "article/myanmar-travel-insurance-health-guide/index.html",
+      "article/myanmar-travel-safety-security-guide/index.html",
+      "article/myanmar-travel-tools-planning-guide/index.html",
+      "article/myanmar-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Myanmar"
+  },
+  {
+    "country": "Namibia",
+    "slug": "namibia",
+    "capital": "Windhoek",
+    "currencies": [
+      "NAD",
+      "ZAR"
+    ],
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "calling_codes": [
+      "+264"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Angola",
+      "Botswana",
+      "South Africa",
+      "Zambia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/namibia/index.html",
+    "core_guides": [
+      "article/namibia-visa-entry-requirements-guide/index.html",
+      "article/namibia-travel-insurance-health-guide/index.html",
+      "article/namibia-travel-safety-security-guide/index.html",
+      "article/namibia-travel-tools-planning-guide/index.html",
+      "article/namibia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Namibia"
+  },
+  {
+    "country": "Nauru",
+    "slug": "nauru",
+    "capital": "Yaren",
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "English",
+      "Nauru"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "calling_codes": [
+      "+674"
+    ],
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/nauru/index.html",
+    "core_guides": [
+      "article/nauru-visa-entry-requirements-guide/index.html",
+      "article/nauru-travel-insurance-health-guide/index.html",
+      "article/nauru-travel-safety-security-guide/index.html",
+      "article/nauru-travel-tools-planning-guide/index.html",
+      "article/nauru-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Nauru"
+  },
+  {
+    "country": "Nepal",
+    "slug": "nepal",
+    "capital": "Kathmandu",
+    "currencies": [
+      "NPR"
+    ],
+    "languages": [
+      "Nepali (macrolanguage)"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+977"
+    ],
+    "timezones": [
+      "UTC+05:45"
+    ],
+    "borders": [
+      "China",
+      "India"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/nepal/index.html",
+    "core_guides": [
+      "article/nepal-visa-entry-requirements-guide/index.html",
+      "article/nepal-travel-insurance-health-guide/index.html",
+      "article/nepal-travel-safety-security-guide/index.html",
+      "article/nepal-travel-tools-planning-guide/index.html",
+      "article/nepal-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Nepal"
+  },
+  {
+    "country": "Netherlands",
+    "slug": "netherlands",
+    "capital": "Amsterdam",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Dutch"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+31"
+    ],
+    "timezones": [],
+    "borders": [
+      "Belgium",
+      "Germany"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/netherlands/index.html",
+    "core_guides": [
+      "article/netherlands-visa-entry-requirements-guide/index.html",
+      "article/netherlands-travel-insurance-health-guide/index.html",
+      "article/netherlands-travel-safety-security-guide/index.html",
+      "article/netherlands-travel-tools-planning-guide/index.html",
+      "article/netherlands-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Netherlands"
+  },
+  {
+    "country": "New Zealand",
+    "slug": "new-zealand",
+    "capital": "Wellington",
+    "currencies": [
+      "NZD"
+    ],
+    "languages": [
+      "English",
+      "Maori"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "calling_codes": [
+      "+64"
+    ],
+    "timezones": [
+      "UTC−11:00",
+      "UTC−10:00",
+      "UTC+12:00",
+      "UTC+12:45",
+      "UTC+13:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/new-zealand/index.html",
+    "core_guides": [
+      "article/new-zealand-visa-entry-requirements-guide/index.html",
+      "article/new-zealand-travel-insurance-health-guide/index.html",
+      "article/new-zealand-travel-safety-security-guide/index.html",
+      "article/new-zealand-travel-tools-planning-guide/index.html",
+      "article/new-zealand-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=New%20Zealand"
+  },
+  {
+    "country": "Nicaragua",
+    "slug": "nicaragua",
+    "capital": "Managua",
+    "currencies": [
+      "NIO"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+505"
+    ],
+    "timezones": [
+      "UTC−06:00"
+    ],
+    "borders": [
+      "Costa Rica",
+      "Honduras"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/nicaragua/index.html",
+    "core_guides": [
+      "article/nicaragua-visa-entry-requirements-guide/index.html",
+      "article/nicaragua-travel-insurance-health-guide/index.html",
+      "article/nicaragua-travel-safety-security-guide/index.html",
+      "article/nicaragua-travel-tools-planning-guide/index.html",
+      "article/nicaragua-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Nicaragua"
+  },
+  {
+    "country": "Niger",
+    "slug": "niger",
+    "capital": "Niamey",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+227"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Algeria",
+      "Benin",
+      "Burkina Faso",
+      "Chad",
+      "Libya",
+      "Mali",
+      "Nigeria"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/niger/index.html",
+    "core_guides": [
+      "article/niger-visa-entry-requirements-guide/index.html",
+      "article/niger-travel-insurance-health-guide/index.html",
+      "article/niger-travel-safety-security-guide/index.html",
+      "article/niger-travel-tools-planning-guide/index.html",
+      "article/niger-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Niger"
+  },
+  {
+    "country": "Nigeria",
+    "slug": "nigeria",
+    "capital": "Abuja",
+    "currencies": [
+      "NGN"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+234"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Benin",
+      "Cameroon",
+      "Chad",
+      "Niger"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/nigeria/index.html",
+    "core_guides": [
+      "article/nigeria-visa-entry-requirements-guide/index.html",
+      "article/nigeria-travel-insurance-health-guide/index.html",
+      "article/nigeria-travel-safety-security-guide/index.html",
+      "article/nigeria-travel-tools-planning-guide/index.html",
+      "article/nigeria-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Nigeria"
+  },
+  {
+    "country": "North Korea",
+    "slug": "north-korea",
+    "capital": "Pyongyang",
+    "currencies": [
+      "KPW"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "calling_codes": [
+      "+850"
+    ],
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "borders": [
+      "China",
+      "Korea, Republic of",
+      "Russian Federation"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/north-korea/index.html",
+    "core_guides": [
+      "article/north-korea-visa-entry-requirements-guide/index.html",
+      "article/north-korea-travel-insurance-health-guide/index.html",
+      "article/north-korea-travel-safety-security-guide/index.html",
+      "article/north-korea-travel-tools-planning-guide/index.html",
+      "article/north-korea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=North%20Korea"
+  },
+  {
+    "country": "North Macedonia",
+    "slug": "north-macedonia",
+    "capital": "Skopje",
+    "currencies": [
+      "MKD"
+    ],
+    "languages": [
+      "Macedonian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+389"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "KOS",
+      "Serbia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/north-macedonia/index.html",
+    "core_guides": [
+      "article/north-macedonia-visa-entry-requirements-guide/index.html",
+      "article/north-macedonia-travel-insurance-health-guide/index.html",
+      "article/north-macedonia-travel-safety-security-guide/index.html",
+      "article/north-macedonia-travel-tools-planning-guide/index.html",
+      "article/north-macedonia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=North%20Macedonia"
+  },
+  {
+    "country": "Norway",
+    "slug": "norway",
+    "capital": "Oslo",
+    "currencies": [
+      "NOK"
+    ],
+    "languages": [
+      "Norwegian",
+      "Norwegian Bokmål",
+      "Norwegian Nynorsk"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+47"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Finland",
+      "Sweden",
+      "Russian Federation"
+    ],
+    "schengen": true,
+    "eu": false,
+    "country_hub": "country/norway/index.html",
+    "core_guides": [
+      "article/norway-visa-entry-requirements-guide/index.html",
+      "article/norway-travel-insurance-health-guide/index.html",
+      "article/norway-travel-safety-security-guide/index.html",
+      "article/norway-travel-tools-planning-guide/index.html",
+      "article/norway-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Norway"
+  },
+  {
+    "country": "Oman",
+    "slug": "oman",
+    "capital": "Muscat",
+    "currencies": [
+      "OMR"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+968"
+    ],
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "borders": [
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Yemen"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/oman/index.html",
+    "core_guides": [
+      "article/oman-visa-entry-requirements-guide/index.html",
+      "article/oman-travel-insurance-health-guide/index.html",
+      "article/oman-travel-safety-security-guide/index.html",
+      "article/oman-travel-tools-planning-guide/index.html",
+      "article/oman-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Oman"
+  },
+  {
+    "country": "Pakistan",
+    "slug": "pakistan",
+    "capital": "Islamabad",
+    "currencies": [
+      "PKR"
+    ],
+    "languages": [
+      "English",
+      "Urdu"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+92"
+    ],
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "borders": [
+      "Afghanistan",
+      "China",
+      "India",
+      "Iran, Islamic Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/pakistan/index.html",
+    "core_guides": [
+      "article/pakistan-visa-entry-requirements-guide/index.html",
+      "article/pakistan-travel-insurance-health-guide/index.html",
+      "article/pakistan-travel-safety-security-guide/index.html",
+      "article/pakistan-travel-tools-planning-guide/index.html",
+      "article/pakistan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Pakistan"
+  },
+  {
+    "country": "Palau",
+    "slug": "palau",
+    "capital": "Ngerulmud",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "calling_codes": [
+      "+680"
+    ],
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/palau/index.html",
+    "core_guides": [
+      "article/palau-visa-entry-requirements-guide/index.html",
+      "article/palau-travel-insurance-health-guide/index.html",
+      "article/palau-travel-safety-security-guide/index.html",
+      "article/palau-travel-tools-planning-guide/index.html",
+      "article/palau-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Palau"
+  },
+  {
+    "country": "State of Palestine",
+    "slug": "state-of-palestine",
+    "capital": "Ramallah (administrative centre)",
+    "currencies": [
+      "ILS",
+      "JOD"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+970"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Israel",
+      "Jordan",
+      "Egypt"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/state-of-palestine/index.html",
+    "core_guides": [
+      "article/state-of-palestine-visa-entry-requirements-guide/index.html",
+      "article/state-of-palestine-travel-insurance-health-guide/index.html",
+      "article/state-of-palestine-travel-safety-security-guide/index.html",
+      "article/state-of-palestine-travel-tools-planning-guide/index.html",
+      "article/state-of-palestine-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=State%20of%20Palestine"
+  },
+  {
+    "country": "Panama",
+    "slug": "panama",
+    "capital": "Panama City",
+    "currencies": [
+      "PAB",
+      "USD"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "calling_codes": [
+      "+507"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [
+      "Colombia",
+      "Costa Rica"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/panama/index.html",
+    "core_guides": [
+      "article/panama-visa-entry-requirements-guide/index.html",
+      "article/panama-travel-insurance-health-guide/index.html",
+      "article/panama-travel-safety-security-guide/index.html",
+      "article/panama-travel-tools-planning-guide/index.html",
+      "article/panama-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Panama"
+  },
+  {
+    "country": "Papua New Guinea",
+    "slug": "papua-new-guinea",
+    "capital": "Port Moresby",
+    "currencies": [
+      "PGK"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "calling_codes": [
+      "+675"
+    ],
+    "timezones": [
+      "UTC+10:00"
+    ],
+    "borders": [
+      "Indonesia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/papua-new-guinea/index.html",
+    "core_guides": [
+      "article/papua-new-guinea-visa-entry-requirements-guide/index.html",
+      "article/papua-new-guinea-travel-insurance-health-guide/index.html",
+      "article/papua-new-guinea-travel-safety-security-guide/index.html",
+      "article/papua-new-guinea-travel-tools-planning-guide/index.html",
+      "article/papua-new-guinea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Papua%20New%20Guinea"
+  },
+  {
+    "country": "Paraguay",
+    "slug": "paraguay",
+    "capital": "Asunción",
+    "currencies": [
+      "PYG"
+    ],
+    "languages": [
+      "Spanish",
+      "Guarani"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+595"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [
+      "Argentina",
+      "Bolivia, Plurinational State of",
+      "Brazil"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/paraguay/index.html",
+    "core_guides": [
+      "article/paraguay-visa-entry-requirements-guide/index.html",
+      "article/paraguay-travel-insurance-health-guide/index.html",
+      "article/paraguay-travel-safety-security-guide/index.html",
+      "article/paraguay-travel-tools-planning-guide/index.html",
+      "article/paraguay-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Paraguay"
+  },
+  {
+    "country": "Peru",
+    "slug": "peru",
+    "capital": "Lima",
+    "currencies": [
+      "PEN"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+51"
+    ],
+    "timezones": [
+      "UTC−05:00"
+    ],
+    "borders": [
+      "Bolivia, Plurinational State of",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Ecuador"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/peru/index.html",
+    "core_guides": [
+      "article/peru-visa-entry-requirements-guide/index.html",
+      "article/peru-travel-insurance-health-guide/index.html",
+      "article/peru-travel-safety-security-guide/index.html",
+      "article/peru-travel-tools-planning-guide/index.html",
+      "article/peru-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Peru"
+  },
+  {
+    "country": "Philippines",
+    "slug": "philippines",
+    "capital": "Manila",
+    "currencies": [
+      "PHP"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+63"
+    ],
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/philippines/index.html",
+    "core_guides": [
+      "article/philippines-visa-entry-requirements-guide/index.html",
+      "article/philippines-travel-insurance-health-guide/index.html",
+      "article/philippines-travel-safety-security-guide/index.html",
+      "article/philippines-travel-tools-planning-guide/index.html",
+      "article/philippines-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Philippines"
+  },
+  {
+    "country": "Poland",
+    "slug": "poland",
+    "capital": "Warsaw",
+    "currencies": [
+      "PLN"
+    ],
+    "languages": [
+      "Polish"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+48"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Belarus",
+      "Czechia",
+      "Germany",
+      "Lithuania",
+      "Russian Federation",
+      "Slovakia",
+      "Ukraine"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/poland/index.html",
+    "core_guides": [
+      "article/poland-visa-entry-requirements-guide/index.html",
+      "article/poland-travel-insurance-health-guide/index.html",
+      "article/poland-travel-safety-security-guide/index.html",
+      "article/poland-travel-tools-planning-guide/index.html",
+      "article/poland-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Poland"
+  },
+  {
+    "country": "Portugal",
+    "slug": "portugal",
+    "capital": "Lisbon",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+351"
+    ],
+    "timezones": [
+      "UTC−01:00",
+      "UTC"
+    ],
+    "borders": [
+      "Spain"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/portugal/index.html",
+    "core_guides": [
+      "article/portugal-visa-entry-requirements-guide/index.html",
+      "article/portugal-travel-insurance-health-guide/index.html",
+      "article/portugal-travel-safety-security-guide/index.html",
+      "article/portugal-travel-tools-planning-guide/index.html",
+      "article/portugal-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Portugal"
+  },
+  {
+    "country": "Qatar",
+    "slug": "qatar",
+    "capital": "Doha",
+    "currencies": [
+      "QAR"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+974"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Saudi Arabia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/qatar/index.html",
+    "core_guides": [
+      "article/qatar-visa-entry-requirements-guide/index.html",
+      "article/qatar-travel-insurance-health-guide/index.html",
+      "article/qatar-travel-safety-security-guide/index.html",
+      "article/qatar-travel-tools-planning-guide/index.html",
+      "article/qatar-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Qatar"
+  },
+  {
+    "country": "Romania",
+    "slug": "romania",
+    "capital": "Bucharest",
+    "currencies": [
+      "RON"
+    ],
+    "languages": [
+      "Romanian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+40"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Bulgaria",
+      "Hungary",
+      "Moldova, Republic of",
+      "Serbia",
+      "Ukraine"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/romania/index.html",
+    "core_guides": [
+      "article/romania-visa-entry-requirements-guide/index.html",
+      "article/romania-travel-insurance-health-guide/index.html",
+      "article/romania-travel-safety-security-guide/index.html",
+      "article/romania-travel-tools-planning-guide/index.html",
+      "article/romania-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Romania"
+  },
+  {
+    "country": "Russia",
+    "slug": "russia",
+    "capital": "Moscow",
+    "currencies": [
+      "RUB"
+    ],
+    "languages": [
+      "Russian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+7"
+    ],
+    "timezones": [
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+06:00",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    "borders": [
+      "Azerbaijan",
+      "Belarus",
+      "China",
+      "Estonia",
+      "Finland",
+      "Georgia",
+      "Kazakhstan",
+      "Korea, Democratic People's Republic of",
+      "Latvia",
+      "Lithuania",
+      "Mongolia",
+      "Norway",
+      "Poland",
+      "Ukraine"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/russia/index.html",
+    "core_guides": [
+      "article/russia-visa-entry-requirements-guide/index.html",
+      "article/russia-travel-insurance-health-guide/index.html",
+      "article/russia-travel-safety-security-guide/index.html",
+      "article/russia-travel-tools-planning-guide/index.html",
+      "article/russia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Russia"
+  },
+  {
+    "country": "Rwanda",
+    "slug": "rwanda",
+    "capital": "Kigali",
+    "currencies": [
+      "RWF"
+    ],
+    "languages": [
+      "Kinyarwanda",
+      "English",
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+250"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Burundi",
+      "Congo, The Democratic Republic of the",
+      "Tanzania, United Republic of",
+      "Uganda"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/rwanda/index.html",
+    "core_guides": [
+      "article/rwanda-visa-entry-requirements-guide/index.html",
+      "article/rwanda-travel-insurance-health-guide/index.html",
+      "article/rwanda-travel-safety-security-guide/index.html",
+      "article/rwanda-travel-tools-planning-guide/index.html",
+      "article/rwanda-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Rwanda"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "slug": "saint-kitts-and-nevis",
+    "capital": "Basseterre",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1869"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/saint-kitts-and-nevis/index.html",
+    "core_guides": [
+      "article/saint-kitts-and-nevis-visa-entry-requirements-guide/index.html",
+      "article/saint-kitts-and-nevis-travel-insurance-health-guide/index.html",
+      "article/saint-kitts-and-nevis-travel-safety-security-guide/index.html",
+      "article/saint-kitts-and-nevis-travel-tools-planning-guide/index.html",
+      "article/saint-kitts-and-nevis-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Saint%20Kitts%20and%20Nevis"
+  },
+  {
+    "country": "Saint Lucia",
+    "slug": "saint-lucia",
+    "capital": "Castries",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1758"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/saint-lucia/index.html",
+    "core_guides": [
+      "article/saint-lucia-visa-entry-requirements-guide/index.html",
+      "article/saint-lucia-travel-insurance-health-guide/index.html",
+      "article/saint-lucia-travel-safety-security-guide/index.html",
+      "article/saint-lucia-travel-tools-planning-guide/index.html",
+      "article/saint-lucia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Saint%20Lucia"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "slug": "saint-vincent-and-the-grenadines",
+    "capital": "Kingstown",
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1784"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/saint-vincent-and-the-grenadines/index.html",
+    "core_guides": [
+      "article/saint-vincent-and-the-grenadines-visa-entry-requirements-guide/index.html",
+      "article/saint-vincent-and-the-grenadines-travel-insurance-health-guide/index.html",
+      "article/saint-vincent-and-the-grenadines-travel-safety-security-guide/index.html",
+      "article/saint-vincent-and-the-grenadines-travel-tools-planning-guide/index.html",
+      "article/saint-vincent-and-the-grenadines-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Saint%20Vincent%20and%20the%20Grenadines"
+  },
+  {
+    "country": "Samoa",
+    "slug": "samoa",
+    "capital": "Apia",
+    "currencies": [
+      "WST"
+    ],
+    "languages": [
+      "Samoan",
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "calling_codes": [
+      "+685"
+    ],
+    "timezones": [
+      "UTC+13:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/samoa/index.html",
+    "core_guides": [
+      "article/samoa-visa-entry-requirements-guide/index.html",
+      "article/samoa-travel-insurance-health-guide/index.html",
+      "article/samoa-travel-safety-security-guide/index.html",
+      "article/samoa-travel-tools-planning-guide/index.html",
+      "article/samoa-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Samoa"
+  },
+  {
+    "country": "San Marino",
+    "slug": "san-marino",
+    "capital": "City of San Marino",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Italian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+378"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Italy"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/san-marino/index.html",
+    "core_guides": [
+      "article/san-marino-visa-entry-requirements-guide/index.html",
+      "article/san-marino-travel-insurance-health-guide/index.html",
+      "article/san-marino-travel-safety-security-guide/index.html",
+      "article/san-marino-travel-tools-planning-guide/index.html",
+      "article/san-marino-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=San%20Marino"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "slug": "sao-tome-and-principe",
+    "capital": "São Tomé",
+    "currencies": [
+      "STN"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+239"
+    ],
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/sao-tome-and-principe/index.html",
+    "core_guides": [
+      "article/sao-tome-and-principe-visa-entry-requirements-guide/index.html",
+      "article/sao-tome-and-principe-travel-insurance-health-guide/index.html",
+      "article/sao-tome-and-principe-travel-safety-security-guide/index.html",
+      "article/sao-tome-and-principe-travel-tools-planning-guide/index.html",
+      "article/sao-tome-and-principe-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Sao%20Tome%20and%20Principe"
+  },
+  {
+    "country": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "capital": "Riyadh",
+    "currencies": [
+      "SAR"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+966"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Iraq",
+      "Jordan",
+      "Kuwait",
+      "Oman",
+      "Qatar",
+      "United Arab Emirates",
+      "Yemen"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/saudi-arabia/index.html",
+    "core_guides": [
+      "article/saudi-arabia-visa-entry-requirements-guide/index.html",
+      "article/saudi-arabia-travel-insurance-health-guide/index.html",
+      "article/saudi-arabia-travel-safety-security-guide/index.html",
+      "article/saudi-arabia-travel-tools-planning-guide/index.html",
+      "article/saudi-arabia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Saudi%20Arabia"
+  },
+  {
+    "country": "Senegal",
+    "slug": "senegal",
+    "capital": "Dakar",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+221"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Gambia",
+      "Guinea",
+      "Guinea-Bissau",
+      "Mali",
+      "Mauritania"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/senegal/index.html",
+    "core_guides": [
+      "article/senegal-visa-entry-requirements-guide/index.html",
+      "article/senegal-travel-insurance-health-guide/index.html",
+      "article/senegal-travel-safety-security-guide/index.html",
+      "article/senegal-travel-tools-planning-guide/index.html",
+      "article/senegal-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Senegal"
+  },
+  {
+    "country": "Serbia",
+    "slug": "serbia",
+    "capital": "Belgrade",
+    "currencies": [
+      "RSD"
+    ],
+    "languages": [
+      "RS"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+381"
+    ],
+    "timezones": [
+      "UTC+01:00",
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "North Macedonia",
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Montenegro",
+      "Albania",
+      "XKX"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/serbia/index.html",
+    "core_guides": [
+      "article/serbia-visa-entry-requirements-guide/index.html",
+      "article/serbia-travel-insurance-health-guide/index.html",
+      "article/serbia-travel-safety-security-guide/index.html",
+      "article/serbia-travel-tools-planning-guide/index.html",
+      "article/serbia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Serbia"
+  },
+  {
+    "country": "Seychelles",
+    "slug": "seychelles",
+    "capital": "Victoria",
+    "currencies": [
+      "SCR"
+    ],
+    "languages": [
+      "French",
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+248"
+    ],
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/seychelles/index.html",
+    "core_guides": [
+      "article/seychelles-visa-entry-requirements-guide/index.html",
+      "article/seychelles-travel-insurance-health-guide/index.html",
+      "article/seychelles-travel-safety-security-guide/index.html",
+      "article/seychelles-travel-tools-planning-guide/index.html",
+      "article/seychelles-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Seychelles"
+  },
+  {
+    "country": "Sierra Leone",
+    "slug": "sierra-leone",
+    "capital": "Freetown",
+    "currencies": [
+      "SLL"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+232"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Guinea",
+      "Liberia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/sierra-leone/index.html",
+    "core_guides": [
+      "article/sierra-leone-visa-entry-requirements-guide/index.html",
+      "article/sierra-leone-travel-insurance-health-guide/index.html",
+      "article/sierra-leone-travel-safety-security-guide/index.html",
+      "article/sierra-leone-travel-tools-planning-guide/index.html",
+      "article/sierra-leone-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Sierra%20Leone"
+  },
+  {
+    "country": "Singapore",
+    "slug": "singapore",
+    "capital": "Singapore",
+    "currencies": [
+      "SGD"
+    ],
+    "languages": [
+      "English",
+      "Malay (macrolanguage)",
+      "Tamil",
+      "Chinese"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+65"
+    ],
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/singapore/index.html",
+    "core_guides": [
+      "article/singapore-visa-entry-requirements-guide/index.html",
+      "article/singapore-travel-insurance-health-guide/index.html",
+      "article/singapore-travel-safety-security-guide/index.html",
+      "article/singapore-travel-tools-planning-guide/index.html",
+      "article/singapore-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Singapore"
+  },
+  {
+    "country": "Slovakia",
+    "slug": "slovakia",
+    "capital": "Bratislava",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Slovak"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+421"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Czechia",
+      "Hungary",
+      "Poland",
+      "Ukraine"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/slovakia/index.html",
+    "core_guides": [
+      "article/slovakia-visa-entry-requirements-guide/index.html",
+      "article/slovakia-travel-insurance-health-guide/index.html",
+      "article/slovakia-travel-safety-security-guide/index.html",
+      "article/slovakia-travel-tools-planning-guide/index.html",
+      "article/slovakia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Slovakia"
+  },
+  {
+    "country": "Slovenia",
+    "slug": "slovenia",
+    "capital": "Ljubljana",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Slovenian"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+386"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "Croatia",
+      "Italy",
+      "Hungary"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/slovenia/index.html",
+    "core_guides": [
+      "article/slovenia-visa-entry-requirements-guide/index.html",
+      "article/slovenia-travel-insurance-health-guide/index.html",
+      "article/slovenia-travel-safety-security-guide/index.html",
+      "article/slovenia-travel-tools-planning-guide/index.html",
+      "article/slovenia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Slovenia"
+  },
+  {
+    "country": "Solomon Islands",
+    "slug": "solomon-islands",
+    "capital": "Honiara",
+    "currencies": [
+      "SBD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "calling_codes": [
+      "+677"
+    ],
+    "timezones": [
+      "UTC+11:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/solomon-islands/index.html",
+    "core_guides": [
+      "article/solomon-islands-visa-entry-requirements-guide/index.html",
+      "article/solomon-islands-travel-insurance-health-guide/index.html",
+      "article/solomon-islands-travel-safety-security-guide/index.html",
+      "article/solomon-islands-travel-tools-planning-guide/index.html",
+      "article/solomon-islands-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Solomon%20Islands"
+  },
+  {
+    "country": "Somalia",
+    "slug": "somalia",
+    "capital": "Mogadishu",
+    "currencies": [
+      "SOS"
+    ],
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+252"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/somalia/index.html",
+    "core_guides": [
+      "article/somalia-visa-entry-requirements-guide/index.html",
+      "article/somalia-travel-insurance-health-guide/index.html",
+      "article/somalia-travel-safety-security-guide/index.html",
+      "article/somalia-travel-tools-planning-guide/index.html",
+      "article/somalia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Somalia"
+  },
+  {
+    "country": "South Africa",
+    "slug": "south-africa",
+    "capital": "Pretoria",
+    "currencies": [
+      "ZAR"
+    ],
+    "languages": [
+      "Afrikaans",
+      "English",
+      "South Ndebele",
+      "Southern Sotho",
+      "Swati",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "calling_codes": [
+      "+27"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Botswana",
+      "Lesotho",
+      "Mozambique",
+      "Namibia",
+      "Eswatini",
+      "Zimbabwe"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/south-africa/index.html",
+    "core_guides": [
+      "article/south-africa-visa-entry-requirements-guide/index.html",
+      "article/south-africa-travel-insurance-health-guide/index.html",
+      "article/south-africa-travel-safety-security-guide/index.html",
+      "article/south-africa-travel-tools-planning-guide/index.html",
+      "article/south-africa-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=South%20Africa"
+  },
+  {
+    "country": "South Korea",
+    "slug": "south-korea",
+    "capital": "Seoul",
+    "currencies": [
+      "KRW"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "calling_codes": [
+      "+82"
+    ],
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "borders": [
+      "Korea, Democratic People's Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/south-korea/index.html",
+    "core_guides": [
+      "article/south-korea-visa-entry-requirements-guide/index.html",
+      "article/south-korea-travel-insurance-health-guide/index.html",
+      "article/south-korea-travel-safety-security-guide/index.html",
+      "article/south-korea-travel-tools-planning-guide/index.html",
+      "article/south-korea-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=South%20Korea"
+  },
+  {
+    "country": "South Sudan",
+    "slug": "south-sudan",
+    "capital": "Juba",
+    "currencies": [
+      "SSP"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "calling_codes": [
+      "+211"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Central African Republic",
+      "Congo, The Democratic Republic of the",
+      "Ethiopia",
+      "Kenya",
+      "Sudan",
+      "Uganda"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/south-sudan/index.html",
+    "core_guides": [
+      "article/south-sudan-visa-entry-requirements-guide/index.html",
+      "article/south-sudan-travel-insurance-health-guide/index.html",
+      "article/south-sudan-travel-safety-security-guide/index.html",
+      "article/south-sudan-travel-tools-planning-guide/index.html",
+      "article/south-sudan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=South%20Sudan"
+  },
+  {
+    "country": "Spain",
+    "slug": "spain",
+    "capital": "Madrid",
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "calling_codes": [
+      "+34"
+    ],
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Andorra",
+      "France",
+      "Gibraltar",
+      "Portugal",
+      "Morocco"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/spain/index.html",
+    "core_guides": [
+      "article/spain-visa-entry-requirements-guide/index.html",
+      "article/spain-travel-insurance-health-guide/index.html",
+      "article/spain-travel-safety-security-guide/index.html",
+      "article/spain-travel-tools-planning-guide/index.html",
+      "article/spain-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Spain"
+  },
+  {
+    "country": "Sri Lanka",
+    "slug": "sri-lanka",
+    "capital": "Colombo",
+    "currencies": [
+      "LKR"
+    ],
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "calling_codes": [
+      "+94"
+    ],
+    "timezones": [
+      "UTC+05:30"
+    ],
+    "borders": [
+      "India"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/sri-lanka/index.html",
+    "core_guides": [
+      "article/sri-lanka-visa-entry-requirements-guide/index.html",
+      "article/sri-lanka-travel-insurance-health-guide/index.html",
+      "article/sri-lanka-travel-safety-security-guide/index.html",
+      "article/sri-lanka-travel-tools-planning-guide/index.html",
+      "article/sri-lanka-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Sri%20Lanka"
+  },
+  {
+    "country": "Sudan",
+    "slug": "sudan",
+    "capital": "Khartoum",
+    "currencies": [
+      "SDG"
+    ],
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+249"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Egypt",
+      "Eritrea",
+      "Ethiopia",
+      "Libya",
+      "South Sudan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/sudan/index.html",
+    "core_guides": [
+      "article/sudan-visa-entry-requirements-guide/index.html",
+      "article/sudan-travel-insurance-health-guide/index.html",
+      "article/sudan-travel-safety-security-guide/index.html",
+      "article/sudan-travel-tools-planning-guide/index.html",
+      "article/sudan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Sudan"
+  },
+  {
+    "country": "Suriname",
+    "slug": "suriname",
+    "capital": "Paramaribo",
+    "currencies": [
+      "SRD"
+    ],
+    "languages": [
+      "Dutch"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+597"
+    ],
+    "timezones": [
+      "UTC−03:00"
+    ],
+    "borders": [
+      "Brazil",
+      "French Guiana",
+      "France",
+      "Guyana"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/suriname/index.html",
+    "core_guides": [
+      "article/suriname-visa-entry-requirements-guide/index.html",
+      "article/suriname-travel-insurance-health-guide/index.html",
+      "article/suriname-travel-safety-security-guide/index.html",
+      "article/suriname-travel-tools-planning-guide/index.html",
+      "article/suriname-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Suriname"
+  },
+  {
+    "country": "Sweden",
+    "slug": "sweden",
+    "capital": "Stockholm",
+    "currencies": [
+      "SEK"
+    ],
+    "languages": [
+      "Swedish"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+46"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Finland",
+      "Norway"
+    ],
+    "schengen": true,
+    "eu": true,
+    "country_hub": "country/sweden/index.html",
+    "core_guides": [
+      "article/sweden-visa-entry-requirements-guide/index.html",
+      "article/sweden-travel-insurance-health-guide/index.html",
+      "article/sweden-travel-safety-security-guide/index.html",
+      "article/sweden-travel-tools-planning-guide/index.html",
+      "article/sweden-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Sweden"
+  },
+  {
+    "country": "Switzerland",
+    "slug": "switzerland",
+    "capital": "Bern",
+    "currencies": [
+      "CHE",
+      "CHF",
+      "CHW"
+    ],
+    "languages": [
+      "German",
+      "French",
+      "Italian"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "calling_codes": [
+      "+41"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Austria",
+      "France",
+      "Italy",
+      "Liechtenstein",
+      "Germany"
+    ],
+    "schengen": true,
+    "eu": false,
+    "country_hub": "country/switzerland/index.html",
+    "core_guides": [
+      "article/switzerland-visa-entry-requirements-guide/index.html",
+      "article/switzerland-travel-insurance-health-guide/index.html",
+      "article/switzerland-travel-safety-security-guide/index.html",
+      "article/switzerland-travel-tools-planning-guide/index.html",
+      "article/switzerland-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Switzerland"
+  },
+  {
+    "country": "Syria",
+    "slug": "syria",
+    "capital": "Damascus",
+    "currencies": [
+      "SYP"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+963"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Iraq",
+      "Israel",
+      "Jordan",
+      "Lebanon",
+      "Türkiye"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/syria/index.html",
+    "core_guides": [
+      "article/syria-visa-entry-requirements-guide/index.html",
+      "article/syria-travel-insurance-health-guide/index.html",
+      "article/syria-travel-safety-security-guide/index.html",
+      "article/syria-travel-tools-planning-guide/index.html",
+      "article/syria-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Syria"
+  },
+  {
+    "country": "Tajikistan",
+    "slug": "tajikistan",
+    "capital": "Dushanbe",
+    "currencies": [
+      "TJS"
+    ],
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "calling_codes": [
+      "+992"
+    ],
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "borders": [
+      "Afghanistan",
+      "China",
+      "Kyrgyzstan",
+      "Uzbekistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/tajikistan/index.html",
+    "core_guides": [
+      "article/tajikistan-visa-entry-requirements-guide/index.html",
+      "article/tajikistan-travel-insurance-health-guide/index.html",
+      "article/tajikistan-travel-safety-security-guide/index.html",
+      "article/tajikistan-travel-tools-planning-guide/index.html",
+      "article/tajikistan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Tajikistan"
+  },
+  {
+    "country": "Tanzania",
+    "slug": "tanzania",
+    "capital": "Dodoma",
+    "currencies": [
+      "TZS"
+    ],
+    "languages": [
+      "Swahili (macrolanguage)",
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+255"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Burundi",
+      "Congo, The Democratic Republic of the",
+      "Kenya",
+      "Malawi",
+      "Mozambique",
+      "Rwanda",
+      "Uganda",
+      "Zambia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/tanzania/index.html",
+    "core_guides": [
+      "article/tanzania-visa-entry-requirements-guide/index.html",
+      "article/tanzania-travel-insurance-health-guide/index.html",
+      "article/tanzania-travel-safety-security-guide/index.html",
+      "article/tanzania-travel-tools-planning-guide/index.html",
+      "article/tanzania-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Tanzania"
+  },
+  {
+    "country": "Thailand",
+    "slug": "thailand",
+    "capital": "Bangkok",
+    "currencies": [
+      "THB"
+    ],
+    "languages": [
+      "Thai"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+66"
+    ],
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "borders": [
+      "Myanmar",
+      "Cambodia",
+      "Lao People's Democratic Republic",
+      "Malaysia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/thailand/index.html",
+    "core_guides": [
+      "article/thailand-visa-entry-requirements-guide/index.html",
+      "article/thailand-travel-insurance-health-guide/index.html",
+      "article/thailand-travel-safety-security-guide/index.html",
+      "article/thailand-travel-tools-planning-guide/index.html",
+      "article/thailand-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Thailand"
+  },
+  {
+    "country": "Timor-Leste",
+    "slug": "timor-leste",
+    "capital": "Dili",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+670"
+    ],
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "borders": [
+      "Indonesia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/timor-leste/index.html",
+    "core_guides": [
+      "article/timor-leste-visa-entry-requirements-guide/index.html",
+      "article/timor-leste-travel-insurance-health-guide/index.html",
+      "article/timor-leste-travel-safety-security-guide/index.html",
+      "article/timor-leste-travel-tools-planning-guide/index.html",
+      "article/timor-leste-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Timor-Leste"
+  },
+  {
+    "country": "Togo",
+    "slug": "togo",
+    "capital": "Lomé",
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "French"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "calling_codes": [
+      "+228"
+    ],
+    "timezones": [
+      "UTC"
+    ],
+    "borders": [
+      "Benin",
+      "Burkina Faso",
+      "Ghana"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/togo/index.html",
+    "core_guides": [
+      "article/togo-visa-entry-requirements-guide/index.html",
+      "article/togo-travel-insurance-health-guide/index.html",
+      "article/togo-travel-safety-security-guide/index.html",
+      "article/togo-travel-tools-planning-guide/index.html",
+      "article/togo-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Togo"
+  },
+  {
+    "country": "Tonga",
+    "slug": "tonga",
+    "capital": "Nuku'alofa",
+    "currencies": [
+      "TOP"
+    ],
+    "languages": [
+      "English",
+      "Tonga (Tonga Islands)"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "calling_codes": [
+      "+676"
+    ],
+    "timezones": [
+      "UTC+13:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/tonga/index.html",
+    "core_guides": [
+      "article/tonga-visa-entry-requirements-guide/index.html",
+      "article/tonga-travel-insurance-health-guide/index.html",
+      "article/tonga-travel-safety-security-guide/index.html",
+      "article/tonga-travel-tools-planning-guide/index.html",
+      "article/tonga-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Tonga"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "slug": "trinidad-and-tobago",
+    "capital": "Port of Spain",
+    "currencies": [
+      "TTD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "calling_codes": [
+      "+1868"
+    ],
+    "timezones": [
+      "UTC−04:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/trinidad-and-tobago/index.html",
+    "core_guides": [
+      "article/trinidad-and-tobago-visa-entry-requirements-guide/index.html",
+      "article/trinidad-and-tobago-travel-insurance-health-guide/index.html",
+      "article/trinidad-and-tobago-travel-safety-security-guide/index.html",
+      "article/trinidad-and-tobago-travel-tools-planning-guide/index.html",
+      "article/trinidad-and-tobago-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Trinidad%20and%20Tobago"
+  },
+  {
+    "country": "Tunisia",
+    "slug": "tunisia",
+    "capital": "Tunis",
+    "currencies": [
+      "TND"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "calling_codes": [
+      "+216"
+    ],
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "Algeria",
+      "Libya"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/tunisia/index.html",
+    "core_guides": [
+      "article/tunisia-visa-entry-requirements-guide/index.html",
+      "article/tunisia-travel-insurance-health-guide/index.html",
+      "article/tunisia-travel-safety-security-guide/index.html",
+      "article/tunisia-travel-tools-planning-guide/index.html",
+      "article/tunisia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Tunisia"
+  },
+  {
+    "country": "Turkey",
+    "slug": "turkey",
+    "capital": "Ankara",
+    "currencies": [
+      "TRY"
+    ],
+    "languages": [
+      "Turkish"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+90"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Armenia",
+      "Azerbaijan",
+      "Bulgaria",
+      "Georgia",
+      "Greece",
+      "Iran, Islamic Republic of",
+      "Iraq",
+      "Syrian Arab Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/turkey/index.html",
+    "core_guides": [
+      "article/turkey-visa-entry-requirements-guide/index.html",
+      "article/turkey-travel-insurance-health-guide/index.html",
+      "article/turkey-travel-safety-security-guide/index.html",
+      "article/turkey-travel-tools-planning-guide/index.html",
+      "article/turkey-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Turkey"
+  },
+  {
+    "country": "Turkmenistan",
+    "slug": "turkmenistan",
+    "capital": "Ashgabat",
+    "currencies": [
+      "TMT"
+    ],
+    "languages": [
+      "Turkmen",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "calling_codes": [
+      "+993"
+    ],
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "borders": [
+      "Afghanistan",
+      "Iran, Islamic Republic of",
+      "Kazakhstan",
+      "Uzbekistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/turkmenistan/index.html",
+    "core_guides": [
+      "article/turkmenistan-visa-entry-requirements-guide/index.html",
+      "article/turkmenistan-travel-insurance-health-guide/index.html",
+      "article/turkmenistan-travel-safety-security-guide/index.html",
+      "article/turkmenistan-travel-tools-planning-guide/index.html",
+      "article/turkmenistan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Turkmenistan"
+  },
+  {
+    "country": "Tuvalu",
+    "slug": "tuvalu",
+    "capital": "Funafuti",
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "calling_codes": [
+      "+688"
+    ],
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/tuvalu/index.html",
+    "core_guides": [
+      "article/tuvalu-visa-entry-requirements-guide/index.html",
+      "article/tuvalu-travel-insurance-health-guide/index.html",
+      "article/tuvalu-travel-safety-security-guide/index.html",
+      "article/tuvalu-travel-tools-planning-guide/index.html",
+      "article/tuvalu-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Tuvalu"
+  },
+  {
+    "country": "Uganda",
+    "slug": "uganda",
+    "capital": "Kampala",
+    "currencies": [
+      "UGX"
+    ],
+    "languages": [
+      "English",
+      "Swahili (macrolanguage)"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+256"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Congo, The Democratic Republic of the",
+      "Kenya",
+      "Rwanda",
+      "South Sudan",
+      "Tanzania, United Republic of"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/uganda/index.html",
+    "core_guides": [
+      "article/uganda-visa-entry-requirements-guide/index.html",
+      "article/uganda-travel-insurance-health-guide/index.html",
+      "article/uganda-travel-safety-security-guide/index.html",
+      "article/uganda-travel-tools-planning-guide/index.html",
+      "article/uganda-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Uganda"
+  },
+  {
+    "country": "Ukraine",
+    "slug": "ukraine",
+    "capital": "Kiev",
+    "currencies": [
+      "UAH"
+    ],
+    "languages": [
+      "Ukrainian"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "calling_codes": [
+      "+380"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Belarus",
+      "Hungary",
+      "Moldova, Republic of",
+      "Poland",
+      "Romania",
+      "Russian Federation",
+      "Slovakia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/ukraine/index.html",
+    "core_guides": [
+      "article/ukraine-visa-entry-requirements-guide/index.html",
+      "article/ukraine-travel-insurance-health-guide/index.html",
+      "article/ukraine-travel-safety-security-guide/index.html",
+      "article/ukraine-travel-tools-planning-guide/index.html",
+      "article/ukraine-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Ukraine"
+  },
+  {
+    "country": "United Arab Emirates",
+    "slug": "united-arab-emirates",
+    "capital": "Abu Dhabi",
+    "currencies": [
+      "AED"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+971"
+    ],
+    "timezones": [
+      "UTC+04"
+    ],
+    "borders": [
+      "Oman",
+      "Saudi Arabia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/united-arab-emirates/index.html",
+    "core_guides": [
+      "article/united-arab-emirates-visa-entry-requirements-guide/index.html",
+      "article/united-arab-emirates-travel-insurance-health-guide/index.html",
+      "article/united-arab-emirates-travel-safety-security-guide/index.html",
+      "article/united-arab-emirates-travel-tools-planning-guide/index.html",
+      "article/united-arab-emirates-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=United%20Arab%20Emirates"
+  },
+  {
+    "country": "United Kingdom",
+    "slug": "united-kingdom",
+    "capital": "London",
+    "currencies": [
+      "GBP"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "calling_codes": [
+      "+44"
+    ],
+    "timezones": [
+      "UTC−08:00",
+      "UTC−05:00",
+      "UTC−04:00",
+      "UTC−03:00",
+      "UTC−02:00",
+      "UTC",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+06:00"
+    ],
+    "borders": [
+      "Ireland"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/united-kingdom/index.html",
+    "core_guides": [
+      "article/united-kingdom-visa-entry-requirements-guide/index.html",
+      "article/united-kingdom-travel-insurance-health-guide/index.html",
+      "article/united-kingdom-travel-safety-security-guide/index.html",
+      "article/united-kingdom-travel-tools-planning-guide/index.html",
+      "article/united-kingdom-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=United%20Kingdom"
+  },
+  {
+    "country": "United States",
+    "slug": "united-states",
+    "capital": "Washington D.C.",
+    "currencies": [
+      "USD",
+      "USN",
+      "USS"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "calling_codes": [
+      "+1"
+    ],
+    "timezones": [
+      "UTC−12:00",
+      "UTC−11:00",
+      "UTC−10:00",
+      "UTC−09:00",
+      "UTC−08:00",
+      "UTC−07:00",
+      "UTC−06:00",
+      "UTC−05:00",
+      "UTC−04:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ],
+    "borders": [
+      "Canada",
+      "Mexico"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/united-states/index.html",
+    "core_guides": [
+      "article/united-states-visa-entry-requirements-guide/index.html",
+      "article/united-states-travel-insurance-health-guide/index.html",
+      "article/united-states-travel-safety-security-guide/index.html",
+      "article/united-states-travel-tools-planning-guide/index.html",
+      "article/united-states-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=United%20States"
+  },
+  {
+    "country": "Uruguay",
+    "slug": "uruguay",
+    "capital": "Montevideo",
+    "currencies": [
+      "UYI",
+      "UYU"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+598"
+    ],
+    "timezones": [
+      "UTC−03:00"
+    ],
+    "borders": [
+      "Argentina",
+      "Brazil"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/uruguay/index.html",
+    "core_guides": [
+      "article/uruguay-visa-entry-requirements-guide/index.html",
+      "article/uruguay-travel-insurance-health-guide/index.html",
+      "article/uruguay-travel-safety-security-guide/index.html",
+      "article/uruguay-travel-tools-planning-guide/index.html",
+      "article/uruguay-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Uruguay"
+  },
+  {
+    "country": "Uzbekistan",
+    "slug": "uzbekistan",
+    "capital": "Tashkent",
+    "currencies": [
+      "UZS"
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "calling_codes": [
+      "+998"
+    ],
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "borders": [
+      "Afghanistan",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/uzbekistan/index.html",
+    "core_guides": [
+      "article/uzbekistan-visa-entry-requirements-guide/index.html",
+      "article/uzbekistan-travel-insurance-health-guide/index.html",
+      "article/uzbekistan-travel-safety-security-guide/index.html",
+      "article/uzbekistan-travel-tools-planning-guide/index.html",
+      "article/uzbekistan-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Uzbekistan"
+  },
+  {
+    "country": "Vanuatu",
+    "slug": "vanuatu",
+    "capital": "Port Vila",
+    "currencies": [
+      "VUV"
+    ],
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "calling_codes": [
+      "+678"
+    ],
+    "timezones": [
+      "UTC+11:00"
+    ],
+    "borders": [],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/vanuatu/index.html",
+    "core_guides": [
+      "article/vanuatu-visa-entry-requirements-guide/index.html",
+      "article/vanuatu-travel-insurance-health-guide/index.html",
+      "article/vanuatu-travel-safety-security-guide/index.html",
+      "article/vanuatu-travel-tools-planning-guide/index.html",
+      "article/vanuatu-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Vanuatu"
+  },
+  {
+    "country": "Venezuela",
+    "slug": "venezuela",
+    "capital": "Caracas",
+    "currencies": [
+      "VEF"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "calling_codes": [
+      "+58"
+    ],
+    "timezones": [
+      "UTC−04:30"
+    ],
+    "borders": [
+      "Brazil",
+      "Colombia",
+      "Guyana"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/venezuela/index.html",
+    "core_guides": [
+      "article/venezuela-visa-entry-requirements-guide/index.html",
+      "article/venezuela-travel-insurance-health-guide/index.html",
+      "article/venezuela-travel-safety-security-guide/index.html",
+      "article/venezuela-travel-tools-planning-guide/index.html",
+      "article/venezuela-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Venezuela"
+  },
+  {
+    "country": "Vietnam",
+    "slug": "vietnam",
+    "capital": "Hanoi",
+    "currencies": [
+      "VND"
+    ],
+    "languages": [
+      "Vietnamese"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "calling_codes": [
+      "+84"
+    ],
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "borders": [
+      "Cambodia",
+      "China",
+      "Lao People's Democratic Republic"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/vietnam/index.html",
+    "core_guides": [
+      "article/vietnam-visa-entry-requirements-guide/index.html",
+      "article/vietnam-travel-insurance-health-guide/index.html",
+      "article/vietnam-travel-safety-security-guide/index.html",
+      "article/vietnam-travel-tools-planning-guide/index.html",
+      "article/vietnam-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Vietnam"
+  },
+  {
+    "country": "Yemen",
+    "slug": "yemen",
+    "capital": "Sana'a",
+    "currencies": [
+      "YER"
+    ],
+    "languages": [
+      "Arabic"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "calling_codes": [
+      "+967"
+    ],
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "borders": [
+      "Oman",
+      "Saudi Arabia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/yemen/index.html",
+    "core_guides": [
+      "article/yemen-visa-entry-requirements-guide/index.html",
+      "article/yemen-travel-insurance-health-guide/index.html",
+      "article/yemen-travel-safety-security-guide/index.html",
+      "article/yemen-travel-tools-planning-guide/index.html",
+      "article/yemen-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Yemen"
+  },
+  {
+    "country": "Zambia",
+    "slug": "zambia",
+    "capital": "Lusaka",
+    "currencies": [
+      "ZMK"
+    ],
+    "languages": [
+      "English"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+260"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Angola",
+      "Botswana",
+      "Congo, The Democratic Republic of the",
+      "Malawi",
+      "Mozambique",
+      "Namibia",
+      "Tanzania, United Republic of",
+      "Zimbabwe"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/zambia/index.html",
+    "core_guides": [
+      "article/zambia-visa-entry-requirements-guide/index.html",
+      "article/zambia-travel-insurance-health-guide/index.html",
+      "article/zambia-travel-safety-security-guide/index.html",
+      "article/zambia-travel-tools-planning-guide/index.html",
+      "article/zambia-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Zambia"
+  },
+  {
+    "country": "Zimbabwe",
+    "slug": "zimbabwe",
+    "capital": "Harare",
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "English",
+      "Shona",
+      "North Ndebele"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "calling_codes": [
+      "+263"
+    ],
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [
+      "Botswana",
+      "Mozambique",
+      "South Africa",
+      "Zambia"
+    ],
+    "schengen": false,
+    "eu": false,
+    "country_hub": "country/zimbabwe/index.html",
+    "core_guides": [
+      "article/zimbabwe-visa-entry-requirements-guide/index.html",
+      "article/zimbabwe-travel-insurance-health-guide/index.html",
+      "article/zimbabwe-travel-safety-security-guide/index.html",
+      "article/zimbabwe-travel-tools-planning-guide/index.html",
+      "article/zimbabwe-complete-country-travel-guide/index.html"
+    ],
+    "live_tools": "country-tools/index.html?country=Zimbabwe"
+  }
+]

@@ -1,0 +1,21 @@
+CountryPilot image refresh report
+================================
+Date: 2026-10-05
+
+What was changed
+----------------
+1. Replaced repeated article/category visuals with article-specific generated artwork.
+2. Created 1,775 unique SVG cover images under /images/generated/.
+3. Updated homepage, country pages, category pages, article pages and related-article cards to use the new visuals.
+4. Preserved the CountryPilot brand style while making each guide visually distinct.
+5. Kept all existing article URLs and page structure intact.
+
+Result
+------
+- Category pages no longer reuse the same small set of stock article images again and again.
+- Homepage destination cards now use country-specific guide artwork.
+- Related article blocks on article pages are visually more varied.
+
+Technical note
+--------------
+The new images are lightweight SVG assets so they stay sharp, load quickly and can scale cleanly on desktop and mobile.

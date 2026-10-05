@@ -1,0 +1,30 @@
+{
+  "html_files": 2003,
+  "html_files_with_img_updates": 1991,
+  "image_refs": 10870,
+  "unique_image_refs": [
+    "${x.image}",
+    "../../images/banking-finance.webp",
+    "../../images/country-guides.webp",
+    "../../images/digital-nomad-legal.webp",
+    "../../images/jobs-work-permits.webp",
+    "../../images/relocation-accommodation.webp",
+    "../../images/study-abroad-education.webp",
+    "../../images/travel-insurance-health.webp",
+    "../../images/travel-safety-security.webp",
+    "../../images/travel-tools-planning.webp",
+    "../../images/visas-immigration.webp",
+    "images/country-guides.webp",
+    "images/jobs-work-permits.webp",
+    "images/relocation-accommodation.webp",
+    "images/study-abroad-education.webp",
+    "images/visas-immigration.webp"
+  ],
+  "broken_img_refs": [
+    [
+      "search/index.html",
+      "${x.image}"
+    ]
+  ],
+  "broken_count": 1
+}
