@@ -1,0 +1,64 @@
+/* CountryPilot AI country image presentation */
+.country-card.ai-country-photo{
+  position:relative!important;
+  overflow:hidden!important;
+  min-height:240px!important;
+  border:0!important;
+  padding:0!important;
+  display:flex!important;
+  align-items:flex-end!important;
+  background-size:cover!important;
+  background-position:center!important;
+  background-repeat:no-repeat!important;
+  color:#fff!important;
+  isolation:isolate;
+}
+.country-card.ai-country-photo:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background:linear-gradient(0deg,rgba(8,26,43,.92) 0%,rgba(8,26,43,.58) 38%,rgba(8,26,43,.08) 78%);
+}
+.country-card.ai-country-photo>div{
+  position:relative!important;
+  z-index:1!important;
+  width:100%!important;
+  padding:22px!important;
+}
+.country-card.ai-country-photo .eyebrow{color:#f2cf8a!important}
+.country-card.ai-country-photo h3{color:#fff!important}
+.country-card.ai-country-photo p,
+.country-card.ai-country-photo .country-meta-line{color:#e7eef4!important}
+.country-card.ai-country-photo:hover{transform:translateY(-3px);box-shadow:0 18px 45px rgba(10,35,58,.18)}
+
+.archive-hero.has-country-image{
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate;
+  background-image:
+    linear-gradient(90deg,rgba(9,28,47,.94) 0%,rgba(9,28,47,.83) 42%,rgba(9,28,47,.48) 72%,rgba(9,28,47,.30) 100%),
+    var(--country-image)!important;
+  background-size:cover!important;
+  background-position:center!important;
+  background-repeat:no-repeat!important;
+}
+.archive-hero.has-country-image:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(180deg,rgba(0,0,0,.03),rgba(0,0,0,.12));
+}
+.archive-hero.has-country-image .container{position:relative;z-index:1}
+.archive-hero.has-country-image h1{color:#fff!important}
+.archive-hero.has-country-image p{color:#e6eef4!important}
+.archive-hero.has-country-image .eyebrow{color:#f2cf8a!important}
+
+@media(max-width:700px){
+  .country-card.ai-country-photo{min-height:205px!important}
+  .country-card.ai-country-photo>div{padding:18px!important}
+  .archive-hero.has-country-image{
+    background-position:center!important;
+  }
+}
