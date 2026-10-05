@@ -1,0 +1,8 @@
+{
+  "name": "countrypilot-static",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "python3 scripts/inject-article-layout-fix.py"
+  }
+}
