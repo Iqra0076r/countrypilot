@@ -5,3 +5,5 @@
 .github/**
 *.zip
 *.zip.part-*
+
+# clean-build-trigger
