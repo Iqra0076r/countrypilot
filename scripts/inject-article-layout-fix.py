@@ -14,7 +14,8 @@ COUNTRY_STYLE_TAG = '<link rel="stylesheet" href="/assets/country-ai-images.css?
 COUNTRY_STYLE_MARKER = "/assets/country-ai-images.css"
 
 CARD_IMAGE_BASE = "/images/generated-cards/"
-COUNTRY_IMAGE_BASE = "/images/generated-countries/"
+COUNTRY_AI_IMAGE_BASE = "/images/generated-countries/"
+COUNTRY_FALLBACK_IMAGE_BASE = "/images/generated/"
 
 COUNTRY_IMAGES = {
     "france": "france.webp",
@@ -95,13 +96,27 @@ def replace_card_image(card_html: str) -> str:
     return re.sub(r'<img\b[^>]*>', repl, card_html, count=1, flags=re.I)
 
 def country_slug_from_card(card_html: str):
-    data = re.search(r'\bdata-country=["\']([^"\']+)["\']', card_html, flags=re.I)
-    if data:
-        return data.group(1).strip().lower().replace(" ", "-")
+    # Prefer the URL slug because it is canonical and ASCII-safe.
     href = re.search(r'\bhref=["\'][^"\']*country/([^/"\']+)/index\.html["\']', card_html, flags=re.I)
     if href:
         return href.group(1).strip().lower()
+    data = re.search(r'\bdata-country=["\']([^"\']+)["\']', card_html, flags=re.I)
+    if data:
+        value = data.group(1).strip().lower()
+        value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+        return value
     return None
+
+def country_image_for_slug(slug: str):
+    if not slug:
+        return None
+    filename = COUNTRY_IMAGES.get(slug)
+    if filename:
+        return COUNTRY_AI_IMAGE_BASE + filename
+    # CountryPilot already has a dedicated complete-guide graphic for every
+    # country desk. Use it for all remaining countries so every destination
+    # receives relevant, correctly matched artwork.
+    return COUNTRY_FALLBACK_IMAGE_BASE + slug + "-complete-country-travel-guide.svg"
 
 def add_class_to_opening_tag(tag: str, class_name: str) -> str:
     m = re.search(r'\bclass=["\']([^"\']*)["\']', tag, flags=re.I)
@@ -123,11 +138,9 @@ def add_style_to_opening_tag(tag: str, style_value: str) -> str:
 
 def apply_country_card_image(card_html: str) -> str:
     slug = country_slug_from_card(card_html)
-    filename = COUNTRY_IMAGES.get(slug or "")
-    if not filename:
+    image = country_image_for_slug(slug or "")
+    if not image:
         return card_html
-
-    image = COUNTRY_IMAGE_BASE + filename
 
     # Existing photo cards already have an image element: replace that image.
     if re.search(r'<img\b', card_html, flags=re.I):
@@ -156,10 +169,9 @@ def apply_country_page_hero(text: str, path: Path):
     if len(parts) < 3 or parts[0] != "country" or parts[-1] != "index.html":
         return text
     slug = parts[1].lower()
-    filename = COUNTRY_IMAGES.get(slug)
-    if not filename:
+    image = country_image_for_slug(slug)
+    if not image:
         return text
-    image = COUNTRY_IMAGE_BASE + filename
     m = re.search(r'<section\b[^>]*class=["\'][^"\']*\barchive-hero\b[^"\']*["\'][^>]*>', text, flags=re.I)
     if not m:
         return text
