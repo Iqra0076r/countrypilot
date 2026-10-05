@@ -1,0 +1,142 @@
+/* CountryPilot homepage flow fix — 2026-10-06
+   Prevent Latest Guides cards from inheriting 100% height and escaping normal flow. */
+
+.latest-column,
+.latest-feed,
+.blog-layout{
+  min-height:0!important;
+  height:auto!important;
+}
+
+.latest-column,
+.latest-feed{
+  overflow:visible!important;
+}
+
+.latest-feed .editorial-card{
+  min-height:0!important;
+  height:auto!important;
+  max-height:none!important;
+  position:relative!important;
+  inset:auto!important;
+  transform:none!important;
+  float:none!important;
+  clear:both!important;
+  align-self:auto!important;
+  margin:0 0 22px!important;
+  padding:0 0 22px!important;
+}
+
+.latest-feed .editorial-card .card-image{
+  min-height:0!important;
+  max-height:none!important;
+}
+
+.topic-section,
+.cp-regions,
+main>.container.section,
+.editorial-footer{
+  position:relative!important;
+  clear:both!important;
+}
+
+.editorial-footer{
+  z-index:1!important;
+}
+
+/* Mobile: compact editorial list, no tall image blocks or inherited heights */
+@media(max-width:700px){
+  .blog-layout{
+    display:block!important;
+    min-height:0!important;
+    height:auto!important;
+  }
+
+  .latest-column{
+    display:block!important;
+    width:100%!important;
+    min-height:0!important;
+    height:auto!important;
+  }
+
+  .latest-feed{
+    display:block!important;
+    width:100%!important;
+    min-height:0!important;
+    height:auto!important;
+  }
+
+  .latest-feed .editorial-card{
+    display:grid!important;
+    grid-template-columns:118px minmax(0,1fr)!important;
+    gap:14px!important;
+    width:100%!important;
+    min-width:0!important;
+    min-height:0!important;
+    height:auto!important;
+    margin:0!important;
+    padding:14px 0!important;
+    border-bottom:1px solid var(--cp-line,#d8e2ec)!important;
+    background:transparent!important;
+  }
+
+  .latest-feed .editorial-card .card-image{
+    width:118px!important;
+    height:86px!important;
+    min-height:86px!important;
+    max-height:86px!important;
+    padding:0!important;
+    margin:0!important;
+    border-radius:10px!important;
+    overflow:hidden!important;
+  }
+
+  .latest-feed .editorial-card .card-copy{
+    min-width:0!important;
+    padding:0!important;
+    margin:0!important;
+  }
+
+  .latest-feed .card-copy .eyebrow{
+    font-size:9px!important;
+    line-height:1.25!important;
+    margin-bottom:4px!important;
+  }
+
+  .latest-feed .card-copy h3{
+    margin:0 0 5px!important;
+    font-size:16px!important;
+    line-height:1.2!important;
+  }
+
+  .latest-feed .card-copy p{
+    display:none!important;
+  }
+
+  .latest-feed .card-meta{
+    font-size:9px!important;
+    gap:7px!important;
+  }
+
+  .topic-section{
+    margin-top:0!important;
+  }
+}
+
+@media(max-width:430px){
+  .latest-feed .editorial-card{
+    grid-template-columns:102px minmax(0,1fr)!important;
+    gap:12px!important;
+  }
+
+  .latest-feed .editorial-card .card-image{
+    width:102px!important;
+    height:76px!important;
+    min-height:76px!important;
+    max-height:76px!important;
+  }
+
+  .latest-feed .card-copy h3{
+    font-size:15px!important;
+  }
+}
