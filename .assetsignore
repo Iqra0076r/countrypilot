@@ -3,7 +3,17 @@
 .git/**
 .github/
 .github/**
+.wrangler/
+.wrangler/**
+node_modules/
+node_modules/**
+scripts/
+scripts/**
+package.json
+package-lock.json
+bun.lock
+wrangler.jsonc
+.gitignore
+npm-debug.log*
 *.zip
 *.zip.part-*
-
-# clean-build-trigger
