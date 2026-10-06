@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<title>International Money Transfer Fee Calculator | CountryPilot</title>
+<meta name="description" content="Estimate international money transfer costs from fixed fees, exchange-rate markup and recipient deductions using your own exchange rate.">
+<link rel="canonical" href="https://countrypilot.info/country-tools/money-transfer-fee-calculator/">
+<link rel="icon" href="/images/countrypilot-mark.svg">
+<style>
+:root{--navy:#0d2740;--blue:#0b67b2;--sky:#eef7ff;--ink:#142536;--muted:#657586;--line:#d9e4ed;--orange:#ef7b2d;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#f7fbff;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 28px));margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.bar{height:64px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;letter-spacing:.02em;font-size:23px;color:var(--navy)}nav{display:flex;gap:18px;font-size:14px;font-weight:700;color:#37536b}
+.hero{padding:64px 0 38px;background:linear-gradient(135deg,#eaf5ff,#fff 55%,#fff4ea)}.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:900}h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:10px 0 16px;color:var(--navy)}.lead{font-size:18px;color:#536b7e;max-width:800px}
+.tool{padding:36px 0 70px}.panel{padding:24px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 35px rgba(13,39,64,.06);margin-bottom:18px}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.field label{display:block;font-size:12px;font-weight:900;letter-spacing:.04em;margin:0 0 6px;color:#496277}.field input{width:100%;min-height:46px;border:1px solid #cfdce6;border-radius:10px;padding:10px 12px;background:#fff;font-size:15px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{border:0;border-radius:10px;padding:12px 17px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,var(--blue),#1382d1);color:#fff}.result{margin-top:22px;padding:20px;border-radius:14px;background:#f3f9ff;border:1px solid #d7eafa}.result[hidden]{display:none}.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.metric-card{padding:14px;background:#fff;border:1px solid #dce9f3;border-radius:12px}.metric-card span{display:block;color:var(--muted);font-size:12px;font-weight:800}.metric-card b{display:block;color:var(--navy);font-size:25px;margin-top:3px}.note{margin-top:18px;padding:16px 18px;border-left:4px solid var(--orange);background:#fff8f2;color:#5c5047}.panel h2{color:var(--navy);margin:1.4em 0 .45em}.panel h2:first-child{margin-top:0}.panel p{margin:0 0 1em}.panel ul{padding-left:20px}.panel a{color:var(--blue);font-weight:750}footer{border-top:1px solid var(--line);background:#fff;padding:28px 0;color:#667989;font-size:13px}.footer-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:8px}
+@media(max-width:760px){nav{display:none}.form-grid,.metrics{grid-template-columns:1fr}.hero{padding-top:42px}.panel{padding:18px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"International Money Transfer Fee Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"url":"https://countrypilot.info/country-tools/money-transfer-fee-calculator/"}</script>
+</head><body>
+<header><div class="wrap bar"><a class="brand" href="/">COUNTRYPILOT</a><nav><a href="/country-tools/">Tools</a><a href="/category/money-transfer/">Money Transfer</a><a href="/category/banking/">Banking</a><a href="/moving-abroad/">Moving Abroad</a><a href="/countries/">Countries</a></nav></div></header>
+<section class="hero"><div class="wrap"><div class="kicker">Money transfer planning tool</div><h1>International Money Transfer Fee Calculator</h1><p class="lead">Estimate how fixed fees, exchange-rate markup and recipient deductions can affect an international transfer. Enter your own exchange rate—this tool does not use or claim to provide live FX quotes.</p></div></section>
+<main class="wrap tool"><div class="panel">
+<div class="form-grid">
+<div class="field"><label>Amount to convert (sender currency)</label><input id="amount" type="number" min="0" step="0.01" value="1000"></div>
+<div class="field"><label>Reference exchange rate (recipient units per 1 sender unit)</label><input id="rate" type="number" min="0" step="0.000001" value="1.25"></div>
+<div class="field"><label>Fixed transfer fee (sender currency)</label><input id="fixed" type="number" min="0" step="0.01" value="5"></div>
+<div class="field"><label>Exchange-rate markup (%)</label><input id="markup" type="number" min="0" step="0.01" value="2"></div>
+<div class="field"><label>Recipient / intermediary deductions (recipient currency)</label><input id="recipientFee" type="number" min="0" step="0.01" value="0"></div>
+</div>
+<div class="actions"><button class="btn" id="calc">Calculate transfer cost</button></div>
+<div class="result" id="result" hidden><div class="metrics">
+<div class="metric-card"><span>Estimated recipient amount</span><b id="received"></b></div>
+<div class="metric-card"><span>Total sender cash outlay</span><b id="outlay"></b></div>
+<div class="metric-card"><span>Estimated effective cost</span><b id="cost"></b></div>
+<div class="metric-card"><span>Effective cost percentage</span><b id="costPct"></b></div>
+</div><p id="detail" style="margin:14px 0 0"></p></div>
+<div class="note"><b>Planning aid only:</b> providers may calculate fees differently, rates change constantly, intermediary banks can deduct charges and the recipient bank may impose its own fee. Compare providers at the same moment using the same send amount and destination.</div>
+</div>
+<section class="panel"><h2>Why the advertised fee is not the whole transfer cost</h2>
+<p>An international transfer can have several price components. A provider may charge a visible fixed fee, build a margin into the exchange rate, route the payment through intermediary banks or deliver funds to a recipient account that charges an incoming-transfer fee. A “zero fee” transfer can therefore still cost more than another service if the exchange rate is less favourable.</p>
+<h2>Compare how much the recipient actually gets</h2><p>The cleanest comparison is to use the same amount, currencies and timing, then compare the final recipient amount. The calculator starts from a reference exchange rate you provide and reduces it by the markup you enter. It then subtracts recipient-side deductions separately.</p>
+<h2>What is exchange-rate markup?</h2><p>The markup is the gap between your reference market rate and the rate applied to the transfer. For example, a 2% markup means the conversion rate used by the provider is approximately 2% less favourable than the reference rate. The real pricing method can vary, so use the provider's displayed send and receive figures when available.</p>
+<h2>Do not forget compliance and transfer limits</h2><p>Large or unusual transfers can require identity, source-of-funds or purpose-of-payment checks. Delivery time, transfer limits, supported currencies, refund rules and customer support can matter as much as the headline price, especially for tuition, deposits or relocation payments.</p>
+<p>Continue with <a href="/category/money-transfer/">CountryPilot international money transfer guides</a>, <a href="/category/banking/">banking abroad guides</a>, the <a href="/country-tools/relocation-budget-calculator/">relocation budget calculator</a> and our <a href="/moving-abroad/">moving abroad planning hub</a>.</p></section>
+</main>
+<script>
+const n=id=>Number(document.getElementById(id).value)||0;
+calc.onclick=()=>{
+ const amount=n("amount"),rate=n("rate"),fixed=n("fixed"),markup=n("markup"),recipientFee=n("recipientFee");
+ if(amount<=0||rate<=0){alert("Enter an amount and exchange rate greater than zero.");return}
+ const adjustedRate=rate*(1-markup/100);
+ const idealRecipient=amount*rate;
+ const receivedAmount=Math.max(0,amount*adjustedRate-recipientFee);
+ const senderOutlay=amount+fixed;
+ const fxAndRecipientLoss=(idealRecipient-receivedAmount)/rate;
+ const effectiveCost=fixed+fxAndRecipientLoss;
+ const pct=senderOutlay>0?effectiveCost/senderOutlay*100:0;
+ received.textContent=receivedAmount.toLocaleString(undefined,{maximumFractionDigits:2});
+ outlay.textContent=senderOutlay.toLocaleString(undefined,{maximumFractionDigits:2});
+ cost.textContent=effectiveCost.toLocaleString(undefined,{maximumFractionDigits:2});
+ costPct.textContent=pct.toLocaleString(undefined,{maximumFractionDigits:2})+"%";
+ detail.textContent="Reference rate: "+rate.toLocaleString()+" · Estimated applied rate after markup: "+adjustedRate.toLocaleString(undefined,{maximumFractionDigits:6})+" · Ideal recipient amount at reference rate: "+idealRecipient.toLocaleString(undefined,{maximumFractionDigits:2});
+ result.hidden=false;
+};
+</script>
+<footer><div class="wrap">CountryPilot tools are planning aids and do not provide financial advice or live exchange-rate quotes.<div class="footer-links"><a href="/about/">About</a><a href="/editorial-policy/">Editorial Policy</a><a href="/sources-policy/">Sources Policy</a><a href="/privacy/">Privacy</a><a href="/contact/">Contact</a></div></div></footer></body></html>
