@@ -124,6 +124,34 @@ def inject_revenue_tool_callout(text: str, path: Path) -> str:
             'to estimate a personal financial buffer, then verify the official minimum for your exact route.</div>'
         )
     elif any(term in slug for term in (
+        "visa-document-checklist", "document-checklist", "embassy-appointment",
+        "consular-appointment", "visa-interview"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Build your preparation list:</strong> '
+            'Use the <a href="/country-tools/visa-document-checklist/">Visa Document Checklist Builder</a> '
+            'to organise common documents before verifying the exact official requirements for your route.</div>'
+        )
+    elif any(term in slug for term in (
+        "rental-deposit", "accommodation-before-arrival", "finding-accommodation",
+        "short-term-versus-long-term-housing", "short-term-vs-long-term-housing",
+        "cost-of-living", "relocation-cost", "moving-cost"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Plan the move:</strong> '
+            'Use the <a href="/country-tools/relocation-budget-calculator/">Relocation Budget Calculator</a> '
+            'to estimate deposits, advance rent, flights, setup costs and an emergency reserve.</div>'
+        )
+    elif any(term in slug for term in (
+        "student-cost-of-living", "study-abroad-cost", "tuition-cost",
+        "student-budget", "education-cost", "study-budget"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Estimate your first year:</strong> '
+            'Use the <a href="/country-tools/study-abroad-budget-calculator/">Study Abroad Budget Calculator</a> '
+            'to combine tuition, rent, food, transport, insurance and one-off setup costs.</div>'
+        )
+    elif any(term in slug for term in (
         "travel-insurance-for-students", "comparing-student-insurance",
         "student-health-insurance", "student-insurance"
     )):
