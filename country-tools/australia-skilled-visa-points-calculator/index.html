@@ -1,5 +1,6 @@
 <!doctype html><html lang="en"><head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous">document.getElementById('reviewReady').addEventListener('click',function(){var a=Array.from(document.querySelectorAll('.ready-check'));var d=a.filter(function(x){return x.checked}).length;document.getElementById('readyStatus').textContent=d+' of '+a.length+' evidence checks complete';document.getElementById('readyResult').hidden=false;});
+</script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <title>Australia Skilled Visa Points Calculator | CountryPilot</title>
@@ -42,7 +43,20 @@ main{padding:28px 0 65px}.panel{background:#fff;border:1px solid var(--line);bor
 <button class="btn" type="submit">Calculate indicative points</button></form>
 <div id="result" class="result" hidden aria-live="polite"><div class="score"><span id="total">0</span> points</div><p class="status" id="status"></p><div class="breakdown" id="breakdown"></div><p id="note" class="small"></p></div>
 </section>
-<section class="panel"><h2>What the score means</h2><p>The Department of Home Affairs states that subclass 189, 190 and 491 are points-tested visas and that the threshold for an Expression of Interest is 65. Reaching the threshold is <strong>not a guarantee of invitation</strong>; other visa and occupation requirements apply, and actual invitation scores can be higher.</p>
+<section class="panel"><h2>Evidence-readiness checklist</h2><p>Before relying on an indicative score, make sure every points claim can be supported. This checklist does not add points; it helps you identify where evidence or official verification is still missing.</p>
+<div class="grid">
+<label class="check"><input class="ready-check" type="checkbox"> Nominated occupation and current skilled occupation list checked</label>
+<label class="check"><input class="ready-check" type="checkbox"> Skills assessment authority, outcome and validity checked</label>
+<label class="check"><input class="ready-check" type="checkbox"> English test type, score and validity checked</label>
+<label class="check"><input class="ready-check" type="checkbox"> Employment claims supported by duties, dates, hours and pay evidence</label>
+<label class="check"><input class="ready-check" type="checkbox"> Qualification recognition and any bonus-point claim checked</label>
+<label class="check"><input class="ready-check" type="checkbox"> Partner/single-status claim and evidence checked</label>
+<label class="check"><input class="ready-check" type="checkbox"> State nomination or regional sponsorship conditions checked if relevant</label>
+<label class="check"><input class="ready-check" type="checkbox"> Official Home Affairs calculator checked against this indicative result</label>
+</div>
+<div class="result" id="readyResult" hidden><div class="status" id="readyStatus"></div><p class="small">Completing every item improves preparation only. It does not confirm visa eligibility, an invitation, or a visa grant.</p></div>
+<button class="btn" type="button" id="reviewReady" style="margin-top:14px">Review evidence readiness</button>
+</section><section class="panel"><h2>What the score means</h2><p>The Department of Home Affairs states that subclass 189, 190 and 491 are points-tested visas and that the threshold for an Expression of Interest is 65. Reaching the threshold is <strong>not a guarantee of invitation</strong>; other visa and occupation requirements apply, and actual invitation scores can be higher.</p>
 <table><thead><tr><th>Route</th><th>Distinct requirement</th><th>Nomination points</th></tr></thead><tbody><tr><td>189</td><td>Skilled Independent—no state nomination points</td><td>0</td></tr><tr><td>190</td><td>Skilled Nominated—qualifying state or territory nomination</td><td>+5 if confirmed</td></tr><tr><td>491</td><td>Skilled Work Regional—qualifying state/territory nomination or eligible family sponsorship</td><td>+15 if confirmed</td></tr></tbody></table>
 <p>These are <strong>not</strong> the same as employer-sponsored subclasses 482, 186 and 494. To compare those different pathways, use the <a href="/country-tools/australia-sponsored-visa-pathway-comparison/"><strong>Employer-Sponsored Visa Comparison Tool</strong></a>.</p>
 <h2>Official sources and methodology</h2><p>Point values use the published Home Affairs 189, 190 and 491 points tables. The tool awards only the chosen values and applies the maximum 20 employment-points cap. It does not validate occupation eligibility, salary, assessments, English test validity, partner evidence, or any other immigration requirement. No data is transmitted or stored.</p>
