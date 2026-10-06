@@ -1,0 +1,22 @@
+{
+  "html_files": 2016,
+  "changed_files": 0,
+  "html_bytes_before": 78837436,
+  "html_bytes_after": 78837436,
+  "inline_css_bytes_removed": 0,
+  "search_embedded_bytes_removed": 0,
+  "legacy_ids_replaced": 0,
+  "duplicate_footer_links_fixed": 0,
+  "most_read_labels_fixed": 0,
+  "region_images_removed": 0,
+  "html_mb_before": 75.19,
+  "html_mb_after": 75.19,
+  "html_mb_saved": 0.0,
+  "core_css_bytes": 72915,
+  "premium_css_bytes": 14448,
+  "notes": [
+    "No article body copy, schema, canonicals, AdSense loader, sitemap or robots directives are rewritten.",
+    "The 5.4 MB legacy hero is no longer the computed homepage hero background; a much smaller existing WebP is used.",
+    "Search data is loaded from /data/content-index.json instead of embedding ~1 MB of JSON in search/index.html."
+  ]
+}
