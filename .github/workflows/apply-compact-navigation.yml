@@ -1,0 +1,40 @@
+name: Apply compact navigation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/compact_navigation.py"
+      - ".github/workflows/apply-compact-navigation.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  compact-nav:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply compact navigation
+        run: python3 scripts/compact_navigation.py
+      - name: Validate navigation
+        run: |
+          grep -q 'class="nav-more"' index.html
+          grep -q 'class="mobile-nav-grid"' index.html
+          grep -q 'countrypilot-premium.css?v=20261006-nav2' index.html
+          python3 scripts/validate_site_quality.py
+      - name: Commit generated navigation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No navigation changes."
+          else
+            git commit -m "Apply compact professional navigation site-wide [skip ci]"
+            git push origin HEAD:main
+          fi
