@@ -124,6 +124,15 @@ def inject_revenue_tool_callout(text: str, path: Path) -> str:
             'to estimate a personal financial buffer, then verify the official minimum for your exact route.</div>'
         )
     elif any(term in slug for term in (
+        "travel-insurance-for-students", "comparing-student-insurance",
+        "student-health-insurance", "student-insurance"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Compare student insurance costs:</strong> '
+            'Use the <a href="/country-tools/student-insurance-cost-calculator/">International Student Insurance Cost Calculator</a> '
+            'to compare premiums, deductibles and expected out-of-pocket costs before checking policy benefits and official requirements.</div>'
+        )
+    elif any(term in slug for term in (
         "international-remittance", "student-money-transfers", "transfer-fees",
         "exchange-rates", "bank-wire", "fintech-transfer", "moving-savings",
         "transfer-speed", "transfer-limits", "remittance-scams"
