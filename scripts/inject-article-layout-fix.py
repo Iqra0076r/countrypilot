@@ -91,7 +91,7 @@ NEXT_BATCH_SEO = {
     ),
     "united-states-student-health-insurance-guide": (
         "US Student Health Insurance 2026 | CountryPilot",
-        "US student health insurance guide covering university requirements, premiums, deductibles, networks, exclusions and comparison checks for international students.",
+        "Compare US student health insurance using school requirements, waiver deadlines, provider networks and total costs, with separate J-1 insurance guidance.",
         "US Student Health Insurance",
     ),
     "united-states-expat-medical-insurance-basics": (
@@ -142,7 +142,7 @@ NEXT_BATCH_SEO = {
     ),
     "united-kingdom-opening-a-bank-account": (
         "UK Bank Account for Expats & Students | CountryPilot",
-        "UK bank account guide for international students and expats covering identity checks, address evidence, fees, account features and practical comparison steps.",
+        "A practical UK bank account guide for newcomers and students: accepted documents, address alternatives, application questions and account comparison.",
         "UK Bank Account Guide",
     ),
     "united-kingdom-travel-insurance-for-students": (
@@ -203,7 +203,7 @@ NEXT_BATCH_SEO = {
     ),
     "canada-expat-banking-guide": (
         "Canada Expat Banking Guide 2026 | CountryPilot",
-        "Canada expat banking guide covering account opening, identity and address checks, fees, cards, transfers and practical comparison questions.",
+        "Open a Canadian bank account as a newcomer: identity documents, account costs, a first-year fee example and what to ask if an application is refused.",
         "Canada Expat Banking",
     ),
     "canada-fully-funded-scholarships": (
@@ -244,7 +244,7 @@ NEXT_BATCH_SEO = {
     ),
     "australia-student-money-transfers": (
         "Australia Student Money Transfer Guide 2026 | CountryPilot",
-        "Australia student money transfer guide covering fees, FX markup, transfer speed, bank and fintech options, limits and scam checks.",
+        "Compare student transfers to and from Australia using fees, exchange rates, recipient amounts and tuition-payment checks, with a worked example.",
         "Australia Student Money Transfers",
     ),
     "australia-insurance-claim-preparation": (
