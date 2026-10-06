@@ -224,6 +224,17 @@ for path in Path(".").rglob("*.html"):
 
     changed = False
 
+    # Repair CountryPilot Organization structured data by supplying a publisher logo.
+    # This helps BlogPosting / CollectionPage schema validate consistently site-wide.
+    repaired_text = re.sub(
+        r'"@type"\s*:\s*"Organization"\s*,\s*"name"\s*:\s*"CountryPilot"(?!\s*,\s*"logo")',
+        '"@type":"Organization","name":"CountryPilot","logo":{"@type":"ImageObject","url":"https://countrypilot.info/images/countrypilot-mark.svg"}',
+        text,
+    )
+    if repaired_text != text:
+        text = repaired_text
+        changed = True
+
     if SOCIAL_MARKER not in text and "</head>" in text:
         text = text.replace("</head>", SOCIAL_TAG + "\n</head>", 1)
         social_updated += 1
