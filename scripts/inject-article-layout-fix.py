@@ -16,6 +16,8 @@ COUNTRY_STYLE_MARKER = "/assets/country-ai-images.css"
 CARD_STYLE_TAG = '<link rel="stylesheet" href="/assets/card-layout-fix.css?v=20261006a"/>'
 CARD_STYLE_MARKER = "/assets/card-layout-fix.css"
 
+PROOF_FUNDS_CTA_MARKER = "cp-proof-funds-tool-cta"
+
 CARD_IMAGE_BASE = "/images/generated-cards/"
 COUNTRY_AI_IMAGE_BASE = "/images/generated-countries/"
 COUNTRY_FALLBACK_IMAGE_BASE = "/images/generated/"
@@ -92,6 +94,21 @@ def optimize_priority_article_title(text: str, path: Path) -> str:
             return text
         title = template.format(country=country)
         return re.sub(r"<title>[\s\S]*?</title>", f"<title>{title}</title>", text, count=1, flags=re.I)
+    return text
+
+def inject_proof_funds_cta(text: str, path: Path) -> str:
+    p = path.as_posix().lower()
+    if not (p.startswith("article/") and p.endswith("-proof-of-funds-explained/index.html")):
+        return text
+    if PROOF_FUNDS_CTA_MARKER in text:
+        return text
+    cta = '''<aside class="cp-proof-funds-tool-cta" style="width:min(900px,calc(100% - 36px));margin:0 auto 24px;padding:18px 20px;border:1px solid #d7eafa;border-left:5px solid #0b67b2;background:#f3f9ff"><strong>Check your available funds</strong><p style="margin:6px 0 10px">Use CountryPilot's Visa Proof of Funds Calculator with the current official requirement for your route.</p><a href="/country-tools/proof-of-funds-calculator/" style="font-weight:800;color:#0b67b2">Open the Proof of Funds Calculator →</a></aside>'''
+    marker = '<section class="keyfacts">'
+    if marker in text:
+        return text.replace(marker, cta + marker, 1)
+    marker = '<div class="article-layout">'
+    if marker in text:
+        return text.replace(marker, cta + marker, 1)
     return text
 
 def plain_text(fragment: str) -> str:
@@ -277,6 +294,11 @@ for path in Path(".").rglob("*.html"):
     priority_text = optimize_priority_article_title(text, path)
     if priority_text != text:
         text = priority_text
+        changed = True
+
+    proof_cta_text = inject_proof_funds_cta(text, path)
+    if proof_cta_text != text:
+        text = proof_cta_text
         changed = True
 
     if SOCIAL_MARKER not in text and "</head>" in text:
