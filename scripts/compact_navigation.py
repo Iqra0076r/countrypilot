@@ -41,3 +41,5 @@ print(f"Changed {changed} HTML files")
 print(f"HTML files without site-nav: {len(missing)}")
 if missing:
     print("\n".join(missing[:20]))
+
+# production deployment sync after navigation migration
