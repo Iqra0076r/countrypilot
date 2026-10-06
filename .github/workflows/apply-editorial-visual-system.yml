@@ -1,0 +1,45 @@
+name: Apply editorial visual system
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/apply_editorial_visual_system.py"
+      - ".github/workflows/apply-editorial-visual-system.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  editorial-visuals:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Apply editorial visual hierarchy
+        run: python3 scripts/apply_editorial_visual_system.py
+
+      - name: Validate visual system
+        run: |
+          test -s SITE_VISUAL_SYSTEM_AUDIT.json
+          grep -q 'cp-editorial-cover' article/united-states-student-visa-guide/index.html
+          grep -q 'cp-cover-tier-a' article/canada-work-visa-guide/index.html
+          grep -q 'countrypilot-premium.css?v=20261006-visual3' index.html
+          ! grep -q 'images/generated/united-states-student-visa-guide.svg' article/united-states-student-visa-guide/index.html
+          python3 scripts/validate_site_quality.py
+
+      - name: Commit generated visual changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No visual changes."
+          else
+            git commit -m "Apply editorial visual hierarchy site-wide [skip ci]"
+            git push origin HEAD:main
+          fi
