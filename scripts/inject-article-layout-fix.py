@@ -13,6 +13,9 @@ SOCIAL_MARKER = "/assets/social-favicons.css"
 COUNTRY_STYLE_TAG = '<link rel="stylesheet" href="/assets/country-ai-images.css?v=20261006a"/>'
 COUNTRY_STYLE_MARKER = "/assets/country-ai-images.css"
 
+CARD_STYLE_TAG = '<link rel="stylesheet" href="/assets/card-layout-fix.css?v=20261006a"/>'
+CARD_STYLE_MARKER = "/assets/card-layout-fix.css"
+
 CARD_IMAGE_BASE = "/images/generated-cards/"
 COUNTRY_AI_IMAGE_BASE = "/images/generated-countries/"
 COUNTRY_FALLBACK_IMAGE_BASE = "/images/generated/"
@@ -161,6 +164,8 @@ def apply_country_card_image(card_html: str) -> str:
         return card_html
     opening = open_match.group(0)
     opening = add_class_to_opening_tag(opening, "ai-country-photo")
+    if slug not in COUNTRY_IMAGES:
+        opening = add_class_to_opening_tag(opening, "country-fallback-graphic")
     opening = add_style_to_opening_tag(opening, f"background-image:url('{image}')")
     return opening + card_html[open_match.end():]
 
@@ -226,6 +231,10 @@ for path in Path(".").rglob("*.html"):
 
     if COUNTRY_STYLE_MARKER not in text and "</head>" in text:
         text = text.replace("</head>", COUNTRY_STYLE_TAG + "\n</head>", 1)
+        changed = True
+
+    if CARD_STYLE_MARKER not in text and "</head>" in text:
+        text = text.replace("</head>", CARD_STYLE_TAG + "\n</head>", 1)
         changed = True
 
     # Add country-specific imagery to country cards wherever those countries appear.
