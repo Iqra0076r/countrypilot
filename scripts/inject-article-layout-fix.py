@@ -161,6 +161,17 @@ def inject_revenue_tool_callout(text: str, path: Path) -> str:
             'to compare premiums, deductibles and expected out-of-pocket costs before checking policy benefits and official requirements.</div>'
         )
     elif any(term in slug for term in (
+        "student-loan", "education-loan", "repayment-planning", "tuition-financing",
+        "international-student-finance", "currency-risk-for-education-loans",
+        "loan-documents", "scholarships-versus-loans", "cosigner-basics",
+        "financial-aid-options"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Estimate loan repayment:</strong> '
+            'Use the <a href="/country-tools/student-loan-repayment-calculator/">Student Loan Repayment Calculator</a> '
+            'to model monthly payments and total interest using your own amount, APR and repayment term.</div>'
+        )
+    elif any(term in slug for term in (
         "international-remittance", "student-money-transfers", "transfer-fees",
         "exchange-rates", "bank-wire", "fintech-transfer", "moving-savings",
         "transfer-speed", "transfer-limits", "remittance-scams"
