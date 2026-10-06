@@ -6,6 +6,7 @@ on:
       - site-quality-5000-ui
     paths:
       - "scripts/premiumize_site.py"
+      - "scripts/validate_site_quality.py"
       - "assets/countrypilot-premium.css"
       - ".github/workflows/apply-premium-ui.yml"
 
@@ -35,6 +36,9 @@ jobs:
           grep -q "/assets/countrypilot-premium.css" index.html
           grep -q "fetch('/data/content-index.json'" search/index.html
 
+      - name: Run full site integrity validation
+        run: python3 scripts/validate_site_quality.py
+
       - name: Commit generated site changes
         run: |
           git config user.name "github-actions[bot]"
@@ -43,6 +47,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No generated changes."
           else
-            git commit -m "Apply premium UI and performance refactor [skip ci]"
+            git commit -m "Validate premium UI refactor [skip ci]"
             git push origin HEAD:site-quality-5000-ui
           fi
