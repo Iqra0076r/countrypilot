@@ -155,3 +155,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
+# merge-sync validation trigger 2026-10-06
