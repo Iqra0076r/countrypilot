@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<title>Student Loan Repayment Calculator | CountryPilot</title>
+<meta name="description" content="Estimate monthly payments and total interest for an education loan using the amount, APR and repayment term you enter. Free CountryPilot planning tool.">
+<link rel="canonical" href="https://countrypilot.info/country-tools/student-loan-repayment-calculator/">
+<link rel="icon" href="/images/countrypilot-mark.svg">
+<style>
+:root{--navy:#0d2740;--blue:#0b67b2;--ink:#142536;--muted:#657586;--line:#d9e4ed;--orange:#ef7b2d}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#f7fbff;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 28px));margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.bar{height:64px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;font-size:23px;color:var(--navy)}nav{display:flex;gap:18px;font-size:14px;font-weight:700;color:#37536b}
+.hero{padding:64px 0 38px;background:linear-gradient(135deg,#eaf5ff,#fff 55%,#fff4ea)}.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:900}h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:10px 0 16px;color:var(--navy)}.lead{font-size:18px;color:#536b7e;max-width:800px}
+.tool{padding:36px 0 70px}.panel{padding:24px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 35px rgba(13,39,64,.06);margin-bottom:18px}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.field label{display:block;font-size:12px;font-weight:900;margin-bottom:5px;color:#496277}.field input{width:100%;min-height:46px;border:1px solid #cfdce6;border-radius:10px;padding:10px 12px;font-size:15px}.btn{border:0;border-radius:10px;padding:12px 17px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,var(--blue),#1382d1);color:#fff;margin-top:16px}.result{margin-top:20px;padding:18px;background:#f3f9ff;border:1px solid #d7eafa;border-radius:14px}.result[hidden]{display:none}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.metric{background:#fff;border:1px solid #dce9f3;border-radius:12px;padding:14px}.metric span{display:block;color:var(--muted);font-size:12px;font-weight:800}.metric b{display:block;color:var(--navy);font-size:24px}.note{margin-top:18px;padding:16px 18px;border-left:4px solid var(--orange);background:#fff8f2}.panel h2{color:var(--navy)}.panel a{color:var(--blue);font-weight:750}footer{border-top:1px solid var(--line);background:#fff;padding:28px 0;color:#667989;font-size:13px}.footer-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:8px}
+@media(max-width:760px){nav{display:none}.form-grid,.metrics{grid-template-columns:1fr}.hero{padding-top:42px}.panel{padding:18px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Student Loan Repayment Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"url":"https://countrypilot.info/country-tools/student-loan-repayment-calculator/"}</script>
+</head><body>
+<header><div class="wrap bar"><a class="brand" href="/">COUNTRYPILOT</a><nav><a href="/country-tools/">Tools</a><a href="/category/student-loans/">Student Loans</a><a href="/category/study-abroad/">Study Abroad</a><a href="/category/scholarships-funding/">Scholarships</a><a href="/countries/">Countries</a></nav></div></header>
+<section class="hero"><div class="wrap"><div class="kicker">Education finance tool</div><h1>Student Loan Repayment Calculator</h1><p class="lead">Estimate monthly repayments, total repayment and total interest from the loan amount, annual percentage rate and repayment term you enter.</p></div></section>
+<main class="wrap tool">
+<div class="panel"><div class="form-grid">
+<div class="field"><label>Loan amount</label><input id="principal" type="number" min="0" step="0.01" value="20000"></div>
+<div class="field"><label>Annual interest rate / APR (%)</label><input id="apr" type="number" min="0" step="0.01" value="6"></div>
+<div class="field"><label>Repayment term (years)</label><input id="years" type="number" min="1" max="40" step="1" value="10"></div>
+<div class="field"><label>Extra monthly payment (optional)</label><input id="extra" type="number" min="0" step="0.01" value="0"></div>
+</div>
+<button class="btn" id="calc">Calculate repayment</button>
+<div class="result" id="result" hidden><div class="metrics">
+<div class="metric"><span>Estimated monthly payment</span><b id="monthly"></b></div>
+<div class="metric"><span>Estimated total repayment</span><b id="total"></b></div>
+<div class="metric"><span>Estimated total interest</span><b id="interest"></b></div>
+</div><p id="detail" style="margin:14px 0 0"></p></div>
+<div class="note"><b>Planning aid only:</b> this calculator assumes a standard fixed-rate amortising loan. Real student or education loans can have variable rates, grace periods, fees, subsidised interest, income-based repayment, currency risk or different compounding rules. Use the lender's official repayment illustration before borrowing.</div>
+</div>
+<section class="panel"><h2>How the monthly payment is estimated</h2>
+<p>The calculator uses a standard amortisation formula for a fixed-rate loan. The payment is designed to reduce both principal and interest over the selected term. If the APR is zero, the principal is simply divided across the repayment months.</p>
+<h2>Why total interest matters</h2><p>A longer repayment term can reduce the monthly payment but increase the total interest paid. A shorter term usually raises the monthly payment while reducing total interest. Compare affordability and total cost rather than choosing a term based only on the smallest monthly figure.</p>
+<h2>Extra payments can change the schedule</h2><p>The optional extra-payment field shows how adding money to the scheduled payment can accelerate repayment in this simplified model. Before making extra payments on a real loan, check whether the lender applies them directly to principal and whether any restrictions or prepayment charges apply.</p>
+<h2>International students should also consider currency risk</h2><p>If your loan is denominated in one currency but your future income will be in another, exchange-rate changes can alter the real burden of repayment. Tuition, insurance, housing deposits and visa costs may also need to be financed separately.</p>
+<p>Continue with <a href="/category/student-loans/">CountryPilot education and student loan guides</a>, <a href="/category/scholarships-funding/">scholarship and funding guides</a>, the <a href="/country-tools/study-abroad-budget-calculator/">study abroad budget calculator</a> and <a href="/category/banking/">international student banking guides</a>.</p></section>
+</main>
+<script>
+const n=id=>Number(document.getElementById(id).value)||0;
+calc.onclick=()=>{
+ const p=n("principal"),annual=n("apr"),y=n("years"),extra=n("extra");
+ if(p<=0||y<=0){alert("Enter a loan amount and repayment term greater than zero.");return}
+ const months=Math.round(y*12),r=annual/100/12;
+ let base=r===0?p/months:(p*r*Math.pow(1+r,months))/(Math.pow(1+r,months)-1);
+ const payment=base+extra;
+ let balance=p,paid=0,count=0;
+ while(balance>0.005&&count<months*5){
+   const int=balance*r;
+   let principalPaid=payment-int;
+   if(r===0) principalPaid=payment;
+   if(principalPaid<=0){alert("The payment is too low to reduce the balance.");return}
+   const actual=Math.min(payment,balance+int);
+   balance=Math.max(0,balance+int-actual);
+   paid+=actual;count++;
+ }
+ monthly.textContent=payment.toLocaleString(undefined,{maximumFractionDigits:2});
+ total.textContent=paid.toLocaleString(undefined,{maximumFractionDigits:2});
+ interest.textContent=Math.max(0,paid-p).toLocaleString(undefined,{maximumFractionDigits:2});
+ detail.textContent="Estimated payoff time: "+count+" months ("+(count/12).toLocaleString(undefined,{maximumFractionDigits:1})+" years).";
+ result.hidden=false;
+};
+</script>
+<footer><div class="wrap">CountryPilot tools are planning aids and do not provide lending or financial advice.<div class="footer-links"><a href="/about/">About</a><a href="/editorial-policy/">Editorial Policy</a><a href="/sources-policy/">Sources Policy</a><a href="/privacy/">Privacy</a><a href="/contact/">Contact</a></div></div></footer></body></html>
