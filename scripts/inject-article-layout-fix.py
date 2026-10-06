@@ -40,6 +40,22 @@ PRIORITY_TITLE_SUFFIXES = [
     ("skilled-worker-jobs-guide", "{country} Skilled Worker Jobs 2026 | CountryPilot"),
     ("proof-of-funds-explained", "{country} Visa Proof of Funds 2026 | CountryPilot"),
     ("travel-insurance-for-students", "{country} Student Travel Insurance Guide | CountryPilot"),
+    ("student-health-insurance-guide", "{country} Student Health Insurance 2026 | CountryPilot"),
+    ("comparing-student-insurance", "{country} Student Insurance Comparison | CountryPilot"),
+    ("expat-medical-insurance-basics", "{country} Expat Health Insurance Guide | CountryPilot"),
+    ("mandatory-health-cover-explained", "{country} Student Health Cover Guide | CountryPilot"),
+    ("international-remittance-guide", "{country} International Money Transfer 2026 | CountryPilot"),
+    ("transfer-fees-explained", "{country} Money Transfer Fees 2026 | CountryPilot"),
+    ("fintech-transfer-guide", "{country} Money Transfer Apps Guide | CountryPilot"),
+    ("bank-wire-guide", "{country} International Bank Transfer Guide | CountryPilot"),
+    ("expat-banking-guide", "{country} Expat Banking Guide 2026 | CountryPilot"),
+    ("opening-a-bank-account", "{country} Bank Account for Expats | CountryPilot"),
+    ("student-bank-account-guide", "{country} Student Bank Account Guide | CountryPilot"),
+    ("international-student-finance-guide", "{country} International Student Finance | CountryPilot"),
+    ("tuition-financing-guide", "{country} Tuition Financing Guide | CountryPilot"),
+    ("education-loan-eligibility", "{country} Student Loan Eligibility Guide | CountryPilot"),
+    ("repayment-planning", "{country} Student Loan Repayment Guide | CountryPilot"),
+    ("scholarships-versus-loans", "{country} Scholarships vs Student Loans | CountryPilot"),
 ]
 
 COUNTRY_IMAGES = {
