@@ -20,6 +20,26 @@ CARD_IMAGE_BASE = "/images/generated-cards/"
 COUNTRY_AI_IMAGE_BASE = "/images/generated-countries/"
 COUNTRY_FALLBACK_IMAGE_BASE = "/images/generated/"
 
+PRIORITY_SEO_COUNTRIES = {
+    "united-states": "United States",
+    "canada": "Canada",
+    "united-kingdom": "United Kingdom",
+    "australia": "Australia",
+    "germany": "Germany",
+    "ireland": "Ireland",
+    "netherlands": "Netherlands",
+    "switzerland": "Switzerland",
+    "united-arab-emirates": "UAE",
+    "new-zealand": "New Zealand",
+}
+
+PRIORITY_TITLE_SUFFIXES = [
+    ("visa-sponsorship-jobs-guide", "{country} Visa Sponsorship Jobs 2026 | CountryPilot"),
+    ("skilled-worker-jobs-guide", "{country} Skilled Worker Jobs 2026 | CountryPilot"),
+    ("proof-of-funds-explained", "{country} Visa Proof of Funds 2026 | CountryPilot"),
+    ("travel-insurance-for-students", "{country} Student Travel Insurance Guide | CountryPilot"),
+]
+
 COUNTRY_IMAGES = {
     "france": "france.webp",
     "ireland": "ireland.webp",
@@ -56,6 +76,23 @@ CARD_IMAGE_RULES = [
     (("study abroad", "student visa", "international student", "university abroad"), "study-abroad.webp"),
     (("visa", "immigration", "entry permit", "residence permit"), "visas-immigration.webp"),
 ]
+
+def optimize_priority_article_title(text: str, path: Path) -> str:
+    parts = path.as_posix().split("/")
+    if len(parts) < 3 or parts[0] != "article" or parts[-1] != "index.html":
+        return text
+    slug = parts[1].lower()
+    for suffix, template in PRIORITY_TITLE_SUFFIXES:
+        marker = "-" + suffix
+        if not slug.endswith(marker):
+            continue
+        country_slug = slug[:-len(marker)]
+        country = PRIORITY_SEO_COUNTRIES.get(country_slug)
+        if not country:
+            return text
+        title = template.format(country=country)
+        return re.sub(r"<title>[\s\S]*?</title>", f"<title>{title}</title>", text, count=1, flags=re.I)
+    return text
 
 def plain_text(fragment: str) -> str:
     text = re.sub(r"<[^>]+>", " ", fragment)
@@ -224,15 +261,22 @@ for path in Path(".").rglob("*.html"):
 
     changed = False
 
-    # Repair CountryPilot Organization structured data by supplying a publisher logo.
-    # This helps BlogPosting / CollectionPage schema validate consistently site-wide.
-    repaired_text = re.sub(
-        r'"@type"\s*:\s*"Organization"\s*,\s*"name"\s*:\s*"CountryPilot"(?!\s*,\s*"logo")',
-        '"@type":"Organization","name":"CountryPilot","logo":{"@type":"ImageObject","url":"https://countrypilot.info/images/countrypilot-mark.svg"}',
-        text,
+    # Repair CountryPilot Organization structured data consistently.
+    repaired_text = text.replace(
+        '"@type":"Organization","@id":"https://countrypilot.info/#organization","name":"CountryPilot","url":"https://countrypilot.info/"',
+        '"@type":"Organization","@id":"https://countrypilot.info/#organization","name":"CountryPilot","url":"https://countrypilot.info/","logo":{"@type":"ImageObject","url":"https://countrypilot.info/images/countrypilot-mark.svg"}'
+    )
+    repaired_text = repaired_text.replace(
+        '"author":{"@type":"Organization","name":"CountryPilot Editorial Team","url":"https://countrypilot.info/authors/countrypilot-editorial-team/"',
+        '"author":{"@type":"Organization","name":"CountryPilot Editorial Team","url":"https://countrypilot.info/authors/countrypilot-editorial-team/","logo":{"@type":"ImageObject","url":"https://countrypilot.info/images/countrypilot-mark.svg"}'
     )
     if repaired_text != text:
         text = repaired_text
+        changed = True
+
+    priority_text = optimize_priority_article_title(text, path)
+    if priority_text != text:
+        text = priority_text
         changed = True
 
     if SOCIAL_MARKER not in text and "</head>" in text:
