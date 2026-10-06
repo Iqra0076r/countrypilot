@@ -652,3 +652,10 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
   .cp-cover-tier-b{min-height:96px!important}
   .cp-cover-topic{display:none}
 }
+
+/* Editorial trust block */
+.editorial-trust-note{margin:18px 0 22px;padding:16px 18px;border:1px solid var(--cp-line,#d8e2ec);border-radius:14px;background:#fbfdff;box-shadow:0 8px 24px rgba(13,39,64,.04)}
+.editorial-trust-note .eyebrow{margin-bottom:6px}
+.editorial-trust-note p{margin:0;color:#52687b;font-size:14px;line-height:1.65}
+.editorial-trust-note a{font-weight:750;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:640px){.editorial-trust-note{padding:14px 15px;margin:15px 0 18px}}
