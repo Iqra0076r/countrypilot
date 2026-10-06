@@ -1,0 +1,33 @@
+# CountryPilot
+
+> Independent research and planning tools for visas, immigration, sponsorship jobs, study abroad, scholarships, insurance, banking, money transfer and relocation.
+
+Canonical site: https://countrypilot.info/
+
+## Priority guides
+- https://countrypilot.info/article/united-kingdom-skilled-worker-pathway/
+- https://countrypilot.info/article/united-kingdom-skilled-worker-visa-extension/
+- https://countrypilot.info/article/canada-work-visa-guide/
+- https://countrypilot.info/article/canada-lmia-jobs-guide/
+- https://countrypilot.info/article/united-states-visa-sponsorship-jobs-guide/
+- https://countrypilot.info/article/united-states-online-cybersecurity-programs/
+- https://countrypilot.info/article/australia-visa-sponsorship-jobs-guide/
+- https://countrypilot.info/article/australia-it-sponsorship-jobs/
+- https://countrypilot.info/article/australia-mba-scholarships/
+
+## Free tools
+- https://countrypilot.info/country-tools/
+- https://countrypilot.info/country-tools/sponsorship-job-verification-checklist/
+- https://countrypilot.info/country-tools/uk-skilled-worker-visa-cost-calculator/
+
+## Editorial and trust
+- https://countrypilot.info/about/
+- https://countrypilot.info/editorial-policy/
+- https://countrypilot.info/sources-policy/
+- https://countrypilot.info/corrections-policy/
+- https://countrypilot.info/authors/countrypilot-editorial-team/
+
+## Sitemaps
+- https://countrypilot.info/sitemap.xml
+
+CountryPilot content is informational and is not legal, immigration, financial or medical advice. Rules, fees and eligibility can change; use linked primary authorities before acting.
