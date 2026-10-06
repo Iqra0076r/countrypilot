@@ -111,6 +111,37 @@ def inject_proof_funds_cta(text: str, path: Path) -> str:
         return text.replace(marker, cta + marker, 1)
     return text
 
+def inject_revenue_tool_callout(text: str, path: Path) -> str:
+    parts = path.as_posix().split("/")
+    if len(parts) < 3 or parts[0] != "article" or parts[-1] != "index.html":
+        return text
+    slug = parts[1].lower()
+
+    if slug.endswith("-proof-of-funds-explained"):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Free planning tool:</strong> '
+            'Use the <a href="/country-tools/proof-of-funds-calculator/">Visa Proof of Funds Calculator</a> '
+            'to estimate a personal financial buffer, then verify the official minimum for your exact route.</div>'
+        )
+    elif any(term in slug for term in (
+        "international-remittance", "student-money-transfers", "transfer-fees",
+        "exchange-rates", "bank-wire", "fintech-transfer", "moving-savings",
+        "transfer-speed", "transfer-limits", "remittance-scams"
+    )):
+        callout = (
+            '<div class="info-box revenue-tool-callout"><strong>Compare transfer costs:</strong> '
+            'Use the <a href="/country-tools/money-transfer-fee-calculator/">International Money Transfer Fee Calculator</a> '
+            'to model fees and FX markup using your own transfer amount and reference rate.</div>'
+        )
+    else:
+        return text
+
+    if callout in text:
+        return text
+
+    pattern = r'(<section\b[^>]*class=["\'][^"\']*\bquick-answer\b[^"\']*["\'][^>]*>[\s\S]*?</section>)'
+    return re.sub(pattern, r'\1' + callout, text, count=1, flags=re.I)
+
 def plain_text(fragment: str) -> str:
     text = re.sub(r"<[^>]+>", " ", fragment)
     text = htmlmod.unescape(text)
@@ -294,6 +325,11 @@ for path in Path(".").rglob("*.html"):
     priority_text = optimize_priority_article_title(text, path)
     if priority_text != text:
         text = priority_text
+        changed = True
+
+    revenue_text = inject_revenue_tool_callout(text, path)
+    if revenue_text != text:
+        text = revenue_text
         changed = True
 
     proof_cta_text = inject_proof_funds_cta(text, path)
