@@ -43,6 +43,7 @@ jobs:
       - name: Run production mobile audits
         run: |
           mkdir -p docs/performance/lighthouse
+          rm -f docs/performance/lighthouse/route-*.json
           urls=(
             "https://countrypilot.info/"
             "https://countrypilot.info/country/canada/"
@@ -53,7 +54,9 @@ jobs:
           i=0
           for url in "${urls[@]}"; do
             i=$((i+1))
-            lighthouse "$url"               --output=json               --output-path="docs/performance/lighthouse/route-${i}.json"               --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage"               --only-categories=performance               --quiet
+            for run in 1 2 3; do
+              lighthouse "$url"                 --output=json                 --output-path="docs/performance/lighthouse/route-${i}-${run}.json"                 --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage"                 --only-categories=performance                 --quiet
+            done
           done
       - name: Parse results
         run: python scripts/phase21_parse_lighthouse.py
