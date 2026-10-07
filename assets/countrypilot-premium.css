@@ -347,3 +347,80 @@ body.cp-home .lead-copy p{max-width:650px;margin:0 0 25px;color:#d1d9de;font:500
   .keyfacts{grid-template-columns:1fr}
   .keyfact{border-right:0;border-bottom:1px solid var(--cp-line)}
 }
+
+
+/* Retained image/card systems, recolored for dark redesign */
+.country-card.ai-country-photo{
+  position:relative!important;overflow:hidden!important;min-height:240px!important;border:0!important;
+  padding:0!important;display:flex!important;align-items:flex-end!important;background-size:cover!important;
+  background-position:center!important;background-repeat:no-repeat!important;color:#fff!important;isolation:isolate
+}
+.country-card.ai-country-photo:before{
+  content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(3,10,14,.08) 0%,rgba(3,10,14,.45) 52%,rgba(3,10,14,.92) 100%)
+}
+.country-card.ai-country-photo>div{position:relative!important;z-index:1!important;width:100%!important;padding:20px!important}
+.country-card.ai-country-photo .eyebrow{color:var(--cp-lime)!important}
+.country-card.ai-country-photo h3{color:#fff!important;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.country-card.ai-country-photo p,.country-card.ai-country-photo .country-meta-line{color:#d7e2e6!important}
+.country-card.ai-country-photo:hover{transform:translateY(-3px)!important;box-shadow:var(--cp-shadow)!important}
+
+.archive-hero.has-country-image{
+  position:relative!important;overflow:hidden!important;isolation:isolate;
+  background-image:linear-gradient(90deg,rgba(4,12,18,.96) 0%,rgba(5,16,24,.85) 46%,rgba(5,15,22,.36) 78%),var(--country-image)!important;
+  background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important
+}
+.archive-hero.has-country-image .container{position:relative;z-index:1}
+.archive-hero.has-country-image h1{color:#fff!important}
+.archive-hero.has-country-image p{color:#dbe5e8!important}
+.archive-hero.has-country-image .eyebrow{color:var(--cp-lime)!important}
+
+.country-grid .country-card.ai-country-photo{aspect-ratio:1/1!important;min-height:0!important}
+.country-grid .country-card.ai-country-photo .country-meta-line{display:none!important}
+
+/* Generated article-card artwork should stay visual, not text-heavy. */
+.archive-grid .editorial-card .card-image{aspect-ratio:4/3!important;height:auto!important;min-height:0!important}
+.archive-grid .editorial-card .card-image img{width:100%!important;height:100%!important;object-fit:cover!important}
+.archive-grid .editorial-card .card-copy>p{display:none!important}
+.archive-grid .editorial-card .card-copy{display:flex!important;flex-direction:column!important;flex:1!important}
+.archive-grid .editorial-card .card-meta{margin-top:auto!important}
+
+/* Trust/editorial modules used by content pages */
+.trust-card,.author-box,.research-panel,.editorial-research-note,.faq-zone details{
+  border:1px solid var(--cp-line)!important;background:var(--cp-surface)!important;color:#d7e2e6!important;border-radius:14px!important
+}
+.trust-note{background:#102019!important;border-left:4px solid var(--cp-lime)!important;color:#dce7e2!important}
+.source-badge{background:#10242d!important;color:var(--cp-cyan)!important;border-color:#24414b!important}
+.faq-zone summary{color:#fff!important;font-weight:800!important}
+.faq-zone p{color:#c2ced2!important}
+
+/* Footer social links use local text treatment; no extra favicon requests. */
+.social-links-row a{
+  background-image:none!important;background-color:#14232a!important;color:#fff!important;
+  font-size:10px!important;line-height:1!important;font-weight:850!important;border-radius:10px!important;box-shadow:none!important
+}
+.social-links-row a:hover{background-color:#1b3039!important;color:var(--cp-lime)!important;transform:translateY(-1px)!important}
+
+/* Homepage destination cards: use dark image-card feel even without photos. */
+body.cp-home .country-grid .country-card{
+  position:relative;overflow:hidden;isolation:isolate;min-height:230px;
+  background:
+    radial-gradient(circle at 78% 20%,rgba(98,230,255,.12),transparent 25%),
+    linear-gradient(145deg,#101b21,#172934)
+}
+body.cp-home .country-grid .country-card:after{
+  content:"";position:absolute;inset:auto 0 0;height:4px;background:linear-gradient(90deg,var(--cp-lime),var(--cp-orange))
+}
+body.cp-home .country-grid .country-card:nth-child(2n):after{background:linear-gradient(90deg,var(--cp-cyan),var(--cp-blue))}
+
+/* Preserve ad slots without allowing them to visually break layout. */
+.adsbygoogle{max-width:100%;overflow:hidden}
+[data-ad-eligible="true"] ins.adsbygoogle{border-radius:10px}
+
+/* Mobile hardening */
+@media(max-width:700px){
+  .country-card.ai-country-photo{min-height:205px!important}
+  .country-card.ai-country-photo>div{padding:16px!important}
+  .archive-hero.has-country-image{background-position:center!important}
+  .archive-grid .editorial-card{border-radius:14px!important}
+}
