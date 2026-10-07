@@ -180,3 +180,20 @@ Do not redo green phases.
 
 ## ENU resume command
 When the user says **"enu"**, immediately recall this checkpoint and continue the project from here.
+
+## Phase 1 mobile regression follow-up — 2026-10-07
+New production screenshots showed a real mobile regression after the earlier Phase-1 closeout:
+- clipped mobile Menu button;
+- priority-guide identity tiles colliding with guide text;
+- Popular Destinations cards showing HTML copy on top of text-heavy artwork.
+
+Source-side hotfix is committed:
+- mobile breakpoint widened to 820px;
+- mobile Menu converted to a contained icon button;
+- Priority Guides become a clean text-first mobile list;
+- Popular Destinations become single-column compact identity cards on mobile;
+- premium stylesheet cache-bust changed site-wide to `20261007-mobile1`.
+
+Repository validation passed across the HTML estate.
+
+**Production verification is still pending.** A live QA workflow waited for the new stylesheet version but the public site did not pick up the new repository build during the verification window. The connected Cloudflare account shows no CountryPilot Pages project; CountryPilot DNS currently proxies to external A-record origins. Therefore Phase 1 should remain/reopen as NOT GREEN until the production host receives this source update and the mobile screenshots are rechecked.
