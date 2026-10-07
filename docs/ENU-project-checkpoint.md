@@ -7,13 +7,13 @@
 ## Mission state at ENU
 
 ### Strict green count
-**14 / 21 phases are fully green.**
+**15 / 21 phases are fully green.**
 
 ### Phase checklist
 
 | Phase | Workstream | Status at ENU | Resume rule |
 |---:|---|---|---|
-| 1 | Website/UI/theme/mobile/cards/navigation | NOT GREEN | Substantially improved but never formally closed under the strict completion rule. |
+| 1 | Website/UI/theme/mobile/cards/navigation | GREEN | Formally closed 2026-10-07. Closeout: `docs/phase-1-ui-closeout.md`. Reopen only on new production regression evidence. |
 | 2 | Trust/editorial infrastructure | GREEN | Complete; do not reopen without new evidence. |
 | 3 | Semrush research | GREEN | Complete; permanently closed. |
 | 4 | Keyword strategy | GREEN | Complete; permanent 50-keyword attack list. |
@@ -155,7 +155,7 @@ Strict completion rule: Phase 20 stays open until GA4 or an equivalent event-cap
 ## Resume order from ENU
 Unless the user explicitly changes priority, resume from the remaining non-green phases:
 
-**1 -> 14 (monitor only) -> 16 -> 17 -> 19 -> 20 -> 21**
+**14 (monitor only) -> 16 -> 17 -> 19 -> 20 -> 21**
 
 Do not redo green phases.
 
