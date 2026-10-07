@@ -752,7 +752,7 @@ for path in Path(".").rglob("*.html"):
     # Phase 21 cache-bust consolidated premium CSS on every HTML page.
     perf_text = re.sub(
         r'/assets/countrypilot-premium\.css\?v=[^"\']+',
-        '/assets/countrypilot-premium.css?v=20261007-perf1',
+        '/assets/countrypilot-premium.css?v=20261008-dark1',
         text,
         count=1,
         flags=re.I,
