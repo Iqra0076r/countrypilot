@@ -1,0 +1,95 @@
+name: Semrush final internal-link cleanup
+
+on:
+  push:
+    paths:
+      - '.github/workflows/semrush-finalize-clean-links.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove legacy internal index.html hrefs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          href_re = re.compile(r'''href=(["'])([^"']*?index\.html(?:\?[^"'#]*)?(?:#[^"']*)?)\1''', re.I)
+          changed = 0
+          replacements = 0
+
+          def clean_target(target):
+              low = target.lower()
+              if low.startswith(('http://','https://','//','mailto:','tel:','javascript:','data:')):
+                  return target
+              m = re.match(r'^(.*?)(index\.html)(\?[^#]*)?(#.*)?$', target, re.I)
+              if not m:
+                  return target
+              prefix, _, query, frag = m.groups()
+              if not prefix:
+                  prefix = './'
+              return prefix + (query or '') + (frag or '')
+
+          for p in Path('.').rglob('*.html'):
+              if any(part in {'.git','node_modules','dist','build'} for part in p.parts):
+                  continue
+              try:
+                  text = p.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              count = 0
+              def repl(m):
+                  nonlocal_count = None
+                  quote, target = m.group(1), m.group(2)
+                  cleaned = clean_target(target)
+                  if cleaned == target:
+                      return m.group(0)
+                  return f'href={quote}{cleaned}{quote}'
+              new, n = href_re.subn(repl, text)
+              if n and new != text:
+                  p.write_text(new, encoding='utf-8')
+                  changed += 1
+                  replacements += n
+
+          print(f'Changed files: {changed}')
+          print(f'Internal href replacements: {replacements}')
+
+          # Validation: there should be no internal href target ending in index.html.
+          remaining = []
+          for p in Path('.').rglob('*.html'):
+              if any(part in {'.git','node_modules','dist','build'} for part in p.parts):
+                  continue
+              try:
+                  text = p.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              for m in href_re.finditer(text):
+                  target=m.group(2)
+                  if not target.lower().startswith(('http://','https://','//','mailto:','tel:','javascript:','data:')):
+                      remaining.append((str(p),target))
+                      if len(remaining) >= 20:
+                          break
+              if len(remaining) >= 20:
+                  break
+          if remaining:
+              raise SystemExit('Remaining internal index.html hrefs: ' + repr(remaining))
+          PY
+      - name: Commit cleanup and remove one-time workflow
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -f .github/workflows/semrush-finalize-clean-links.yml
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Semrush final QA: remove legacy internal index.html hrefs"
+          git push
