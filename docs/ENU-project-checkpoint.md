@@ -28,7 +28,7 @@
 | 13 | IndexNow/search submission infrastructure | GREEN | Complete. |
 | 14 | Google indexing activation | ACTIVE / NOT GREEN | Strict completion condition: **59/59 Phase-14 priority URLs indexed**. Latest stored URL Inspection check on 2026-10-07 found 0/59 indexed; priority URLs were unknown or discovered-not-indexed. Hourly condition watch remains active. |
 | 15 | Backlink research | GREEN | Fully closed with 20 unique-domain research set. |
-| 16 | Kakka backlink outreach | PAUSED / NOT GREEN | Skipped for now. 27 researched; 6 Tier 1; 4 Tier 2; 17 rejected; 6 personalized emails ready; 0 sent; Spaceship Mail/Spacemail account not connected in chat. |
+| 16 | Kakka backlink outreach | BLOCKED / NOT GREEN | Six verified Tier-1 personalized drafts are now documented in `docs/countrypilot-backlink-outreach-tracker.md`; 0 sent. Exact sender must remain `hello@countrypilot.info`. No Spaceship/Spacemail or compatible custom-SMTP connector is available in this chat. |
 | 17 | Large-scale content quality control | GREEN | Closed 2026-10-07 after full 1,781-article cleanup and QA. Closeout: `docs/phase-17-content-quality-closeout.md`. |
 | 18 | AdSense readiness | GREEN | Fully complete. Final strict audit: 2,030 HTML pages; 2,028 ad-eligible pages; 1,781/1,781 articles with author + source signals; 0 actionable failures. |
 | 19 | CMP / consent / ads.txt / live ad implementation | PAUSED / NOT GREEN | Website side complete. Remaining: publish European regulations CMP in AdSense and verify Auto Ads + live placement. |
@@ -73,11 +73,9 @@ Phase 15 backlink research is fully closed.
 ## Phase 16 — Kakka state
 "Kakka" remains the backlink outreach execution checkpoint, separate from Semrush/backlink research.
 
-- Prospects manually researched: 27
-- Tier 1: 6
-- Tier 2: 4
-- Rejected: 17
+- Verified Tier-1 outreach queue: 6
 - Personalized emails ready to send: 6
+- Existing preserved research includes additional Tier-2/rejected prospects; the active send queue is documented in `docs/countrypilot-backlink-outreach-tracker.md`
 - Emails sent: 0
 - Replies: 0
 - Accepted placements: 0
