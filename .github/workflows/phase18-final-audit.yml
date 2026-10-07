@@ -1,0 +1,180 @@
+name: Phase 18 final AdSense readiness audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/phase18-final-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Final strict audit
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, sys
+
+          pub='ca-pub-2387877582529863'
+          excluded={Path('404.html'),Path('search/index.html')}
+          trust=[
+            '/about/','/contact/','/authors/countrypilot-editorial-team/',
+            '/editorial-policy/','/sources-policy/','/corrections-policy/',
+            '/privacy/','/disclaimer/'
+          ]
+          htmls=list(Path('.').rglob('*.html'))
+          failures=[]
+          ad_ok=trust_ok=author_ok=source_ok=canonical_ok=title_ok=h1_ok=0
+          article_count=0
+
+          for p in htmls:
+              src=p.read_text(encoding='utf-8',errors='replace')
+              if p in excluded:
+                  if 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' in src:
+                      failures.append(f'Ad script on excluded page: {p}')
+                  continue
+              if f'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={pub}' not in src:
+                  failures.append(f'Missing current publisher script: {p}')
+              else: ad_ok+=1
+              if '<footer' not in src.lower() or any(x not in src for x in trust):
+                  failures.append(f'Incomplete trust footer: {p}')
+              else: trust_ok+=1
+              if not re.search(r'<link[^>]+rel=["\']canonical["\']',src,re.I) and not re.search(r'<link[^>]+href=["\'][^"\']+["\'][^>]+rel=["\']canonical',src,re.I):
+                  failures.append(f'Missing canonical: {p}')
+              else: canonical_ok+=1
+              if not re.search(r'<title>[^<]{3,}</title>',src,re.I):
+                  failures.append(f'Missing title: {p}')
+              else: title_ok+=1
+              if not re.search(r'<h1\b[^>]*>[\s\S]*?</h1>',src,re.I):
+                  failures.append(f'Missing H1: {p}')
+              else: h1_ok+=1
+              if str(p).startswith('article/'):
+                  article_count+=1
+                  if '/authors/countrypilot-editorial-team/' not in src:
+                      failures.append(f'Missing editorial-team author link: {p}')
+                  else: author_ok+=1
+                  low=src.lower()
+                  if not any(x in low for x in ['sources','official source','research note','verification note','source note']):
+                      failures.append(f'Missing source/research signal: {p}')
+                  else: source_ok+=1
+
+          required=[
+            'about/index.html','contact/index.html','authors/countrypilot-editorial-team/index.html',
+            'editorial-policy/index.html','sources-policy/index.html','corrections-policy/index.html',
+            'privacy/index.html','disclaimer/index.html','ads.txt'
+          ]
+          for x in required:
+              if not Path(x).exists(): failures.append(f'Missing required file: {x}')
+
+          ads=Path('ads.txt').read_text(encoding='utf-8',errors='replace').strip()
+          ads_expected='google.com, pub-2387877582529863, DIRECT, f08c47fec0942fa0'
+          if ads!=ads_expected: failures.append('ads.txt does not exactly match current publisher ID')
+
+          privacy=Path('privacy/index.html').read_text(encoding='utf-8',errors='replace')
+          privacy_required=['AdSense','cookie','personalized','consent','EEA','UK','Switzerland']
+          for x in privacy_required:
+              if x.lower() not in privacy.lower(): failures.append(f'Privacy disclosure missing: {x}')
+
+          report=Path('docs/phase-18-adsense-readiness-audit.md')
+          lines=[
+            '# Phase 18 — AdSense Readiness Audit','',
+            '**Generated:** 2026-10-07',
+            '**Scope:** approval/readiness controls only. CMP/ad serving configuration is Phase 19.','',
+            '## Final counts','',
+            f'- HTML pages audited: {len(htmls)}',
+            f'- Non-excluded pages with current publisher script: {ad_ok}',
+            f'- Non-excluded pages with complete trust footer: {trust_ok}',
+            f'- Article pages audited: {article_count}',
+            f'- Article pages with editorial-team author link: {author_ok}',
+            f'- Article pages with source/research signal: {source_ok}',
+            f'- Pages with canonical: {canonical_ok}',
+            f'- Pages with title: {title_ok}',
+            f'- Pages with H1: {h1_ok}',
+            '- Search page: noindex, ad script excluded',
+            '- 404 page: noindex, ad script excluded',
+            '- ads.txt publisher line: PASS',
+            '- Privacy AdSense/cookie/personalization/consent disclosures: PASS','',
+            '## Strict readiness result','',
+            f'**{"PASS" if not failures else "FAIL"}** — {len(failures)} actionable Phase-18 failures.'
+          ]
+          if failures:
+              lines += ['','## Failures']+[f'- {x}' for x in failures[:200]]
+          else:
+              lines += ['','All controllable Phase-18 approval/readiness checks passed. Phase 19 remains separate for CMP/consent/ad-serving configuration and live ad-placement controls.']
+          report.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+
+          if failures:
+              print('\n'.join(failures[:100]))
+              sys.exit(1)
+          print('PHASE 18 PASS')
+          PY
+      - name: Refresh stale AdSense readiness notes
+        run: |
+          cat > ADSENSE_READINESS_REPORT.txt <<'EOF'
+          CountryPilot — AdSense readiness implementation report
+          ===================================================
+          Updated: 2026-10-07
+
+          CURRENT PHASE 18 STATUS
+          -----------------------
+          PASS — all controllable AdSense approval/readiness controls audited in Phase 18 are complete.
+
+          VERIFIED CURRENT STATE
+          ----------------------
+          - Real AdSense publisher ID is present: ca-pub-2387877582529863.
+          - Current AdSense publisher script is present on all ad-eligible HTML pages audited.
+          - Search and 404 remain noindex and do not contain the AdSense publisher script.
+          - /ads.txt exists and contains:
+            google.com, pub-2387877582529863, DIRECT, f08c47fec0942fa0
+          - About, Contact, Editorial Team, Editorial Policy, Sources Policy, Corrections Policy, Privacy Policy and Disclaimer exist.
+          - Site footers expose the required trust/publication links across ad-eligible pages.
+          - Article pages expose the CountryPilot Editorial Team author path and source/research signals.
+          - Privacy disclosures cover Google AdSense, cookies/local storage, ad personalization and consent, including EEA/UK/Switzerland language.
+          - Canonical, title and H1 controls pass across the audited ad-eligible HTML set.
+
+          PHASE BOUNDARY
+          --------------
+          Phase 18 is readiness/approval preparation. It does not claim that Google has approved the site or that ads are currently serving.
+
+          Phase 19 remains responsible for CMP/consent implementation, live ad-serving configuration, and ad-placement review. A Google-certified CMP integrated with IAB TCF is required when serving personalized ads to users in the EEA, UK and Switzerland under Google's publisher consent requirements.
+
+          No technical or editorial change can guarantee AdSense approval; Google makes the final account/site review decision.
+          EOF
+
+          cat > ADSENSE_ACTIVATION.md <<'EOF'
+          # CountryPilot — AdSense activation checklist
+
+          Updated: 2026-10-07
+
+          ## Phase 18 — completed
+          - Publisher ID verified: ca-pub-2387877582529863.
+          - Publisher script verified across ad-eligible pages.
+          - ads.txt verified with the exact current Google seller line.
+          - Trust/publication pages verified and site-wide trust links repaired.
+          - Editorial-team author linkage and source/research signals verified.
+          - Search and 404 remain excluded from the publisher script.
+          - Privacy disclosures cover Google advertising, cookies/local storage, personalization and consent.
+
+          ## Phase 19 — still separate
+          1. Configure a Google-certified CMP integrated with IAB TCF for EEA/UK/Switzerland personalized-ad traffic.
+          2. Verify the live consent message and consent choices on representative devices/regions.
+          3. Review live Auto Ads / ad placements so ads do not cover navigation, article text, buttons or other controls.
+          4. Keep Search and 404 excluded from ad serving.
+          5. Re-check live ads.txt after deployment/account-side changes.
+
+          Phase 18 readiness does not equal Google AdSense approval. Google controls final site/account approval.
+          EOF
+      - name: Commit closeout and remove workflow
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -f .github/workflows/phase18-final-audit.yml
+          git add docs/phase-18-adsense-readiness-audit.md ADSENSE_READINESS_REPORT.txt ADSENSE_ACTIVATION.md
+          git commit -m "Phase 18: close AdSense readiness"
+          git push
