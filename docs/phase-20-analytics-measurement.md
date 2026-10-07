@@ -53,3 +53,12 @@ Recommended completion path:
 4. Verify real GA4 data and configure at least one useful key event, such as a high-value tool action or important outbound official-source click.
 
 Do NOT mark Phase 20 complete until GA4 (or an equivalent event-capable system) is connected and verifiably collecting data.
+
+
+## 2026-10-07 connection re-check
+- GSC Wizard GA4 access is still **not connected**.
+- The GSC Wizard account is authenticated as `kakka24328@gmail.com`.
+- The user's current Windsor/Google work is under `nadeemhaque0071@gmail.com`, creating an account mismatch.
+- Windsor.ai is not connected inside this ChatGPT account, so its GA4 connector cannot be used directly here.
+- No GA4 property or measurement ID is available through the connected tools yet.
+- Phase 20 remains **ACCOUNT-CONNECTION BLOCKED / NOT GREEN** until Google Analytics scope is connected to the same account/context and live GA4 data can be verified.
