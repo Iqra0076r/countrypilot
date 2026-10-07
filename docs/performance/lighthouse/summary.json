@@ -5,52 +5,52 @@
     {
       "file": "route-1.json",
       "url": "https://countrypilot.info/",
-      "performance_score": 59,
-      "lcp_ms": 7147,
-      "cls": 0,
-      "tbt_ms": 230,
-      "fcp_ms": 4029,
-      "speed_index_ms": 5842
+      "performance_score": 43,
+      "lcp_ms": 32868,
+      "cls": 0.4071,
+      "tbt_ms": 142,
+      "fcp_ms": 3811,
+      "speed_index_ms": 5573
     },
     {
       "file": "route-2.json",
       "url": "https://countrypilot.info/country/canada/",
-      "performance_score": 94,
-      "lcp_ms": 2951,
+      "performance_score": 93,
+      "lcp_ms": 3060,
       "cls": 0,
-      "tbt_ms": 58,
-      "fcp_ms": 1779,
-      "speed_index_ms": 1779
+      "tbt_ms": 38,
+      "fcp_ms": 1719,
+      "speed_index_ms": 1719
     },
     {
       "file": "route-3.json",
       "url": "https://countrypilot.info/category/visas-immigration/",
       "performance_score": 98,
-      "lcp_ms": 2274,
+      "lcp_ms": 2217,
       "cls": 0,
-      "tbt_ms": 54,
-      "fcp_ms": 1726,
-      "speed_index_ms": 1726
+      "tbt_ms": 40,
+      "fcp_ms": 1772,
+      "speed_index_ms": 1772
     },
     {
       "file": "route-4.json",
       "url": "https://countrypilot.info/article/canada-lmia-jobs-guide/",
       "performance_score": 98,
-      "lcp_ms": 2190,
+      "lcp_ms": 2131,
       "cls": 0,
-      "tbt_ms": 68,
-      "fcp_ms": 1709,
-      "speed_index_ms": 1709
+      "tbt_ms": 51,
+      "fcp_ms": 1708,
+      "speed_index_ms": 1708
     },
     {
       "file": "route-5.json",
       "url": "https://countrypilot.info/country-tools/canada-crs-calculator/",
       "performance_score": 98,
-      "lcp_ms": 2184,
+      "lcp_ms": 2065,
       "cls": 0,
-      "tbt_ms": 60,
-      "fcp_ms": 1726,
-      "speed_index_ms": 1726
+      "tbt_ms": 42,
+      "fcp_ms": 1703,
+      "speed_index_ms": 1703
     },
     {
       "file": "summary.json",
