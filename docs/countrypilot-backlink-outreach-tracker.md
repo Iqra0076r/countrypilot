@@ -71,3 +71,41 @@ hello@countrypilot.info
 - Sender required: hello@countrypilot.info
 - Mail provider: Spaceship Mail / Spacemail
 - Sending from any other mailbox remains prohibited unless the user explicitly changes that rule.
+
+## Additional verified outreach opportunities — 2026-10-07
+
+These are secondary verified university resource prospects to expand the queue while the Spaceship Mail sender remains unavailable.
+
+### Texas Tech University Career Center
+- Resource page: https://www.depts.ttu.edu/careercenter/International_resources/
+- Contact: careercenter@ttu.edu
+- Suggested CountryPilot asset: https://countrypilot.info/article/united-states-visa-sponsorship-jobs-guide/
+- Angle: verification-first US sponsorship/employment resource for international students.
+- Status: READY FOR PERSONALIZED OUTREACH
+
+### University of Westminster Careers
+- Resource page: https://www.westminster.ac.uk/zone29/students/find-jobs-and-experiences/job-search-essentials/careers-resources-for-international-students
+- Suggested CountryPilot asset: https://countrypilot.info/article/united-kingdom-how-to-verify-a-sponsor/
+- Angle: complement existing sponsor-focused resources with an independent verification guide.
+- Status: PROSPECT VERIFIED; contact route exists on page, exact mailbox to be reconfirmed before send.
+
+### Royal Holloway Careers
+- Resource page: https://intranet.royalholloway.ac.uk/students/jobs-careers/apply/international.aspx
+- Contact: careers@rhul.ac.uk
+- Suggested CountryPilot asset: https://countrypilot.info/article/united-kingdom-how-to-verify-a-sponsor/
+- Angle: UK sponsor verification and Skilled Worker planning.
+- Status: READY FOR PERSONALIZED OUTREACH
+
+### University of Plymouth Careers Service
+- Resource page: https://www.plymouth.ac.uk/services/careers/support-for-international-students
+- Contact: careers@plymouth.ac.uk
+- Suggested CountryPilot asset: https://countrypilot.info/article/united-kingdom-skilled-worker-pathway/
+- Angle: practical Skilled Worker / sponsor-verification companion resource.
+- Status: READY FOR PERSONALIZED OUTREACH
+
+### Phase-16 expanded state
+- Original Tier-1 ready queue: 6
+- Additional verified/near-ready university opportunities added: 4
+- Exact sender remains: hello@countrypilot.info
+- Do not send from another mailbox without explicit user permission.
+
