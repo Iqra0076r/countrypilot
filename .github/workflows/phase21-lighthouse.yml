@@ -26,7 +26,7 @@ jobs:
         run: |
           for i in $(seq 1 36); do
             html="$(curl -fsSL --max-time 20 https://countrypilot.info/ || true)"
-            if echo "$html" | grep -q 'countrypilot-premium.css?v=20261007-perf1' \
+            if echo "$html" | grep -q 'countrypilot-premium.css?v=20261008-dark1' \
               && ! echo "$html" | grep -q 'country-ai-images.css' \
               && ! echo "$html" | grep -q 'card-layout-fix.css' \
               && ! echo "$html" | grep -q 'social-favicons.css'; then
