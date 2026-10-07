@@ -1,46 +1,55 @@
 # CountryPilot Mission — Phase 14: Google Indexing Activation
 
 **Started:** 2026-10-07  
-**Status:** ACTIVE — all immediate controllable crawl/discovery actions completed; Google crawl/index response pending.
+**Status:** ACTIVE — do not mark complete until all Phase-14 priority URLs are indexed.
 
-## Priority set
-The four-market commercial/search target set resolves to **48 unique URLs** across the United States, United Kingdom, Canada and Australia. Multiple target keywords intentionally map to the same primary URL.
+## Strict completion rule
+Phase 14 is complete only when **59/59 priority URLs** in `sitemap-priority.xml` are reported indexed by Google Search Console. Successful sitemap submission, discovery, crawling, or “Discovered — currently not indexed” does **not** count as completion.
 
-## Baseline at Phase 14 start
-- Priority URLs tracked: 48/48
-- Indexed: 0
-- Not indexed: 47
-- Pending: 1
-- URL unknown to Google: 29
-- Discovered — currently not indexed: 18
-- Indexing errors: 0
+## Phase-14 priority set
+The set contains:
+- 48 unique four-market keyword/target pages.
+- 4 priority country hubs: US, UK, Canada, Australia.
+- 3 priority category hubs: Visas & Immigration, Visa Sponsorship Jobs, Jobs & Work Permits.
+- Canada LMIA guide.
+- Australia Visa Sponsorship Jobs guide.
+- Canada CRS score resource.
+- US Diversity Visa verification guide.
 
-Separate sitewide tracker state before this phase showed the homepage as the only indexed tracked URL.
+Total: **59 unique URLs**.
 
-## Actions completed
-1. Verified the priority URLs against the live CountryPilot sitemap strategy.
-2. Added missing priority URLs to the GSC Wizard indexing tracker.
-3. Re-submitted:
-   - https://countrypilot.info/sitemap-core.xml
-   - https://countrypilot.info/sitemap-money.xml
-   - https://countrypilot.info/sitemap.xml
-   All three were accepted with 0 warnings / 0 errors at submission time.
-4. Audited the main crawl graph across homepage, four country hubs, relevant category hubs, tools hub and moving-abroad hub.
-5. Confirmed **0 orphan URLs** in the 48-page priority set.
-6. Strengthened weak crawl paths:
-   - Tools hub → Canada CRS score resource
-   - Tools hub → US immigration lawyer cost planner
-   - Australia hub → Australia visa sponsorship jobs guide
-7. Confirmed the three origin-relocation pages are linked from the moving-abroad hub. They are intentionally not forced into unrelated country-destination hubs.
-8. IndexNow discovery submissions were accepted for the highest-priority changed URLs with the key validated; this is a secondary discovery channel and does not replace Google indexing.
+## Technical/indexability checks completed
+- 59/59 pages have a valid canonical matching the target URL.
+- 59/59 have no `noindex` directive.
+- 59/59 have valid HTML doctype, title and H1.
+- 0 orphan pages in the priority crawl graph.
+- Weak crawl paths were strengthened from relevant country/tool hubs.
+- `sitemap-priority.xml` was created and added to the sitemap index.
+- Google Search Console accepted the focused sitemap and sitemap index with 0 errors / 0 warnings at submission.
 
-## Completion condition
-Phase 14 is not considered complete merely because sitemap submissions were accepted. Completion requires meaningful Google crawl/index movement across the priority set. The indexing tracker is the source of truth.
+## Content-quality closeout
+A 59-page quality audit identified six thin pages and six near-duplicate pairs. All controllable flags were then fixed.
 
-### Next checkpoint
-Measure:
-- how many of the 48 priority URLs move from Unknown → Discovered/Crawled;
-- how many move to Submitted and indexed;
-- whether any real indexing error appears.
+### Former thin pages — current word counts
+- US Immigration Lawyer Cost Planner: 617 words.
+- Visa Document Checklist: 532 words.
+- UK Skilled Worker Visa Cost Calculator: 674 words.
+- Canada Study Permit Proof of Funds Calculator: 632 words.
+- Moving Abroad from Canada: 722 words.
+- Canada CRS score resource: 672 words.
 
-Do not mass-create new articles to respond to slow indexation. Improve authority and crawl signals first.
+### Former near-duplicate pairs — current Jaccard similarity
+- Australia Choosing a University vs Academic Intakes: 0.524.
+- Australia Scholarship Eligibility vs PhD Scholarships: 0.469.
+- Moving Abroad Canada vs Australia: 0.357.
+- Moving Abroad US vs Australia: 0.337.
+- Moving Abroad US vs Canada: 0.338.
+- US IT Sponsorship Jobs vs US Work Permit Guide: 0.437.
+
+Configured concern threshold: 0.55. All flagged pairs are now below it.
+
+## Current external dependency
+Google decides when and whether eligible pages are crawled and indexed. CountryPilot cannot force Google indexing through the Search Console API. The indexing tracker remains the source of truth.
+
+## Rule
+Do not mark Phase 14 green until **59/59 indexed**. Until then, status is ACTIVE.
