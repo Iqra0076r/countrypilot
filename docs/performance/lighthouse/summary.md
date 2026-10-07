@@ -2,8 +2,9 @@
 
 | Route | Perf | LCP ms | CLS | TBT ms | FCP ms |
 |---|---:|---:|---:|---:|---:|
-| https://countrypilot.info/ | 72 | 4836 | 0 | 267 | 2917 |
-| https://countrypilot.info/country/canada/ | 94 | 2835 | 0 | 86 | 1763 |
-| https://countrypilot.info/category/visas-immigration/ | 69 | 6107 | 0 | 39 | 3760 |
-| https://countrypilot.info/article/canada-lmia-jobs-guide/ | 70 | 5616 | 0 | 44 | 3763 |
-| https://countrypilot.info/country-tools/canada-crs-calculator/ | 97 | 2288 | 0 | 92 | 1775 |
+| https://countrypilot.info/ | 59 | 7130 | 0 | 238 | 3920 |
+| https://countrypilot.info/country/canada/ | 94 | 2934 | 0 | 66 | 1732 |
+| https://countrypilot.info/category/visas-immigration/ | 84 | 4032 | 0 | 60 | 2509 |
+| https://countrypilot.info/article/canada-lmia-jobs-guide/ | 98 | 2126 | 0 | 72 | 1728 |
+| https://countrypilot.info/country-tools/canada-crs-calculator/ | 99 | 1730 | 0 | 68 | 1730 |
+| None | 0 | 0 | 0 | 0 | 0 |
