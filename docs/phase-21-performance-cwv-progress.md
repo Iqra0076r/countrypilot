@@ -43,3 +43,39 @@ Speed Brain is OFF. An attempted API enable was rejected with Cloudflare authent
 The repo-side safe optimization pass is materially advanced, but a strict Core Web Vitals closeout still needs verifiable lab or field measurements after deployment (LCP, INP and CLS) and confirmation that no remaining actionable regression exists. The current connected tools do not expose those field metrics and the public-site fetch path used in this run could not inspect the live HTML.
 
 Do not mark Phase 21 green merely because the preload commit succeeded.
+
+
+## 2026-10-07 deep optimization pass
+
+### Live Lighthouse evidence
+A GitHub Actions Lighthouse workflow now audits five representative production routes:
+- homepage
+- Canada country hub
+- Visas & Immigration category
+- Canada LMIA priority article
+- Canada CRS calculator
+
+Evidence lives under `docs/performance/lighthouse/`.
+
+The pass found render-blocking legacy CSS injected during `postinstall`. Four legacy override files were consolidated into `assets/countrypilot-premium.css`, and `scripts/inject-article-layout-fix.py` was changed so those styles are no longer injected as separate requests.
+
+After deployment, representative runs reached:
+- category: up to 98 performance, ~2.2s LCP, CLS 0
+- priority article: 98 performance, ~2.1s LCP, CLS 0
+- calculator: 98 performance, ~2.1s LCP, CLS 0
+- country hub: up to 94 performance, CLS 0
+- homepage: synthetic results remained variable; one stable post-fix run showed ~2.9s LCP and CLS 0, but TBT was elevated by third-party ad execution
+
+A direct-image homepage experiment caused a CLS regression and was immediately rolled back. The stable background-hero structure is restored with a lighter 153 KB asset.
+
+### Cloudflare delivery / runtime verification
+The live site is served by Cloudflare Worker `countrypilot5` with static assets, routed to both:
+- `countrypilot.info/*`
+- `www.countrypilot.info/*`
+
+The Worker was observed updating after the performance commits, and the Lighthouse workflow now gates on the optimized live deployment before testing.
+
+### Remaining strict closeout boundary
+Cloudflare documentation confirms Web Analytics RUM collects real-user LCP, INP and CLS. RUM is enabled for CountryPilot. However, the current Cloudflare connector exposes RUM/Web Analytics configuration but not the Core Web Vitals metric table itself.
+
+Therefore Phase 21 remains NOT GREEN under the strict rule until real-user LCP/INP/CLS values can be directly read/verified. Code-side performance work is not left undone; the remaining item is metric access/observation.
