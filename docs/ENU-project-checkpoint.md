@@ -26,14 +26,14 @@
 | 11 | Sitemaps | GREEN | Complete. |
 | 12 | Google Search Console setup | GREEN | Complete. |
 | 13 | IndexNow/search submission infrastructure | GREEN | Complete. |
-| 14 | Google indexing activation | ACTIVE / NOT GREEN | Strict completion condition: **59/59 Phase-14 priority URLs indexed**. Hourly condition watch remains active. |
+| 14 | Google indexing activation | ACTIVE / NOT GREEN | Strict completion condition: **59/59 Phase-14 priority URLs indexed**. Latest stored URL Inspection check on 2026-10-07 found 0/59 indexed; priority URLs were unknown or discovered-not-indexed. Hourly condition watch remains active. |
 | 15 | Backlink research | GREEN | Fully closed with 20 unique-domain research set. |
 | 16 | Kakka backlink outreach | PAUSED / NOT GREEN | Skipped for now. 27 researched; 6 Tier 1; 4 Tier 2; 17 rejected; 6 personalized emails ready; 0 sent; Spaceship Mail/Spacemail account not connected in chat. |
-| 17 | Large-scale content quality control | NOT GREEN | Significant work completed, but no strict full closeout proving all actionable items are finished. |
+| 17 | Large-scale content quality control | NOT GREEN | Priority-page SEO jargon cleanup completed in this pass, but the wider long-tail templated prose footprint remains. Progress: `docs/phase-17-content-quality-progress.md`. |
 | 18 | AdSense readiness | GREEN | Fully complete. Final strict audit: 2,030 HTML pages; 2,028 ad-eligible pages; 1,781/1,781 articles with author + source signals; 0 actionable failures. |
 | 19 | CMP / consent / ads.txt / live ad implementation | PAUSED / NOT GREEN | Website side complete. Remaining: publish European regulations CMP in AdSense and verify Auto Ads + live placement. |
 | 20 | Analytics & measurement | ACTIVE / NOT GREEN | GSC and Cloudflare Web Analytics verified. GA4 not connected; no GA4/GTM tag; no key-event/conversion layer yet. |
-| 21 | Performance / Core Web Vitals | NOT STARTED / NOT GREEN | Start only after user directs or after blockers/sequence are addressed. |
+| 21 | Performance / Core Web Vitals | ACTIVE / NOT GREEN | Representative performance audit completed; homepage 212,632-byte CSS-background LCP hero now preloaded at high priority. Cloudflare Brotli/HTTP2/HTTP3/RUM/cache settings verified. Strict CWV closeout still needs verifiable LCP/INP/CLS measurement. Progress: `docs/phase-21-performance-cwv-progress.md`. |
 
 ## Permanent Semrush state
 Semrush is **100% CLOSED** and must not be shown with a yellow tick.
@@ -86,6 +86,14 @@ Phase 15 backlink research is fully closed.
 - Provider: Spaceship Mail / Spacemail
 - Blocker: no authenticated Spacemail session in chat
 - Do not send from Gmail/Hostinger/another sender without explicit permission
+
+## Phase 17 current state
+
+This pass removed reader-facing Semrush/KD/CPC/ranking language from five priority pages and converted it to reader-centered verification guidance. The broader long-tail template footprint still exists, so Phase 17 remains yellow. See `docs/phase-17-content-quality-progress.md`.
+
+## Phase 21 current state
+
+Performance audit completed across representative homepage, country, category, article and tool templates. Homepage LCP candidate `/images/travel-tools-planning.webp` (212,632 bytes) is now explicitly preloaded at high priority. Cloudflare Brotli, HTTP/2, HTTP/3, TLS 1.3 and RUM are ON; cache level is aggressive. Speed Brain remains OFF because the connected Cloudflare token rejected the write attempt. Phase 21 remains yellow until LCP/INP/CLS can be verified after deployment. See `docs/phase-21-performance-cwv-progress.md`.
 
 ## Phase 18 exact closeout
 Phase 18 is fully green.
