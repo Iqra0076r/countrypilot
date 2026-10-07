@@ -49,7 +49,7 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
 .cp-home .home-top .lead-media{
   min-height:460px;
   border-radius:0 0 22px 22px;
-  background-image:linear-gradient(90deg,rgba(5,35,61,.94) 0%,rgba(5,35,61,.82) 45%,rgba(5,35,61,.22) 82%),url('/images/travel-tools-planning.webp')!important;
+  background-image:linear-gradient(90deg,rgba(5,35,61,.94) 0%,rgba(5,35,61,.82) 45%,rgba(5,35,61,.22) 82%),url('/images/jobs-work-permits.webp')!important;
   background-size:cover;
   background-position:center;
   box-shadow:0 18px 45px rgba(8,47,79,.12)
@@ -1325,13 +1325,3 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
   .article-body h3{font-size:20px!important}
 }
 
-/* Phase 21 direct homepage LCP image */
-.cp-home .home-top .lead-media{position:relative;overflow:hidden;background-image:none!important}
-.cp-home .home-top .lead-media>.cp-home-lcp-image{
-  display:block!important;position:absolute!important;inset:0!important;
-  width:100%!important;height:100%!important;max-width:none!important;
-  object-fit:cover!important;object-position:center!important;opacity:1!important;
-  z-index:0!important;
-}
-.cp-home .home-top .lead-media::after{z-index:1!important}
-.cp-home .home-top .lead-copy{z-index:3!important}
