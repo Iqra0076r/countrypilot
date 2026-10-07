@@ -1,0 +1,50 @@
+name: Phase 21 Lighthouse audit
+
+on:
+  push:
+    paths:
+      - 'scripts/phase21_parse_lighthouse.py'
+      - '.github/workflows/phase21-lighthouse.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  lighthouse:
+    if: "!contains(github.event.head_commit.message || '', '[phase21-lighthouse]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install Lighthouse
+        run: npm install -g lighthouse@12
+      - name: Run production mobile audits
+        run: |
+          mkdir -p docs/performance/lighthouse
+          urls=(
+            "https://countrypilot.info/"
+            "https://countrypilot.info/country/canada/"
+            "https://countrypilot.info/category/visas-immigration/"
+            "https://countrypilot.info/article/canada-lmia-jobs-guide/"
+            "https://countrypilot.info/country-tools/canada-crs-calculator/"
+          )
+          i=0
+          for url in "${urls[@]}"; do
+            i=$((i+1))
+            lighthouse "$url"               --output=json               --output-path="docs/performance/lighthouse/route-${i}.json"               --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage"               --only-categories=performance               --quiet
+          done
+      - name: Parse results
+        run: python scripts/phase21_parse_lighthouse.py
+      - name: Commit audit evidence
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/performance/lighthouse
+          if git diff --cached --quiet; then
+            echo "No report changes"
+            exit 0
+          fi
+          git commit -m "Record Phase 21 Lighthouse evidence [phase21-lighthouse]"
+          git push
