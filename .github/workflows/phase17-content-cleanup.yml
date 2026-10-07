@@ -1,0 +1,44 @@
+name: Phase 17 content cleanup
+
+on:
+  push:
+    paths:
+      - 'scripts/phase17_cleanup.py'
+      - '.github/workflows/phase17-content-cleanup.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    if: "!contains(github.event.head_commit.message || '', '[phase17-cleanup]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run site-wide Phase 17 cleanup
+        run: python scripts/phase17_cleanup.py
+      - name: Validate HTML estate
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          files=list(Path('article').glob('*/index.html'))
+          assert len(files) == 1781, f'unexpected article count: {len(files)}'
+          for p in files:
+              s=p.read_text(encoding='utf-8')
+              assert '<title>' in s and '<h1' in s and 'rel="canonical"' in s
+          print('validated', len(files), 'articles')
+          PY
+      - name: Commit cleanup results
+        run: |
+          if git diff --quiet; then
+            echo "No changes needed"
+            exit 0
+          fi
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add article docs/phase-17-cleanup-report.json
+          git commit -m "Complete Phase 17 template-language cleanup [phase17-cleanup]"
+          git push
