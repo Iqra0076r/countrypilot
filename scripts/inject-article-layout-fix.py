@@ -710,25 +710,11 @@ country_cards_updated = 0
 country_hero_pages_updated = 0
 skipped = 0
 
-# Article layout fix only for article pages.
-if ARTICLE_ROOT.exists():
-    for path in ARTICLE_ROOT.rglob("*.html"):
-        try:
-            text = path.read_text(encoding="utf-8")
-        except UnicodeDecodeError:
-            skipped += 1
-            continue
+# Article layout fix is now consolidated into /assets/countrypilot-premium.css.
+# Do not inject a separate article-layout-fix.css request.
 
-        changed = False
-        if ARTICLE_MARKER not in text and "</head>" in text:
-            text = text.replace("</head>", ARTICLE_TAG + "\n</head>", 1)
-            article_updated += 1
-            changed = True
-
-        if changed:
-            path.write_text(text, encoding="utf-8")
-
-# Site-wide pass: social favicon stylesheet + topic-matched editorial card images.
+# Site-wide pass: visual/content transformations only. Legacy CSS override files
+# are consolidated into countrypilot-premium.css to avoid render-blocking requests.
 for path in Path(".").rglob("*.html"):
     if any(part in {".git", ".wrangler", "node_modules"} for part in path.parts):
         continue
@@ -739,6 +725,18 @@ for path in Path(".").rglob("*.html"):
         continue
 
     changed = False
+
+    # Phase 21 cache-bust consolidated premium CSS on every HTML page.
+    perf_text = re.sub(
+        r'/assets/countrypilot-premium\.css\?v=[^"\']+',
+        '/assets/countrypilot-premium.css?v=20261007-perf1',
+        text,
+        count=1,
+        flags=re.I,
+    )
+    if perf_text != text:
+        text = perf_text
+        changed = True
 
     # Repair CountryPilot Organization structured data consistently.
     repaired_text = text.replace(
@@ -787,19 +785,9 @@ for path in Path(".").rglob("*.html"):
     if proof_cta_text != text:
         text = proof_cta_text
         changed = True
-
-    if SOCIAL_MARKER not in text and "</head>" in text:
-        text = text.replace("</head>", SOCIAL_TAG + "\n</head>", 1)
-        social_updated += 1
-        changed = True
-
-    if COUNTRY_STYLE_MARKER not in text and "</head>" in text:
-        text = text.replace("</head>", COUNTRY_STYLE_TAG + "\n</head>", 1)
-        changed = True
-
-    if CARD_STYLE_MARKER not in text and "</head>" in text:
-        text = text.replace("</head>", CARD_STYLE_TAG + "\n</head>", 1)
-        changed = True
+    # Phase 21: do not inject social-favicons.css, country-ai-images.css or
+    # card-layout-fix.css separately. Their rules are consolidated into the
+    # premium bundle to reduce render-blocking stylesheet requests.
 
     # Add country-specific imagery to country cards wherever those countries appear.
     country_page_count_holder = [0]
