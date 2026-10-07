@@ -5,12 +5,12 @@ ROOT = Path(__file__).resolve().parents[1]
 articles = sorted(ROOT.glob("article/*/index.html"))
 
 patterns = [
-    (re.compile(r'\s*Applied to [^.<]{1,220}, this belongs under [“"][^”"]+[”"]\.\s*'), ' '),
-    (re.compile(r'\s*For readers using [^.<]{1,220}, this is a [“"][^”"]+[”"] issue rather than a stand-alone rule;\s*'), ' '),
-    (re.compile(r'\s*In [^.<]{1,220}, treat this as part of the [“"][^”"]+[”"] check;\s*'), ' '),
-    (re.compile(r'\s*Within [^.<]{1,220}, use this point when working through [“"][^”"]+[”"], then\s*'), ' '),
-    (re.compile(r'\s*For this [^.<]{1,220} research path, the practical checkpoint is [“"][^”"]+[”"];\s*'), ' '),
-    (re.compile(r'\s*For [^.<]{1,220}, connect this point to the [“"][^”"]+[”"] decision and\s*'), ' '),
+    (re.compile(r'\s*Applied to [^<]*?, this belongs under [^<]*?\.\s*(?=Confirm)'), ' '),
+    (re.compile(r'\s*For readers using [^<]*? issue rather than a stand-alone rule;\s*'), ' '),
+    (re.compile(r'\s*In [^<]*?treat this as part of the [^<]*? check;\s*'), ' '),
+    (re.compile(r'\s*Within [^<]*?use this point when working through [^<]*?, then\s*'), ' '),
+    (re.compile(r'\s*For this [^<]*? research path, the practical checkpoint is [^<]*?;\s*'), ' '),
+    (re.compile(r'\s*For [^<]*?, connect this point to the [^<]*? decision and\s*'), ' '),
 ]
 
 bad_markers = [
