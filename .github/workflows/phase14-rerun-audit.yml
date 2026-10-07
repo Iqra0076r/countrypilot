@@ -1,0 +1,92 @@
+name: Phase 14 rerun quality audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/phase14-rerun-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Re-audit 59 priority URLs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, html, itertools
+          from urllib.parse import urlparse
+          import xml.etree.ElementTree as ET
+
+          root=ET.parse('sitemap-priority.xml').getroot()
+          urls=[e.text.strip() for e in root.findall('.//{*}loc') if e.text]
+          assert len(urls)==59
+
+          def path_for(url):
+              p=urlparse(url).path.strip('/')
+              return Path(p)/'index.html' if p else Path('index.html')
+          def clean(src):
+              src=re.sub(r'<script\b[^>]*>[\s\S]*?</script>',' ',src,flags=re.I)
+              src=re.sub(r'<style\b[^>]*>[\s\S]*?</style>',' ',src,flags=re.I)
+              src=re.sub(r'<[^>]+>',' ',src)
+              return re.sub(r'\s+',' ',html.unescape(src)).strip()
+          stop={'the','and','for','with','from','that','this','your','you','are','can','will','into','our','not','use','before','after','about','guide','country','pilot'}
+          def shingles(t,n=5):
+              w=[x for x in re.findall(r'[a-z0-9]+',t.lower()) if x not in stop]
+              return {' '.join(w[i:i+n]) for i in range(max(0,len(w)-n+1))}
+
+          rows=[]; docs={}; flags=[]
+          for u in urls:
+              p=path_for(u)
+              if not p.exists():
+                  rows.append((u,'MISSING',0,0,0)); flags.append(f'MISSING {u}'); continue
+              src=p.read_text(encoding='utf-8',errors='replace')
+              txt=clean(src); wc=len(re.findall(r"\b\w+[\w'-]*\b",txt))
+              robots=(re.search(r'<meta[^>]+name=["\']robots["\'][^>]+content=["\']([^"\']+)',src,re.I) or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']robots',src,re.I))
+              rob=robots.group(1) if robots else ''
+              can=(re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)',src,re.I) or re.search(r'<link[^>]+href=["\']([^"\']+)["\'][^>]+rel=["\']canonical',src,re.I))
+              cv=can.group(1) if can else ''
+              bad=[]
+              if wc<500: bad.append('low-word-count')
+              if re.search(r'\bnoindex\b',rob,re.I): bad.append('noindex')
+              if cv!=u: bad.append('canonical-mismatch')
+              if not re.match(r'^\s*<!doctype html>',src,re.I): bad.append('missing-doctype')
+              if not re.search(r'<title>[^<]{5,}</title>',src,re.I): bad.append('missing-title')
+              if not re.search(r'<h1\b[^>]*>[\s\S]*?</h1>',src,re.I): bad.append('missing-h1')
+              rows.append((u,';'.join(bad) if bad else 'OK',wc,len(re.findall(r'href=["\'](?:/|\.\.?/)',src,re.I)),len(re.findall(r'href=["\']https?://',src,re.I))))
+              if bad: flags.append(f"{u}: {';'.join(bad)}")
+              docs[u]=shingles(txt)
+
+          similar=[]
+          for u1,u2 in itertools.combinations(urls,2):
+              a,b=docs.get(u1,set()),docs.get(u2,set())
+              if not a or not b: continue
+              j=len(a&b)/len(a|b)
+              if j>=0.55: similar.append((j,u1,u2))
+          similar.sort(reverse=True)
+
+          lines=['# Phase 14 — Priority URL Quality Audit','', '**Generated:** 2026-10-07',f'**URLs audited:** {len(urls)}',f'**Structural/content flags:** {len(flags)}',f'**Near-duplicate pairs at Jaccard >= 0.55:** {len(similar)}','',
+                 '## URL audit','','| URL | Status | Words | Internal hrefs | External hrefs |','|---|---|---:|---:|---:|']
+          for r in rows: lines.append(f'| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {r[4]} |')
+          lines += ['','## Near-duplicate pairs','']
+          if similar:
+              lines += ['| Jaccard | URL A | URL B |','|---:|---|---|']
+              for j,a,b in similar[:50]: lines.append(f'| {j:.3f} | {a} | {b} |')
+          else: lines.append('None at the configured threshold.')
+          lines += ['','## Flags',''] + ([f'- {x}' for x in flags] if flags else ['No structural/content-depth flags under the configured checks.'])
+          Path('docs/phase-14-priority-quality-audit.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(f'flags={len(flags)} similar={len(similar)}')
+          PY
+      - name: Commit report and remove workflow
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -f .github/workflows/phase14-rerun-audit.yml
+          git add docs/phase-14-priority-quality-audit.md
+          git commit -m "Phase 14: rerun priority quality audit after fixes"
+          git push
