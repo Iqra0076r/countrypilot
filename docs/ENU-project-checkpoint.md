@@ -26,14 +26,14 @@
 | 11 | Sitemaps | GREEN | Complete. |
 | 12 | Google Search Console setup | GREEN | Complete. |
 | 13 | IndexNow/search submission infrastructure | GREEN | Complete. |
-| 14 | Google indexing activation | ACTIVE / NOT GREEN | Strict completion condition: **59/59 Phase-14 priority URLs indexed**. Latest stored URL Inspection check on 2026-10-07 found 0/59 indexed; priority URLs were unknown or discovered-not-indexed. Hourly condition watch remains active. |
+| 14 | Google indexing activation | ACTIVE / NOT GREEN | Exact 59-URL reconciliation on 2026-10-07: **0 indexed, 20 discovered-not-indexed, 39 unknown to Google**. All controllable technical/indexability work is complete; hourly watch remains active. |
 | 15 | Backlink research | GREEN | Fully closed with 20 unique-domain research set. |
 | 16 | Kakka backlink outreach | BLOCKED / NOT GREEN | Six verified Tier-1 personalized drafts are now documented in `docs/countrypilot-backlink-outreach-tracker.md`; 0 sent. Exact sender must remain `hello@countrypilot.info`. No Spaceship/Spacemail or compatible custom-SMTP connector is available in this chat. |
 | 17 | Large-scale content quality control | GREEN | Closed 2026-10-07 after full 1,781-article cleanup and QA. Closeout: `docs/phase-17-content-quality-closeout.md`. |
 | 18 | AdSense readiness | GREEN | Fully complete. Final strict audit: 2,030 HTML pages; 2,028 ad-eligible pages; 1,781/1,781 articles with author + source signals; 0 actionable failures. |
 | 19 | CMP / consent / ads.txt / live ad implementation | PAUSED / NOT GREEN | Website side complete. Remaining: publish European regulations CMP in AdSense and verify Auto Ads + live placement. |
-| 20 | Analytics & measurement | ACTIVE / NOT GREEN | GSC and Cloudflare Web Analytics verified. GA4 not connected; no GA4/GTM tag; no key-event/conversion layer yet. |
-| 21 | Performance / Core Web Vitals | ACTIVE / NOT GREEN | Representative performance audit completed; homepage 212,632-byte CSS-background LCP hero now preloaded at high priority. Cloudflare Brotli/HTTP2/HTTP3/RUM/cache settings verified. Strict CWV closeout still needs verifiable LCP/INP/CLS measurement. Progress: `docs/phase-21-performance-cwv-progress.md`. |
+| 20 | Analytics & measurement | BLOCKED / NOT GREEN | GSC + Cloudflare Web Analytics verified. GSC Wizard GA4 scope is still not connected; GSC Wizard is authenticated as `kakka24328@gmail.com`, while current Windsor/Google work is under `nadeemhaque0071@gmail.com`. No verifiable GA4 property/key events yet. |
+| 21 | Performance / Core Web Vitals | EXTERNAL VERIFICATION BLOCKED / NOT GREEN | Safe first-party optimizations deployed; 15-run median mobile Lighthouse evidence recorded (homepage 85, country/category 93, article/tool 97; CLS 0). Remaining strict blocker is verifiable real-user INP/field CWV; connected Cloudflare API exposes no INP read endpoint and Observatory test-start write is unauthorized. Progress: `docs/phase-21-performance-cwv-progress.md`. |
 
 ## Permanent Semrush state
 Semrush is **100% CLOSED** and must not be shown with a yellow tick.
