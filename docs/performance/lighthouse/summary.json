@@ -1,66 +1,252 @@
 {
-  "generated_by": "Lighthouse CI-style GitHub Actions audit",
-  "routes_tested": 6,
+  "generated_by": "3-run median Lighthouse mobile audit via GitHub Actions",
+  "routes_tested": 5,
+  "total_lighthouse_runs": 15,
   "results": [
     {
-      "file": "route-1.json",
+      "route": 1,
       "url": "https://countrypilot.info/",
-      "performance_score": 53,
-      "lcp_ms": 6955,
-      "cls": 0,
-      "tbt_ms": 412,
-      "fcp_ms": 4140,
-      "speed_index_ms": 5959
+      "runs": 3,
+      "median_performance_score": 85,
+      "median_lcp_ms": 3772,
+      "median_cls": 0.0,
+      "median_tbt_ms": 74,
+      "median_fcp_ms": 1749,
+      "median_speed_index_ms": 1879,
+      "individual_runs": [
+        {
+          "route": 1,
+          "run": 1,
+          "file": "route-1-1.json",
+          "url": "https://countrypilot.info/",
+          "performance_score": 85,
+          "lcp_ms": 3562,
+          "cls": 0.0,
+          "tbt_ms": 259,
+          "fcp_ms": 1692,
+          "speed_index_ms": 1879
+        },
+        {
+          "route": 1,
+          "run": 2,
+          "file": "route-1-2.json",
+          "url": "https://countrypilot.info/",
+          "performance_score": 88,
+          "lcp_ms": 3772,
+          "cls": 0.0,
+          "tbt_ms": 60,
+          "fcp_ms": 1749,
+          "speed_index_ms": 1749
+        },
+        {
+          "route": 1,
+          "run": 3,
+          "file": "route-1-3.json",
+          "url": "https://countrypilot.info/",
+          "performance_score": 78,
+          "lcp_ms": 4945,
+          "cls": 0.0,
+          "tbt_ms": 74,
+          "fcp_ms": 2484,
+          "speed_index_ms": 2484
+        }
+      ]
     },
     {
-      "file": "route-2.json",
+      "route": 2,
       "url": "https://countrypilot.info/country/canada/",
-      "performance_score": 98,
-      "lcp_ms": 2195,
-      "cls": 0,
-      "tbt_ms": 62,
-      "fcp_ms": 1768,
-      "speed_index_ms": 1768
+      "runs": 3,
+      "median_performance_score": 93,
+      "median_lcp_ms": 3020,
+      "median_cls": 0.0,
+      "median_tbt_ms": 46,
+      "median_fcp_ms": 1771,
+      "median_speed_index_ms": 1771,
+      "individual_runs": [
+        {
+          "route": 2,
+          "run": 1,
+          "file": "route-2-1.json",
+          "url": "https://countrypilot.info/country/canada/",
+          "performance_score": 66,
+          "lcp_ms": 7253,
+          "cls": 0.0,
+          "tbt_ms": 62,
+          "fcp_ms": 4067,
+          "speed_index_ms": 4391
+        },
+        {
+          "route": 2,
+          "run": 2,
+          "file": "route-2-2.json",
+          "url": "https://countrypilot.info/country/canada/",
+          "performance_score": 93,
+          "lcp_ms": 3020,
+          "cls": 0.0,
+          "tbt_ms": 46,
+          "fcp_ms": 1771,
+          "speed_index_ms": 1771
+        },
+        {
+          "route": 2,
+          "run": 3,
+          "file": "route-2-3.json",
+          "url": "https://countrypilot.info/country/canada/",
+          "performance_score": 94,
+          "lcp_ms": 3010,
+          "cls": 0.0,
+          "tbt_ms": 46,
+          "fcp_ms": 1756,
+          "speed_index_ms": 1756
+        }
+      ]
     },
     {
-      "file": "route-3.json",
+      "route": 3,
       "url": "https://countrypilot.info/category/visas-immigration/",
-      "performance_score": 93,
-      "lcp_ms": 3070,
-      "cls": 0,
-      "tbt_ms": 44,
-      "fcp_ms": 1826,
-      "speed_index_ms": 1826
+      "runs": 3,
+      "median_performance_score": 93,
+      "median_lcp_ms": 3037,
+      "median_cls": 0.0,
+      "median_tbt_ms": 48,
+      "median_fcp_ms": 1782,
+      "median_speed_index_ms": 1782,
+      "individual_runs": [
+        {
+          "route": 3,
+          "run": 1,
+          "file": "route-3-1.json",
+          "url": "https://countrypilot.info/category/visas-immigration/",
+          "performance_score": 84,
+          "lcp_ms": 3993,
+          "cls": 0.0,
+          "tbt_ms": 70,
+          "fcp_ms": 2503,
+          "speed_index_ms": 2503
+        },
+        {
+          "route": 3,
+          "run": 2,
+          "file": "route-3-2.json",
+          "url": "https://countrypilot.info/category/visas-immigration/",
+          "performance_score": 93,
+          "lcp_ms": 3024,
+          "cls": 0.0,
+          "tbt_ms": 46,
+          "fcp_ms": 1762,
+          "speed_index_ms": 1762
+        },
+        {
+          "route": 3,
+          "run": 3,
+          "file": "route-3-3.json",
+          "url": "https://countrypilot.info/category/visas-immigration/",
+          "performance_score": 93,
+          "lcp_ms": 3037,
+          "cls": 0.0,
+          "tbt_ms": 48,
+          "fcp_ms": 1782,
+          "speed_index_ms": 1782
+        }
+      ]
     },
     {
-      "file": "route-4.json",
+      "route": 4,
       "url": "https://countrypilot.info/article/canada-lmia-jobs-guide/",
-      "performance_score": 71,
-      "lcp_ms": 5470,
-      "cls": 0,
-      "tbt_ms": 52,
-      "fcp_ms": 3628,
-      "speed_index_ms": 4025
+      "runs": 3,
+      "median_performance_score": 97,
+      "median_lcp_ms": 2238,
+      "median_cls": 0.0,
+      "median_tbt_ms": 63,
+      "median_fcp_ms": 1776,
+      "median_speed_index_ms": 1776,
+      "individual_runs": [
+        {
+          "route": 4,
+          "run": 1,
+          "file": "route-4-1.json",
+          "url": "https://countrypilot.info/article/canada-lmia-jobs-guide/",
+          "performance_score": 98,
+          "lcp_ms": 2212,
+          "cls": 0.0,
+          "tbt_ms": 63,
+          "fcp_ms": 1773,
+          "speed_index_ms": 1773
+        },
+        {
+          "route": 4,
+          "run": 2,
+          "file": "route-4-2.json",
+          "url": "https://countrypilot.info/article/canada-lmia-jobs-guide/",
+          "performance_score": 97,
+          "lcp_ms": 2238,
+          "cls": 0.0,
+          "tbt_ms": 70,
+          "fcp_ms": 1776,
+          "speed_index_ms": 1776
+        },
+        {
+          "route": 4,
+          "run": 3,
+          "file": "route-4-3.json",
+          "url": "https://countrypilot.info/article/canada-lmia-jobs-guide/",
+          "performance_score": 90,
+          "lcp_ms": 3176,
+          "cls": 0.0,
+          "tbt_ms": 58,
+          "fcp_ms": 2482,
+          "speed_index_ms": 2482
+        }
+      ]
     },
     {
-      "file": "route-5.json",
+      "route": 5,
       "url": "https://countrypilot.info/country-tools/canada-crs-calculator/",
-      "performance_score": 98,
-      "lcp_ms": 2191,
-      "cls": 0,
-      "tbt_ms": 67,
-      "fcp_ms": 1728,
-      "speed_index_ms": 1728
-    },
-    {
-      "file": "summary.json",
-      "url": null,
-      "performance_score": 0,
-      "lcp_ms": 0,
-      "cls": 0,
-      "tbt_ms": 0,
-      "fcp_ms": 0,
-      "speed_index_ms": 0
+      "runs": 3,
+      "median_performance_score": 97,
+      "median_lcp_ms": 2215,
+      "median_cls": 0.0,
+      "median_tbt_ms": 61,
+      "median_fcp_ms": 1755,
+      "median_speed_index_ms": 1755,
+      "individual_runs": [
+        {
+          "route": 5,
+          "run": 1,
+          "file": "route-5-1.json",
+          "url": "https://countrypilot.info/country-tools/canada-crs-calculator/",
+          "performance_score": 97,
+          "lcp_ms": 2215,
+          "cls": 0.0,
+          "tbt_ms": 68,
+          "fcp_ms": 1755,
+          "speed_index_ms": 1755
+        },
+        {
+          "route": 5,
+          "run": 2,
+          "file": "route-5-2.json",
+          "url": "https://countrypilot.info/country-tools/canada-crs-calculator/",
+          "performance_score": 98,
+          "lcp_ms": 2199,
+          "cls": 0.0,
+          "tbt_ms": 61,
+          "fcp_ms": 1751,
+          "speed_index_ms": 1751
+        },
+        {
+          "route": 5,
+          "run": 3,
+          "file": "route-5-3.json",
+          "url": "https://countrypilot.info/country-tools/canada-crs-calculator/",
+          "performance_score": 70,
+          "lcp_ms": 5594,
+          "cls": 0.0,
+          "tbt_ms": 42,
+          "fcp_ms": 3805,
+          "speed_index_ms": 4139
+        }
+      ]
     }
   ]
 }
