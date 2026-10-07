@@ -7,7 +7,7 @@
 ## Mission state at ENU
 
 ### Strict green count
-**15 / 21 phases are fully green.**
+**16 / 21 phases are fully green.**
 
 ### Phase checklist
 
@@ -29,7 +29,7 @@
 | 14 | Google indexing activation | ACTIVE / NOT GREEN | Strict completion condition: **59/59 Phase-14 priority URLs indexed**. Latest stored URL Inspection check on 2026-10-07 found 0/59 indexed; priority URLs were unknown or discovered-not-indexed. Hourly condition watch remains active. |
 | 15 | Backlink research | GREEN | Fully closed with 20 unique-domain research set. |
 | 16 | Kakka backlink outreach | PAUSED / NOT GREEN | Skipped for now. 27 researched; 6 Tier 1; 4 Tier 2; 17 rejected; 6 personalized emails ready; 0 sent; Spaceship Mail/Spacemail account not connected in chat. |
-| 17 | Large-scale content quality control | NOT GREEN | Priority-page SEO jargon cleanup completed in this pass, but the wider long-tail templated prose footprint remains. Progress: `docs/phase-17-content-quality-progress.md`. |
+| 17 | Large-scale content quality control | GREEN | Closed 2026-10-07 after full 1,781-article cleanup and QA. Closeout: `docs/phase-17-content-quality-closeout.md`. |
 | 18 | AdSense readiness | GREEN | Fully complete. Final strict audit: 2,030 HTML pages; 2,028 ad-eligible pages; 1,781/1,781 articles with author + source signals; 0 actionable failures. |
 | 19 | CMP / consent / ads.txt / live ad implementation | PAUSED / NOT GREEN | Website side complete. Remaining: publish European regulations CMP in AdSense and verify Auto Ads + live placement. |
 | 20 | Analytics & measurement | ACTIVE / NOT GREEN | GSC and Cloudflare Web Analytics verified. GA4 not connected; no GA4/GTM tag; no key-event/conversion layer yet. |
@@ -87,9 +87,9 @@ Phase 15 backlink research is fully closed.
 - Blocker: no authenticated Spacemail session in chat
 - Do not send from Gmail/Hostinger/another sender without explicit permission
 
-## Phase 17 current state
+## Phase 17 exact closeout
 
-This pass removed reader-facing Semrush/KD/CPC/ranking language from five priority pages and converted it to reader-centered verification guidance. The broader long-tail template footprint still exists, so Phase 17 remains yellow. See `docs/phase-17-content-quality-progress.md`.
+Phase 17 is GREEN. All 1,781 article pages were audited; 46,070 targeted templated phrases were removed across two controlled passes; final marker count is zero; article title/H1/canonical checks passed; reader-facing Semrush language no longer appears in public article copy. Closeout: `docs/phase-17-content-quality-closeout.md`.
 
 ## Phase 21 current state
 
@@ -163,7 +163,7 @@ Strict completion rule: Phase 20 stays open until GA4 or an equivalent event-cap
 ## Resume order from ENU
 Unless the user explicitly changes priority, resume from the remaining non-green phases:
 
-**14 (monitor only) -> 16 -> 17 -> 19 -> 20 -> 21**
+**14 (monitor only) -> 16 -> 19 -> 20 -> 21**
 
 Do not redo green phases.
 
