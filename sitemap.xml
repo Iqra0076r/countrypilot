@@ -2,4 +2,5 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap><loc>https://countrypilot.info/sitemap-core.xml</loc><lastmod>2026-10-07</lastmod></sitemap>
   <sitemap><loc>https://countrypilot.info/sitemap-money.xml</loc><lastmod>2026-10-07</lastmod></sitemap>
+  <sitemap><loc>https://countrypilot.info/sitemap-priority.xml</loc><lastmod>2026-10-07</lastmod></sitemap>
 </sitemapindex>
