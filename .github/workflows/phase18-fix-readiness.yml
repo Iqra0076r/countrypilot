@@ -1,0 +1,113 @@
+name: Phase 18 fix AdSense readiness
+
+on:
+  push:
+    paths:
+      - '.github/workflows/phase18-fix-readiness.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fix Phase 18 readiness failures
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          pub_script='''  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863"
+               crossorigin="anonymous"></script>\n'''
+          required_links=[
+            ('/about/','About'),
+            ('/contact/','Contact'),
+            ('/authors/countrypilot-editorial-team/','Editorial Team'),
+            ('/editorial-policy/','Editorial Policy'),
+            ('/sources-policy/','Sources Policy'),
+            ('/corrections-policy/','Corrections Policy'),
+            ('/privacy/','Privacy Policy'),
+            ('/disclaimer/','Disclaimer')
+          ]
+          excluded={Path('404.html'),Path('search/index.html')}
+          changed=[]
+
+          for p in Path('.').rglob('*.html'):
+              src=p.read_text(encoding='utf-8',errors='replace')
+              original=src
+
+              if p not in excluded and 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863' not in src:
+                  src=re.sub(r'(<head[^>]*>)',r'\1\n'+pub_script,src,count=1,flags=re.I)
+
+              if p not in excluded and '<footer' in src.lower():
+                  missing=[(href,label) for href,label in required_links if href not in src]
+                  if missing:
+                      links=''.join(f'<a href="{h}">{l}</a>' for h,l in missing)
+                      block='<div class="container footer-legal phase18-trust-links">'+links+'</div>'
+                      idx=src.lower().rfind('</footer>')
+                      if idx>=0:
+                          src=src[:idx]+block+src[idx:]
+
+              if str(p)=='article/united-states-diversity-visa-lottery-guide/index.html' and '/authors/countrypilot-editorial-team/' not in src:
+                  deck_end=src.find('</p>',src.find('<p class="article-deck">'))
+                  if deck_end>=0:
+                      deck_end+=4
+                      byline='\n<p class="article-byline">By <a href="/authors/countrypilot-editorial-team/">CountryPilot Editorial Team</a> · Updated October 7, 2026</p>'
+                      src=src[:deck_end]+byline+src[deck_end:]
+
+              if src!=original:
+                  p.write_text(src,encoding='utf-8')
+                  changed.append(str(p))
+
+          print(f'Changed {len(changed)} HTML files')
+          for x in changed: print(x)
+          PY
+      - name: Verify strict controls
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, sys
+
+          pub='ca-pub-2387877582529863'
+          excluded={Path('404.html'),Path('search/index.html')}
+          required=[
+            '/about/','/contact/','/authors/countrypilot-editorial-team/',
+            '/editorial-policy/','/sources-policy/','/corrections-policy/',
+            '/privacy/','/disclaimer/'
+          ]
+          bad=[]
+          for p in Path('.').rglob('*.html'):
+              src=p.read_text(encoding='utf-8',errors='replace')
+              if p in excluded:
+                  if 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' in src:
+                      bad.append(f'ad script on excluded page: {p}')
+                  continue
+              if f'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={pub}' not in src:
+                  bad.append(f'missing ad script: {p}')
+              if '<footer' not in src.lower():
+                  bad.append(f'missing footer: {p}')
+              else:
+                  for x in required:
+                      if x not in src:
+                          bad.append(f'missing trust link {x}: {p}')
+                          break
+          dv=Path('article/united-states-diversity-visa-lottery-guide/index.html').read_text(encoding='utf-8')
+          if '/authors/countrypilot-editorial-team/' not in dv:
+              bad.append('DV guide missing editorial team link')
+          if bad:
+              print('\n'.join(bad[:100]))
+              sys.exit(1)
+          print('Phase 18 readiness fix validation passed.')
+          PY
+      - name: Commit fixes and remove workflow
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -f .github/workflows/phase18-fix-readiness.yml
+          git add -A
+          git commit -m "Phase 18: close AdSense readiness control gaps"
+          git push
