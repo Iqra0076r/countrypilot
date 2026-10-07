@@ -424,3 +424,15 @@ body.cp-home .country-grid .country-card:nth-child(2n):after{background:linear-g
   .archive-hero.has-country-image{background-position:center!important}
   .archive-grid .editorial-card{border-radius:14px!important}
 }
+
+
+/* Critical homepage LCP override: neutralize legacy 5.3 MB core hero background. */
+body.cp-home .home-top .lead-media{
+  background-image:none!important;
+  background-color:#031019!important;
+}
+body.cp-home .home-top .lead-media img{
+  opacity:1!important;
+  visibility:visible!important;
+  display:block!important;
+}
