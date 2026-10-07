@@ -655,6 +655,24 @@ def add_style_to_opening_tag(tag: str, style_value: str) -> str:
         return tag[:m.start()] + replacement + tag[m.end():]
     return tag[:-1] + f' style="{style_value}">'
 
+
+def inject_first_eager_image_preload(text: str) -> str:
+    """Preload the first explicitly eager image so the browser discovers likely LCP media in the initial HTML."""
+    if "</head>" not in text:
+        return text
+    m = re.search(r'<img\b[^>]*\bloading=["\']eager["\'][^>]*>', text, flags=re.I)
+    if not m:
+        return text
+    tag = m.group(0)
+    src = re.search(r'\bsrc=["\']([^"\']+)["\']', tag, flags=re.I)
+    if not src:
+        return text
+    href = src.group(1)
+    if re.search(r'<link\b[^>]*\brel=["\']preload["\'][^>]*\bhref=["\']' + re.escape(href) + r'["\']', text, flags=re.I):
+        return text
+    preload = f'<link rel="preload" as="image" href="{href}" fetchpriority="high"/>'
+    return text.replace("</head>", preload + "\n</head>", 1)
+
 def apply_country_card_image(card_html: str) -> str:
     slug = country_slug_from_card(card_html)
     image = country_image_for_slug(slug or "")
@@ -699,7 +717,12 @@ def apply_country_page_hero(text: str, path: Path):
     opening = m.group(0)
     opening = add_class_to_opening_tag(opening, "has-country-image")
     opening = add_style_to_opening_tag(opening, f"--country-image:url('{image}')")
-    return text[:m.start()] + opening + text[m.end():]
+    text = text[:m.start()] + opening + text[m.end():]
+    marker = 'data-cp-country-hero-preload="1"'
+    if "</head>" in text and marker not in text:
+        preload = f'<link rel="preload" as="image" href="{image}" fetchpriority="high" {marker}/>'
+        text = text.replace("</head>", preload + "\n</head>", 1)
+    return text
 
 article_updated = 0
 social_updated = 0
@@ -840,6 +863,11 @@ for path in Path(".").rglob("*.html"):
         text = new_text
         cards_updated += page_card_count_holder[0]
         card_pages_updated += 1
+        changed = True
+
+    eager_preload_text = inject_first_eager_image_preload(text)
+    if eager_preload_text != text:
+        text = eager_preload_text
         changed = True
 
     if changed:
