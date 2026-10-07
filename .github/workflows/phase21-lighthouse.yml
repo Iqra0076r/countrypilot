@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/phase21_parse_lighthouse.py'
       - 'assets/countrypilot-premium.css'
+      - 'index.html'
       - 'scripts/inject-article-layout-fix.py'
       - '.github/workflows/phase21-lighthouse.yml'
   workflow_dispatch:
