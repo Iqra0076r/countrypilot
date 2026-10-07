@@ -1,0 +1,149 @@
+name: Phase 18 AdSense readiness audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/phase18-adsense-readiness-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Audit current AdSense readiness
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, html
+
+          pub='ca-pub-2387877582529863'
+          html_files=list(Path('.').rglob('*.html'))
+          excluded={Path('404.html'),Path('search/index.html')}
+          trust_paths=[
+            '/about/','/contact/','/authors/countrypilot-editorial-team/',
+            '/editorial-policy/','/sources-policy/','/corrections-policy/',
+            '/privacy/','/disclaimer/'
+          ]
+          required_files=[
+            'about/index.html','contact/index.html','authors/countrypilot-editorial-team/index.html',
+            'editorial-policy/index.html','sources-policy/index.html','corrections-policy/index.html',
+            'privacy/index.html','disclaimer/index.html','ads.txt'
+          ]
+
+          missing_required=[p for p in required_files if not Path(p).exists()]
+          ad_present=[]; ad_missing=[]; wrong_pub=[]; placeholders=[]
+          footer_missing=[]; trust_link_missing=[]
+          noindex_ad_script=[]
+          article_author_missing=[]; article_source_signal_missing=[]
+          canonical_missing=[]; title_missing=[]; h1_missing=[]
+          internal_placeholder=[]
+
+          ad_re=re.compile(r'pagead2\.googlesyndication\.com/pagead/js/adsbygoogle\.js\?client=([^"\'&\s]+)',re.I)
+
+          for p in html_files:
+              src=p.read_text(encoding='utf-8',errors='replace')
+              ads=ad_re.findall(src)
+              if p in excluded:
+                  if ads: noindex_ad_script.append(str(p))
+              else:
+                  if ads:
+                      ad_present.append(str(p))
+                      if any(x!=pub for x in ads): wrong_pub.append((str(p),ads))
+                  else:
+                      ad_missing.append(str(p))
+              if 'pub-REPLACE_WITH_REAL' in src or 'ca-pub-REPLACE' in src:
+                  placeholders.append(str(p))
+              if p not in excluded:
+                  if '<footer' not in src.lower(): footer_missing.append(str(p))
+                  for t in trust_paths:
+                      if t not in src:
+                          trust_link_missing.append((str(p),t))
+                          break
+              if str(p).startswith('article/'):
+                  if '/authors/countrypilot-editorial-team/' not in src:
+                      article_author_missing.append(str(p))
+                  low=src.lower()
+                  if not any(x in low for x in ['sources','official source','research note','verification note','source note']):
+                      article_source_signal_missing.append(str(p))
+              if p not in excluded:
+                  if not re.search(r'<link[^>]+rel=["\']canonical["\']',src,re.I) and not re.search(r'<link[^>]+href=["\'][^"\']+["\'][^>]+rel=["\']canonical',src,re.I):
+                      canonical_missing.append(str(p))
+                  if not re.search(r'<title>[^<]{3,}</title>',src,re.I): title_missing.append(str(p))
+                  if not re.search(r'<h1\b[^>]*>[\s\S]*?</h1>',src,re.I): h1_missing.append(str(p))
+
+          ads=Path('ads.txt').read_text(encoding='utf-8',errors='replace').strip() if Path('ads.txt').exists() else ''
+          ads_expected='google.com, pub-2387877582529863, DIRECT, f08c47fec0942fa0'
+          ads_ok=(ads==ads_expected)
+
+          privacy=Path('privacy/index.html').read_text(encoding='utf-8',errors='replace') if Path('privacy/index.html').exists() else ''
+          privacy_checks={
+            'google_adsense': bool(re.search(r'Google\s+AdSense|Google advertising',privacy,re.I)),
+            'cookies': bool(re.search(r'cookies?|local storage',privacy,re.I)),
+            'personalized_ads': bool(re.search(r'personalized|personalised',privacy,re.I)),
+            'consent': bool(re.search(r'consent',privacy,re.I)),
+            'eea_uk_switzerland': all(re.search(x,privacy,re.I) for x in ['EEA','UK','Switzerland'])
+          }
+
+          report=Path('docs/phase-18-adsense-readiness-audit.md')
+          lines=[
+            '# Phase 18 — AdSense Readiness Audit','',
+            '**Generated:** 2026-10-07','',
+            '## Counts','',
+            f'- HTML pages audited: {len(html_files)}',
+            f'- Content/trust pages with current AdSense publisher script: {len(ad_present)}',
+            f'- Non-excluded HTML pages missing publisher script: {len(ad_missing)}',
+            f'- Excluded Search/404 pages incorrectly containing publisher script: {len(noindex_ad_script)}',
+            f'- Pages with wrong publisher ID: {len(wrong_pub)}',
+            f'- Pages with placeholder publisher ID: {len(placeholders)}',
+            f'- Pages missing footer: {len(footer_missing)}',
+            f'- Pages missing at least one required trust-footer link: {len(trust_link_missing)}',
+            f'- Article pages missing editorial-team author link: {len(article_author_missing)}',
+            f'- Article pages missing a source/research signal: {len(article_source_signal_missing)}',
+            f'- Pages missing canonical: {len(canonical_missing)}',
+            f'- Pages missing title: {len(title_missing)}',
+            f'- Pages missing H1: {len(h1_missing)}','',
+            '## Required readiness files','',
+            f'- Missing required files: {len(missing_required)}',
+            f'- ads.txt exact publisher line: {"PASS" if ads_ok else "FAIL"}','',
+            '## Privacy disclosure checks',''
+          ]
+          for k,v in privacy_checks.items():
+              lines.append(f'- {k}: {"PASS" if v else "FAIL"}')
+          failures=[]
+          checks=[
+            ('missing_required',missing_required),('ad_missing',ad_missing),
+            ('noindex_ad_script',noindex_ad_script),('wrong_pub',wrong_pub),
+            ('placeholders',placeholders),('footer_missing',footer_missing),
+            ('trust_link_missing',trust_link_missing),('article_author_missing',article_author_missing),
+            ('article_source_signal_missing',article_source_signal_missing),
+            ('canonical_missing',canonical_missing),('title_missing',title_missing),('h1_missing',h1_missing)
+          ]
+          if not ads_ok: failures.append('ads.txt mismatch')
+          failures += [k for k,v in privacy_checks.items() if not v]
+          failures += [k for k,v in checks if v]
+
+          lines += ['','## Strict readiness result','',
+                    f'**{"PASS" if not failures else "FAIL"}** — {len(failures)} failed control groups.']
+          if failures:
+              lines += ['','### Failed groups']+[f'- {x}' for x in failures]
+          for k,v in checks:
+              if v:
+                  lines += ['',f'### {k} sample']
+                  for x in v[:30]: lines.append(f'- {x}')
+          report.parent.mkdir(parents=True,exist_ok=True)
+          report.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print('\n'.join(lines[:45]))
+          PY
+      - name: Commit audit and remove workflow
+        run: |
+          git config user.name "CountryPilot Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -f .github/workflows/phase18-adsense-readiness-audit.yml
+          git add docs/phase-18-adsense-readiness-audit.md
+          git commit -m "Phase 18: audit current AdSense readiness"
+          git push
