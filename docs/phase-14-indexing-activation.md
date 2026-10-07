@@ -53,3 +53,12 @@ Google decides when and whether eligible pages are crawled and indexed. CountryP
 
 ## Rule
 Do not mark Phase 14 green until **59/59 indexed**. Until then, status is ACTIVE.
+
+## Live GSC recheck and sitemap repair — 2026-10-07 22:50 PKT
+- Exact priority-set reconciliation refreshed from Google URL Inspection history: **0/59 indexed, 17 discovered — currently not indexed, 42 unknown to Google**.
+- A source audit found literal `\\n` escape text inside `sitemap-core.xml` and `sitemap-money.xml` near recently appended URLs.
+- `sitemap-core.xml` repaired in commit `3dc7ceb5591d6b967eef5bdde551090ddcb35bc6`.
+- `sitemap-money.xml` repaired in commit `fb0cd86424dc58a2f8b171b69148028a00b4ad43`.
+- `sitemap.xml`, `sitemap-core.xml`, `sitemap-money.xml`, and `sitemap-priority.xml` were re-submitted through Google Search Console.
+- The sitemap index, core and money submissions showed 0 warnings / 0 errors at re-submission. The priority sitemap still surfaced the previously recorded 1 error while pending a fresh Google download, so it must be rechecked after Google refetches it.
+- Phase 14 remains ACTIVE under the strict **59/59 indexed** completion rule.
