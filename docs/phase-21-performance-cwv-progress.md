@@ -79,3 +79,28 @@ The Worker was observed updating after the performance commits, and the Lighthou
 Cloudflare documentation confirms Web Analytics RUM collects real-user LCP, INP and CLS. RUM is enabled for CountryPilot. However, the current Cloudflare connector exposes RUM/Web Analytics configuration but not the Core Web Vitals metric table itself.
 
 Therefore Phase 21 remains NOT GREEN under the strict rule until real-user LCP/INP/CLS values can be directly read/verified. Code-side performance work is not left undone; the remaining item is metric access/observation.
+
+
+## 2026-10-07 final performance pass
+
+Additional safe production improvements completed:
+- Consolidated four legacy CSS override files into `/assets/countrypilot-premium.css`, removing redundant render-blocking stylesheet requests from the build output.
+- Added build-time high-priority preloads for first eager/LCP images on country/category templates.
+- Removed the duplicate homepage hero fallback image so the homepage no longer loads a second full-cover above-the-fold background unnecessarily.
+- Verified optimized deployment before testing.
+
+### Stable 3-run median mobile Lighthouse evidence
+Five representative live production routes were tested three times each (15 Lighthouse runs total):
+
+- Homepage: performance 85, median LCP 3,772 ms, CLS 0, TBT 74 ms.
+- Canada country hub: performance 93, median LCP 3,020 ms, CLS 0, TBT 46 ms.
+- Visas & Immigration category: performance 93, median LCP 3,037 ms, CLS 0, TBT 48 ms.
+- Canada LMIA priority article: performance 97, median LCP 2,238 ms, CLS 0, TBT 63 ms.
+- Canada CRS calculator: performance 97, median LCP 2,215 ms, CLS 0, TBT 61 ms.
+
+Evidence: `docs/performance/lighthouse/summary.json`.
+
+Cloudflare Speed Observatory read access works, but no existing Observatory history exists for these URLs. Starting new Observatory tests through the connected Cloudflare token returned authentication error 10000. The connected Cloudflare API also does not expose INP data through its available OpenAPI endpoints.
+
+### Current closure boundary
+All controllable first-party performance work identified in this phase has been implemented and tested. Phase 21 remains **EXTERNAL VERIFICATION BLOCKED / NOT GREEN** only because the strict closeout requires verifiable real-user INP (and preferably field LCP/CLS), which the current connected APIs do not expose. This is no longer an unworked code task.
