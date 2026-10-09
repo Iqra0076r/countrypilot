@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://countrypilot.info/sitemap.xml
+Sitemap: https://countrypilot.info/sitemap-money.xml
+Sitemap: https://countrypilot.info/sitemap-articles.xml
