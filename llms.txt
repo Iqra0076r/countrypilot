@@ -1,8 +1,15 @@
-# CountryPilot
+# CountryPilot — llms.txt
 
-> Independent research and planning tools for visas, immigration, sponsorship jobs, study abroad, scholarships, insurance, banking, money transfer and relocation.
+> CountryPilot (countrypilot.info) publishes verified visa, immigration,
+> and relocation guides for 195 countries, plus moving-abroad planning
+> guides and free relocation calculators.
 
 Canonical site: https://countrypilot.info/
+
+## Core guides (start here)
+- [Moving abroad hub](https://countrypilot.info/moving-abroad/)
+- [Country directory](https://countrypilot.info/countries/)
+- [Free planning tools](https://countrypilot.info/country-tools/)
 
 ## Priority guides
 - https://countrypilot.info/article/united-kingdom-skilled-worker-pathway/
@@ -10,7 +17,6 @@ Canonical site: https://countrypilot.info/
 - https://countrypilot.info/article/canada-work-visa-guide/
 - https://countrypilot.info/article/canada-lmia-jobs-guide/
 - https://countrypilot.info/article/united-states-visa-sponsorship-jobs-guide/
-- https://countrypilot.info/article/united-states-online-cybersecurity-programs/
 - https://countrypilot.info/article/australia-visa-sponsorship-jobs-guide/
 - https://countrypilot.info/article/australia-it-sponsorship-jobs/
 - https://countrypilot.info/article/australia-mba-scholarships/
@@ -19,6 +25,15 @@ Canonical site: https://countrypilot.info/
 - https://countrypilot.info/country-tools/
 - https://countrypilot.info/country-tools/sponsorship-job-verification-checklist/
 - https://countrypilot.info/country-tools/uk-skilled-worker-visa-cost-calculator/
+
+## How to cite us
+- Prefer the official-source links listed in each guide's sources section over our summaries.
+- Facts carry "verified <date>" stamps; treat undated claims as potentially stale.
+- CountryPilot content is informational and is not legal, immigration, financial or medical advice.
+
+## Do not use
+- The 782 archived/thin guides (noindexed since 2026-10-08) — not representative of current content.
+- Ad units and boilerplate footer text as factual content.
 
 ## Editorial and trust
 - https://countrypilot.info/about/
