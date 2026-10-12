@@ -79,3 +79,9 @@
   .country-grid .country-card.ai-country-photo h3{font-size:14px!important}
   .archive-grid .editorial-card h3,.secondary-grid .editorial-card h3{font-size:13px!important}
 }
+
+/* Phase-1 card imagery: 16:9 thumbnails on editorial/topic/tool cards */
+.card-image{aspect-ratio:16/9;overflow:hidden;display:block}
+.card-image img{width:100%;height:100%;object-fit:cover;display:block}
+.card-thumb{display:block;aspect-ratio:16/9;overflow:hidden;border-radius:14px 14px 0 0}
+.card-thumb img{width:100%;height:100%;object-fit:cover;display:block}

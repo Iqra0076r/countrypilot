@@ -18,7 +18,7 @@ function render(){
   );
   $('count').textContent=rows.length+' guides';
   $('results').innerHTML=rows.slice(0,72).map(x=>`<article class="editorial-card">
-    <a class="card-image" href="../article/${encodeURIComponent(x.slug)}/"><span class="image-fallback">${esc(x.country||x.category)}</span>
+    <a class="card-image" href="../article/${encodeURIComponent(x.slug)}/">${x.image?`<img src="${esc(x.image)}" alt="${esc(x.title)}" loading="lazy" width="800" height="450">`:`<span class="image-fallback">${esc(x.country||x.category)}</span>`}
     </a>
     <div class="card-copy">
       <div class="eyebrow">${esc(x.country?x.country+' · ':'')}${esc(x.category)}</div>
