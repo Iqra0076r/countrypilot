@@ -4,3 +4,5 @@ Allow: /
 Sitemap: https://countrypilot.info/sitemap.xml
 Sitemap: https://countrypilot.info/sitemap-money.xml
 Sitemap: https://countrypilot.info/sitemap-articles.xml
+Sitemap: https://countrypilot.info/sitemap-core.xml
+Sitemap: https://countrypilot.info/sitemap-priority.xml
