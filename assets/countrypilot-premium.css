@@ -1417,3 +1417,15 @@ section.cp-money-guides .story-link{color:#ffd39b;border-color:rgba(255,211,155,
 .verified{display:inline-flex;align-items:center;gap:8px}
 .verified::before{content:"✓";display:inline-grid;place-items:center;width:20px;height:20px;flex:none;border-radius:50%;background:var(--cp-orange);color:#fff;font-size:12px;font-weight:900;line-height:1}
 /* ================= end GRAPHIC BATCH 3 ================= */
+
+/* Minimal country flags replace card images site-wide (owner direction 2026-10-14).
+   The 710 AI images remain in images/cards/ but are no longer displayed. */
+.archive-grid a.card-image,
+.related-grid a.card-image,
+.search-results a.card-image,
+.secondary-grid a.card-image,
+a.card-image.card-image{display:flex!important;align-items:center;justify-content:center;background:#eef3f6!important;min-height:120px;}
+.flag-badge{display:inline-block;line-height:1;font-size:2.9rem;filter:drop-shadow(0 2px 3px rgba(10,40,60,.14));}
+.card-thumb{display:flex!important;align-items:center;justify-content:center;min-height:110px;background:#eef3f6!important;border-radius:10px;}
+.card-thumb .flag-badge{font-size:2.4rem;}
+.flag-title{display:inline-block;line-height:1;font-size:1.7rem;margin:0 0 .35rem;filter:drop-shadow(0 1px 2px rgba(10,40,60,.14));}
