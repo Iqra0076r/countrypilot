@@ -1332,3 +1332,83 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
   .article-body h3{font-size:20px!important}
 }
 
+
+/* ================= GRAPHIC BATCH 2 — visual polish (2026-10-14) =================
+   Purely visual. No URL/title/H1/content/keyword/JSON-LD changes. Identity preserved. */
+
+/* 1. entry-table — kill the browser-default look */
+table.entry-table{width:100%;border-collapse:separate;border-spacing:0;margin:1.5em 0;font-size:15px;background:#fff;border:1px solid var(--cp-line);border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(7,61,118,.05)}
+table.entry-table caption{text-align:left;font-size:13px;color:var(--cp-muted);padding:0 2px 10px;caption-side:top}
+table.entry-table th{background:var(--cp-blue-deep);color:#fff;text-align:left;padding:12px 14px;font-size:13px;letter-spacing:.03em;font-weight:800}
+table.entry-table td{padding:11px 14px;border-top:1px solid var(--cp-line);vertical-align:top}
+table.entry-table tbody tr:nth-child(even) td{background:#f6fafd}
+table.entry-table tbody tr:hover td{background:#eaf2fa}
+
+/* 2. Archive / hub heroes — designed banner instead of flat blue */
+.archive-hero,.search-hero{background:
+  linear-gradient(115deg,rgba(4,45,88,.94) 0%,rgba(7,61,118,.82) 55%,rgba(7,61,118,.68) 100%),
+  radial-gradient(circle at 88% 12%,rgba(255,255,255,.13),transparent 44%),
+  radial-gradient(circle at 8% 90%,rgba(255,179,71,.15),transparent 42%),
+  var(--cp-blue-deep)}
+.archive-hero{border-bottom:3px solid var(--cp-orange)}
+
+/* 3. Mid-homepage contrast band — breaks the seven-identical-sections rhythm */
+section.cp-money-guides{background:linear-gradient(180deg,var(--cp-blue-deep),#062a52);border-radius:0}
+section.cp-money-guides .section-head.editorial{border-bottom-color:rgba(255,255,255,.22)}
+section.cp-money-guides .section-head.editorial h2{color:#fff}
+section.cp-money-guides .section-head.editorial .eyebrow{color:#ffd39b}
+section.cp-money-guides .section-head.editorial>a{color:#ffd39b}
+section.cp-money-guides .topic-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);box-shadow:none}
+section.cp-money-guides .topic-card:hover{background:rgba(255,255,255,.11);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+section.cp-money-guides .topic-card h3{color:#fff}
+section.cp-money-guides .topic-card p{color:#c9dcf2}
+section.cp-money-guides .topic-number{color:#ffd39b}
+section.cp-money-guides .card-thumb{border-radius:10px;overflow:hidden}
+section.cp-money-guides .story-link{color:#ffd39b;border-color:rgba(255,211,155,.5)}
+
+/* 4. Homepage story-link CTAs become button chips */
+.cp-priority-directory .story-link,.cp-money-guides .story-link,.secondary-grid .story-link{display:inline-block;border:1px solid var(--cp-line);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:800;background:#fff;transition:.18s}
+.cp-priority-directory .story-link:hover,.secondary-grid .story-link:hover{border-color:var(--cp-blue);box-shadow:0 3px 10px rgba(7,61,118,.12);transform:translateY(-1px)}
+
+/* 5. Article rhythm: pull-quotes, key takeaways, captions */
+.article-body blockquote{border-left:4px solid var(--cp-orange);background:#fffaf2;margin:1.6em 0;padding:16px 22px;border-radius:0 12px 12px 0;font-family:var(--cp-sans);font-size:19px;line-height:1.55;color:var(--cp-blue-deep);font-style:italic}
+.article-body .key-takeaway{position:relative;background:var(--cp-sky);border:1px solid var(--cp-line);border-left:4px solid var(--cp-blue);border-radius:12px;padding:16px 20px 16px;margin:1.6em 0}
+.article-body .key-takeaway::before{content:"Key takeaway";display:block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--cp-blue);margin-bottom:6px}
+.article-body figcaption{font-size:13px;color:var(--cp-muted);padding-top:8px;text-align:left}
+
+/* 6. Ticker — gentle alive motion (no content duplication needed) */
+.ticker{overflow:hidden}
+.ticker .container{display:flex;align-items:center;gap:14px}
+.ticker-items{display:inline-block;white-space:nowrap;animation:cp-ticker-nudge 14s ease-in-out infinite}
+.ticker:hover .ticker-items{animation-play-state:paused}
+@keyframes cp-ticker-nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(-56px)}}
+@media(prefers-reduced-motion:reduce){.ticker-items{animation:none}}
+
+/* 7. FAQ accordion markers — custom chevron instead of default triangle */
+.faq-zone details summary{list-style:none;cursor:pointer;position:relative;padding-right:38px}
+.faq-zone details summary::-webkit-details-marker{display:none}
+.faq-zone details summary::marker{display:none;content:""}
+.faq-zone details summary::after{content:"+";position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:22px;line-height:1;color:var(--cp-orange);font-weight:800;transition:transform .2s}
+.faq-zone details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+
+/* 8. Hamburger icon + footer ornament */
+.nav-menu .menu-icon{font-size:0!important;line-height:0;width:18px;height:14px;position:relative;display:inline-block;vertical-align:middle}
+.nav-menu .menu-icon::before,.nav-menu .menu-icon::after{content:"";position:absolute;left:0;right:0;height:2px;background:#fff;border-radius:2px}
+.nav-menu .menu-icon::before{top:1px;box-shadow:0 6px 0 #fff}
+.nav-menu .menu-icon::after{bottom:1px}
+.editorial-footer{position:relative}
+.editorial-footer::before{content:"";display:block;height:3px;background:linear-gradient(90deg,transparent,var(--cp-orange) 30%,var(--cp-orange) 70%,transparent)}
+
+/* 9. Archive fallback tiles — designed monogram look, country name kept */
+.image-fallback{font-family:var(--cp-sans);font-weight:900;font-size:clamp(26px,3.4vw,40px);letter-spacing:-.02em;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.3);background:
+  radial-gradient(circle at 82% 12%,rgba(255,255,255,.2),transparent 46%),
+  radial-gradient(circle at 10% 88%,rgba(255,179,71,.28),transparent 44%),
+  linear-gradient(135deg,#0a3560 0%,#0e5a8a 58%,#b97c26 130%)!important}
+
+@media(max-width:680px){
+  table.entry-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table.entry-table th,table.entry-table td{white-space:nowrap}
+  table.entry-table caption{white-space:normal}
+  .article-body blockquote{font-size:17px;padding:14px 18px}
+}
+/* ================= end GRAPHIC BATCH 2 ================= */
