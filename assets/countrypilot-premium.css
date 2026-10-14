@@ -514,11 +514,18 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
 /* Article pages without a hero no longer leave awkward whitespace. */
 .cp-cover-tier-c + .article-tools{margin-top:8px}
 
-/* Text-first editorial cards: remove the mass-generated-image look. */
+/* Article card images: the image team added 710 unique AI-generated images site-wide
+   (owner direction). Show them on archive/related/search cards. */
 .archive-grid .card-image,
 .related-grid .card-image,
 .search-results .card-image{
-  display:none!important
+  display:block!important
+}
+.related-grid .editorial-card .card-image{
+  position:relative!important;width:100%!important;height:auto!important;min-height:0!important;aspect-ratio:4/3!important;overflow:hidden!important;flex:0 0 auto!important;
+}
+.related-grid .editorial-card .card-image img{
+  width:100%!important;height:100%!important;object-fit:cover!important;
 }
 .archive-grid .editorial-card,
 .related-grid .editorial-card{
@@ -633,8 +640,7 @@ a{transition:color .16s ease,background .16s ease,border-color .16s ease,transfo
   text-align:left!important
 }
 
-/* Search cards inherit archive styling and no longer request/display article art. */
-#results.archive-grid .card-image{display:none!important}
+/* Search cards inherit archive styling and show article art like other cards. */
 
 /* Mobile: compact covers preserve reading speed and ad-viewable content. */
 @media(max-width:720px){
