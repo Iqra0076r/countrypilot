@@ -1412,3 +1412,8 @@ section.cp-money-guides .story-link{color:#ffd39b;border-color:rgba(255,211,155,
   .article-body blockquote{font-size:17px;padding:14px 18px}
 }
 /* ================= end GRAPHIC BATCH 2 ================= */
+
+/* ================= GRAPHIC BATCH 3 — verified badge checkmark (2026-10-14) ================= */
+.verified{display:inline-flex;align-items:center;gap:8px}
+.verified::before{content:"✓";display:inline-grid;place-items:center;width:20px;height:20px;flex:none;border-radius:50%;background:var(--cp-orange);color:#fff;font-size:12px;font-weight:900;line-height:1}
+/* ================= end GRAPHIC BATCH 3 ================= */
