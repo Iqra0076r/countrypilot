@@ -64,4 +64,49 @@
       msg.value = "Error report for: " + art + "\n\nWhat is wrong:\n";
     }
   } catch (e) {}
+
+  /* Share row: progressive enhancement. Link intents work with zero JS;
+     Copy-link and native Share buttons are injected only when supported. */
+  (function(){
+    var rows = document.querySelectorAll(".share-list");
+    if (!rows.length) return;
+    var canon = document.querySelector('link[rel="canonical"]');
+    var url = canon ? canon.href : window.location.href;
+    var title = document.title || "";
+    function track(method){
+      try {
+        if (typeof gtag === "function") gtag("event", "share", {method: method, page_path: window.location.pathname});
+      } catch (e) {}
+    }
+    rows.forEach(function(ul){
+      ul.addEventListener("click", function(ev){
+        var a = ev.target.closest("a[data-share]");
+        if (a) track(a.getAttribute("data-share"));
+      });
+      if (navigator.clipboard && window.isSecureContext !== false) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.type = "button"; b.textContent = "Copy link"; b.setAttribute("data-share", "copy");
+        b.setAttribute("aria-live", "polite");
+        b.addEventListener("click", function(){
+          navigator.clipboard.writeText(url).then(function(){
+            b.textContent = "Copied \u2713";
+            setTimeout(function(){ b.textContent = "Copy link"; }, 2000);
+          }).catch(function(){});
+          track("copy");
+        });
+        li.appendChild(b); ul.appendChild(li);
+      }
+      if (navigator.share) {
+        var li2 = document.createElement("li");
+        var b2 = document.createElement("button");
+        b2.type = "button"; b2.textContent = "Share\u2026"; b2.setAttribute("data-share", "native");
+        b2.addEventListener("click", function(){
+          try { navigator.share({title: title, url: url}).catch(function(){}); } catch (e) {}
+          track("native");
+        });
+        li2.appendChild(b2); ul.appendChild(li2);
+      }
+    });
+  })();
 })();

@@ -377,3 +377,9 @@ section.quick-answer{margin-bottom:8px}
 .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 32px}
 .table-scroll table{margin:0}
 @media (max-width:560px){.table-scroll table{min-width:620px}}
+.share{border-top:1px solid var(--line);margin:44px 0 0;padding:22px 0 0}
+.share-kicker{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+.share-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 22px}
+.share-list a,.share-list button{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);text-decoration:none;background:none;border:0;border-bottom:1px solid transparent;padding:0;cursor:pointer}
+.share-list a:hover,.share-list button:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.share-list button:focus-visible,.share-list a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
