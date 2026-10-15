@@ -1,21 +1,40 @@
-<!doctype html><html lang="en"><head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous">document.getElementById('reviewReady').addEventListener('click',function(){var a=Array.from(document.querySelectorAll('.ready-check'));var d=a.filter(function(x){return x.checked}).length;document.getElementById('readyStatus').textContent=d+' of '+a.length+' evidence checks complete';document.getElementById('readyResult').hidden=false;});
-</script>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+
 <title>Australia PR Points Calculator (189, 190 & 491) | CountryPilot</title>
 <meta name="description" content="Estimate points for Australian skilled visas 189, 190 and 491 using Home Affairs tables. Compare age, English, qualifications, employment and nomination.">
 <link rel="canonical" href="https://countrypilot.info/country-tools/australia-skilled-visa-points-calculator/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <link rel="icon" href="/images/countrypilot-mark.svg">
-<link rel="stylesheet" href="/assets/countrypilot-core.css?v=20261006-ui1"><link rel="stylesheet" href="/assets/countrypilot-premium.css?v=20261014-gr3">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/assets/site.css">
 <style>
-:root{--navy:#0d2740;--blue:#0b67b2;--ink:#142536;--muted:#5c6e7d;--line:#d9e4ed;--orange:#ef7b2d}
-*{box-sizing:border-box}body{margin:0;font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#f6faff}a{color:#095f9d}.wrap{width:min(1090px,calc(100% - 32px));margin:auto}header{background:#fff;border-bottom:1px solid var(--line)}.top{min-height:67px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.logo{font-size:22px;font-weight:900;color:var(--navy);text-decoration:none}.top nav{display:flex;gap:15px;flex-wrap:wrap}.top nav a{font-weight:700;text-decoration:none;font-size:14px}
-.hero{padding:52px 0 36px;background:linear-gradient(125deg,#e7f3ff,#fff 57%,#fff3e7)}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;color:var(--blue)}h1{font-size:clamp(35px,5.2vw,57px);letter-spacing:-.04em;line-height:1.08;margin:12px 0 16px;color:var(--navy)}h2{line-height:1.2;color:var(--navy)}.lead{font-size:18px;max-width:860px;color:#476276}
-main{padding:28px 0 65px}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;margin:0 0 20px;box-shadow:0 9px 28px rgba(13,39,64,.045)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.field label{display:block;font-weight:850;font-size:14px;margin:0 0 7px;color:#29475e}.field select{width:100%;border:1px solid #c6d6e3;border-radius:10px;padding:11px;min-height:47px;background:white;color:var(--ink);font-size:15px}.small{font-size:13px;color:var(--muted)}.check{display:flex;gap:9px;align-items:flex-start;font-size:14px;padding:4px 0}.check input{width:18px;height:18px;flex:none;accent-color:#0b67b2;margin-top:3px}
-.btn{background:#0b67b2;color:white;border:0;border-radius:10px;padding:12px 18px;font:800 15px inherit;cursor:pointer}.btn:hover{background:#095691}.result{background:#edf7ff;border:1px solid #bbdff8;border-radius:14px;padding:20px;margin-top:22px}.result[hidden]{display:none}.score{font-weight:950;color:var(--navy);font-size:48px;line-height:1.1}.status{font-weight:800}.breakdown{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 25px;margin-top:15px}.breakdown div{display:flex;justify-content:space-between;border-bottom:1px solid #d2e0eb;padding:6px 0;gap:10px}.warning{border-left:4px solid var(--orange);background:#fff7f0;padding:14px 18px;margin:18px 0;border-radius:6px}table{width:100%;border-collapse:collapse}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{color:var(--navy)}.references a{display:inline-block;margin-right:12px;margin-bottom:8px}.meta{border-top:1px solid var(--line);padding:22px 0;background:white;font-size:13px;color:var(--muted)}.meta a{margin-right:16px}
-@media(max-width:730px){.grid,.breakdown{grid-template-columns:1fr}.panel{padding:18px}.top{padding:10px 0}.hero{padding:35px 0}.score{font-size:40px}}
-
+.panel{background:#fff;border:1px solid var(--line);border-radius:3px;padding:24px;margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.field label{display:block;font-weight:850;font-size:14px;margin:0 0 7px;color:var(--ink-soft)}
+.field select{width:100%;border:1px solid var(--line);border-radius:3px;padding:11px;min-height:47px;background:white;color:var(--ink);font-size:15px}
+.small{font-size:13px;color:var(--ink-soft)}
+.check{display:flex;gap:9px;align-items:flex-start;font-size:14px;padding:4px 0}
+.check input{width:18px;height:18px;flex:none;accent-color:var(--accent);margin-top:3px}
+.btn{background:var(--accent);color:white;border:0;border-radius:3px;padding:12px 18px;font:800 15px inherit;cursor:pointer}
+.btn:hover{background:var(--accent-dark)}
+.result{background:var(--paper-soft);border:1px solid var(--line);border-radius:3px;padding:20px;margin-top:22px}
+.result[hidden]{display:none}
+.score{font-weight:950;color:var(--ink);font-size:48px;line-height:1.1}
+.status{font-weight:800}
+.breakdown{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 25px;margin-top:15px}
+.breakdown div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:6px 0;gap:10px}
+.warning{border-left:4px solid #a33b1f;background:var(--paper-soft);padding:14px 18px;margin:18px 0}
+table{width:100%;border-collapse:collapse}
+th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+th{color:var(--ink)}
+.references a{display:inline-block;margin-right:12px;margin-bottom:8px}
+@media(max-width:730px){.grid,.breakdown{grid-template-columns:1fr} .panel{padding:18px} .score{font-size:40px}}
 /* CountryPilot mobile money-tool UX layer */
 @media(max-width:760px){
   table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -24,10 +43,27 @@ main{padding:28px 0 65px}.panel{background:#fff;border:1px solid var(--line);bor
   .buttons,.actions{gap:10px}
 }
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Australia Skilled Visa Points Calculator", "isAccessibleForFree": true, "url": "https://countrypilot.info/country-tools/australia-skilled-visa-points-calculator/", "description": "Indicative self-assessment calculator for the points-tested Australian skilled visas 189, 190 and 491, based on Department of Home Affairs points tables."}</script></head><body>
-<header><div class="wrap top"><a class="logo" href="/">CountryPilot</a><nav aria-label="Primary"><a href="/country-tools/">Free Tools</a><a href="/country/australia/">Australia Guides</a><a href="/category/visas-immigration/">Visa Guides</a></nav></div></header>
-<section class="hero"><div class="wrap"><div class="eyebrow">Australia skilled migration · Points-tested visas</div><h1>Australia PR Points Calculator: 189, 190 &amp; 491</h1><p class="lead">Get a transparent, indicative points total for subclass <strong>189, 190 or 491</strong> before checking official SkillSelect requirements. This is a self-assessment—not a formal skills assessment, migration advice, or an invitation prediction.</p></div></section>
-<main class="wrap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Australia Skilled Visa Points Calculator", "isAccessibleForFree": true, "url": "https://countrypilot.info/country-tools/australia-skilled-visa-points-calculator/", "description": "Indicative self-assessment calculator for the points-tested Australian skilled visas 189, 190 and 491, based on Department of Home Affairs points tables."}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap header-inner">
+<a class="wordmark" href="/">CountryPilot</a>
+<nav class="site-nav" aria-label="Primary"><ul>
+<li><a href="/">Home</a></li>
+<li><a href="/topics/">Topics</a></li>
+<li><a href="/tools/">Tools</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+<form class="site-search" action="/search/" method="get" role="search"><input type="search" name="q" aria-label="Search CountryPilot" placeholder="Search guides…"><button type="submit">Search</button></form>
+</nav></div></header>
+<main id="main" class="wrap">
+<p class="kicker">Australia skilled migration · Points-tested visas</p>
+<h1>Australia PR Points Calculator: 189, 190 &amp; 491</h1>
+<p class="lede">Get a transparent, indicative points total for subclass 189, 190 or 491 before checking official SkillSelect requirements. This is a self-assessment—not a formal skills assessment, migration advice, or an invitation prediction.</p>
+<p class="disclaimer">Estimates only &mdash; figures change. Verify with the official source before you act.</p>
+<div class="byline"><span>Maintained by the <a href="/authors/countrypilot-editorial-team/">CountryPilot editorial desk</a></span></div>
 <section class="panel"><div class="warning"><strong>Reviewed 7 October 2026:</strong> This calculator is an independent planning aid for the 189, 190 and 491 points test. It does not predict invitations or determine visa eligibility. Confirm every claim with the Department of Home Affairs before submitting an Expression of Interest.</div><h2>Your indicative score</h2><p class="small">Choose only claims you can support with evidence. Some items have detailed legal conditions that this tool cannot verify. Calculations stay in your browser.</p><form id="pointsForm">
 <div class="grid">
 <div class="field"><label for="visa">Visa pathway</label><select id="visa"><option value="189">189 — Skilled Independent</option><option value="190">190 — Skilled Nominated</option><option value="491">491 — Skilled Work Regional</option></select></div>
@@ -71,7 +107,6 @@ main{padding:28px 0 65px}.panel{background:#fff;border:1px solid var(--line);bor
 <p class="references"><a href="https://immi.homeaffairs.gov.au/help-support/tools/points-calculator" target="_blank" rel="noopener noreferrer">Official Home Affairs points calculator ↗</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-table" target="_blank" rel="noopener noreferrer">189 points table ↗</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-nominated-190/points-table" target="_blank" rel="noopener noreferrer">190 points table ↗</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-work-regional-provisional-491/points-table" target="_blank" rel="noopener noreferrer">491 points table ↗</a></p>
 <p class="small">Source rules checked: 7 October 2026. Citation: CountryPilot, “Australia Skilled Visa Points Calculator,” accessed with the current page URL and date. Verify current requirements at Home Affairs before relying on any estimate.</p>
 </section>
-</main>
 <script>
 (function(){
 const ids=id=>document.getElementById(id),n=id=>Number(ids(id).value),on=id=>ids(id).checked;
@@ -85,5 +120,28 @@ const notes=[];if(rawWork>20)notes.push("Employment points were capped at 20.");
 });
 })();
 </script>
-<footer class="meta"><div class="wrap">CountryPilot offers independent planning resources, not immigration advice. <a href="/editorial-policy/">Editorial Policy</a><a href="/sources-policy/">Sources Policy</a><a href="/disclaimer/">Disclaimer</a><a href="/contact/">Contact</a></div><div class="container footer-legal phase18-trust-links"><a href="/about/">About</a><a href="/authors/countrypilot-editorial-team/">Editorial Team</a><a href="/corrections-policy/">Corrections Policy</a><a href="/privacy/">Privacy Policy</a></div></footer>
-</body></html>
+<p class="verified-stamp">Last verified against <a href="https://immi.homeaffairs.gov.au/help-support/tools/points-calculator">the Department of Home Affairs</a>, <time datetime="2026-10-07">October 7, 2026</time>.</p>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="trust-strip"><strong>CountryPilot</strong> &mdash; Independent guides to visas and immigration, checked against official sources. <a href="/editorial-policy/">Editorial policy</a> &middot; <a href="/corrections-policy/">Corrections log</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="mailto:hello@countrypilot.info">hello@countrypilot.info</a></div>
+<nav class="footer-sitemap" aria-label="Footer"><div><h2>Topics</h2><ul>
+<li><a href="/topics/digital-nomad-visas/">Digital nomad visas</a></li>
+<li><a href="/topics/golden-visa-alternatives/">Golden-visa alternatives</a></li>
+<li><a href="/topics/retirement-visas/">Retirement visas</a></li>
+<li><a href="/topics/startup-visas/">Startup visas</a></li>
+<li><a href="/topics/nomad-tax/">Nomad tax</a></li>
+<li><a href="/topics/ai-tech-talent-visas/">AI &amp; tech-talent visas</a></li>
+<li><a href="/topics/relocation-calculators/">Relocation calculators</a></li>
+</ul></div><div><h2>Tools &amp; services</h2><ul>
+<li><a href="/tools/">All tools &amp; services</a></li>
+<li><a href="/country-tools/canada-crs-calculator/">Canada CRS calculator</a></li>
+<li><a href="/country-tools/schengen-visa-cost-calculator/">Schengen visa cost calculator</a></li>
+<li><a href="/country-tools/proof-of-funds-calculator/">Proof of funds calculator</a></li>
+</ul></div><div><h2>CountryPilot</h2><ul>
+<li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/authors/nadeem-tanwari/">Nadeem Tanwari, Founder</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/corrections-policy/">Corrections policy</a></li><li><a href="/sources-policy/">Sources policy</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/search/">Search</a></li>
+</ul></div></nav>
+<p class="legal">&copy; <span id="year">2026</span> CountryPilot. All fee figures shown as of their stated date.</p>
+</div></footer>
+<script src="/assets/site.js"></script>
+</body>
+</html>

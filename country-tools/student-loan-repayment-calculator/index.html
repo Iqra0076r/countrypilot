@@ -1,27 +1,57 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2387877582529863" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9Y4LERPFJ"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-D9Y4LERPFJ");</script>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <title>Student Loan Repayment Calculator | CountryPilot</title>
 <meta name="description" content="Estimate monthly payments and total interest for an education loan using the amount, APR and repayment term you enter. Free CountryPilot planning tool.">
 <link rel="canonical" href="https://countrypilot.info/country-tools/student-loan-repayment-calculator/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <link rel="icon" href="/images/countrypilot-mark.svg">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/assets/site.css">
 <style>
-:root{--navy:#0d2740;--blue:#0b67b2;--ink:#142536;--muted:#657586;--line:#d9e4ed;--orange:#ef7b2d}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#f7fbff;line-height:1.6}
-a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 28px));margin:auto}
-header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.bar{height:64px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;font-size:23px;color:var(--navy)}nav{display:flex;gap:18px;font-size:14px;font-weight:700;color:#37536b}
-.hero{padding:64px 0 38px;background:linear-gradient(135deg,#eaf5ff,#fff 55%,#fff4ea)}.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:900}h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:10px 0 16px;color:var(--navy)}.lead{font-size:18px;color:#536b7e;max-width:800px}
-.tool{padding:36px 0 70px}.panel{padding:24px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 35px rgba(13,39,64,.06);margin-bottom:18px}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.field label{display:block;font-size:12px;font-weight:900;margin-bottom:5px;color:#496277}.field input{width:100%;min-height:46px;border:1px solid #cfdce6;border-radius:10px;padding:10px 12px;font-size:15px}.btn{border:0;border-radius:10px;padding:12px 17px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,var(--blue),#1382d1);color:#fff;margin-top:16px}.result{margin-top:20px;padding:18px;background:#f3f9ff;border:1px solid #d7eafa;border-radius:14px}.result[hidden]{display:none}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.metric{background:#fff;border:1px solid #dce9f3;border-radius:12px;padding:14px}.metric span{display:block;color:var(--muted);font-size:12px;font-weight:800}.metric b{display:block;color:var(--navy);font-size:24px}.note{margin-top:18px;padding:16px 18px;border-left:4px solid var(--orange);background:#fff8f2}.panel h2{color:var(--navy)}.panel a{color:var(--blue);font-weight:750}footer{border-top:1px solid var(--line);background:#fff;padding:28px 0;color:#667989;font-size:13px}.footer-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:8px}
-@media(max-width:760px){nav{display:none}.form-grid,.metrics{grid-template-columns:1fr}.hero{padding-top:42px}.panel{padding:18px}}
+.panel{padding:24px;background:#fff;border:1px solid var(--line);border-radius:3px;margin-bottom:18px}
+.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.field label{display:block;font-size:12px;font-weight:900;margin-bottom:5px;color:var(--ink-soft)}
+.field input{width:100%;min-height:46px;border:1px solid var(--line);border-radius:3px;padding:10px 12px;font-size:15px}
+.btn{border:0;border-radius:3px;padding:12px 17px;font-weight:900;cursor:pointer;background:var(--accent);color:#fff;margin-top:16px}
+.result{margin-top:20px;padding:18px;background:var(--paper-soft);border:1px solid var(--line);border-radius:3px}
+.result[hidden]{display:none}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.metric{background:#fff;border:1px solid var(--line);border-radius:3px;padding:14px}
+.metric span{display:block;color:var(--ink-soft);font-size:12px;font-weight:800}
+.metric b{display:block;color:var(--ink);font-size:24px}
+.note{margin-top:18px;padding:16px 18px;border-left:4px solid var(--accent);background:var(--paper-soft)}
+.panel h2{color:var(--ink)}
+.panel a{color:var(--accent);font-weight:750}
+.footer-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:8px}
+@media(max-width:760px){.form-grid,.metrics{grid-template-columns:1fr} .panel{padding:18px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Student Loan Repayment Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"url":"https://countrypilot.info/country-tools/student-loan-repayment-calculator/"}</script>
-<link rel="stylesheet" href="/assets/countrypilot-core.css?v=20261006-ui1"/><link rel="stylesheet" href="/assets/countrypilot-premium.css?v=20261014-gr3"/></head><body>
-<header><div class="wrap bar"><a class="brand" href="/">COUNTRYPILOT</a><nav><a href="/country-tools/">Tools</a><a href="/category/student-loans/">Student Loans</a><a href="/category/study-abroad/">Study Abroad</a><a href="/category/scholarships-funding/">Scholarships</a><a href="/countries/">Countries</a></nav></div></header>
-<section class="hero"><div class="wrap"><div class="kicker">Education finance tool</div><h1>Student Loan Repayment Calculator</h1><p class="lead">Estimate monthly repayments, total repayment and total interest from the loan amount, annual percentage rate and repayment term you enter.</p></div></section>
-<main class="wrap tool">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap header-inner">
+<a class="wordmark" href="/">CountryPilot</a>
+<nav class="site-nav" aria-label="Primary"><ul>
+<li><a href="/">Home</a></li>
+<li><a href="/topics/">Topics</a></li>
+<li><a href="/tools/">Tools</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+<form class="site-search" action="/search/" method="get" role="search"><input type="search" name="q" aria-label="Search CountryPilot" placeholder="Search guides…"><button type="submit">Search</button></form>
+</nav></div></header>
+<main id="main" class="wrap">
+<p class="kicker">Education finance tool</p>
+<h1>Student Loan Repayment Calculator</h1>
+<p class="lede">Estimate monthly repayments, total repayment and total interest from the loan amount, annual percentage rate and repayment term you enter.</p>
+<p class="disclaimer">Estimates only &mdash; figures change. Verify with the official source before you act.</p>
+<div class="byline"><span>Maintained by the <a href="/authors/countrypilot-editorial-team/">CountryPilot editorial desk</a></span></div>
 <div class="panel"><div class="form-grid">
 <div class="field"><label>Loan amount</label><input id="principal" type="number" min="0" step="0.01" value="20000"></div>
 <div class="field"><label>Annual interest rate / APR (%)</label><input id="apr" type="number" min="0" step="0.01" value="6"></div>
@@ -42,7 +72,6 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 <h2>Extra payments can change the schedule</h2><p>The optional extra-payment field shows how adding money to the scheduled payment can accelerate repayment in this simplified model. Before making extra payments on a real loan, check whether the lender applies them directly to principal and whether any restrictions or prepayment charges apply.</p>
 <h2>International students should also consider currency risk</h2><p>If your loan is denominated in one currency but your future income will be in another, exchange-rate changes can alter the real burden of repayment. Tuition, insurance, housing deposits and visa costs may also need to be financed separately.</p>
 <p>Continue with <a href="/category/student-loans/">CountryPilot education and student loan guides</a>, <a href="/category/scholarships-funding/">scholarship and funding guides</a>, the <a href="/country-tools/study-abroad-budget-calculator/">study abroad budget calculator</a> and <a href="/category/banking/">international student banking guides</a>.</p></section>
-</main>
 <script>
 const n=id=>Number(document.getElementById(id).value)||0;
 calc.onclick=()=>{
@@ -68,4 +97,27 @@ calc.onclick=()=>{
  result.hidden=false;
 };
 </script>
-<footer><div class="wrap">CountryPilot tools are planning aids and do not provide lending or financial advice.<div class="footer-links"><a href="/about/">About</a><a href="/editorial-policy/">Editorial Policy</a><a href="/sources-policy/">Sources Policy</a><a href="/privacy/">Privacy</a><a href="/contact/">Contact</a></div></div><div class="container footer-legal phase18-trust-links"><a href="/authors/countrypilot-editorial-team/">Editorial Team</a><a href="/corrections-policy/">Corrections Policy</a><a href="/disclaimer/">Disclaimer</a></div></footer></body></html>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="trust-strip"><strong>CountryPilot</strong> &mdash; Independent guides to visas and immigration, checked against official sources. <a href="/editorial-policy/">Editorial policy</a> &middot; <a href="/corrections-policy/">Corrections log</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="mailto:hello@countrypilot.info">hello@countrypilot.info</a></div>
+<nav class="footer-sitemap" aria-label="Footer"><div><h2>Topics</h2><ul>
+<li><a href="/topics/digital-nomad-visas/">Digital nomad visas</a></li>
+<li><a href="/topics/golden-visa-alternatives/">Golden-visa alternatives</a></li>
+<li><a href="/topics/retirement-visas/">Retirement visas</a></li>
+<li><a href="/topics/startup-visas/">Startup visas</a></li>
+<li><a href="/topics/nomad-tax/">Nomad tax</a></li>
+<li><a href="/topics/ai-tech-talent-visas/">AI &amp; tech-talent visas</a></li>
+<li><a href="/topics/relocation-calculators/">Relocation calculators</a></li>
+</ul></div><div><h2>Tools &amp; services</h2><ul>
+<li><a href="/tools/">All tools &amp; services</a></li>
+<li><a href="/country-tools/canada-crs-calculator/">Canada CRS calculator</a></li>
+<li><a href="/country-tools/schengen-visa-cost-calculator/">Schengen visa cost calculator</a></li>
+<li><a href="/country-tools/proof-of-funds-calculator/">Proof of funds calculator</a></li>
+</ul></div><div><h2>CountryPilot</h2><ul>
+<li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/authors/nadeem-tanwari/">Nadeem Tanwari, Founder</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/corrections-policy/">Corrections policy</a></li><li><a href="/sources-policy/">Sources policy</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/search/">Search</a></li>
+</ul></div></nav>
+<p class="legal">&copy; <span id="year">2026</span> CountryPilot. All fee figures shown as of their stated date.</p>
+</div></footer>
+<script src="/assets/site.js"></script>
+</body>
+</html>
