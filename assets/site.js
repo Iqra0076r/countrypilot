@@ -6,6 +6,16 @@
   var y = document.getElementById("year");
   if (y) y.textContent = String(new Date().getFullYear());
 
+  /* Topbar date — honest current date for the editorial masthead */
+  var today = document.querySelector("[data-today]");
+  if (today) {
+    try {
+      today.textContent = new Date().toLocaleDateString("en-GB", {
+        weekday: "long", day: "numeric", month: "long", year: "numeric"
+      });
+    } catch (e) {}
+  }
+
   /* Search page: live filter over build-time JSON index. Zero-JS fallback is the
      full directory rendered server-side; this only enhances. */
   var form = document.getElementById("searchForm");
