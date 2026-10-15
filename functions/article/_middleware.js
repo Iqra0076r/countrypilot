@@ -1,8 +1,8 @@
 // CountryPilot rebuild — Phase 2 (2026-10-15).
-// Serves HTTP 410 Gone for the 782 pruned Tier-3 template pages.
+// Middleware on /article/*: serves HTTP 410 Gone for the 782 pruned Tier-3
+// template pages, passes everything else through to the static files.
 // Disposition: ALL-410 (backlink sweep 2026-10-15: zero credible inbound links
 // found across 4 targeted web searches; Guardian's 2 searches agreed).
-// Every other /article/* request passes through to the static files untouched.
 const GONE = new Set([
   '/article/afghanistan-complete-country-travel-guide',
   '/article/afghanistan-travel-insurance-health-guide',
@@ -791,7 +791,7 @@ const GONE = new Set([
 const GONE_BODY =
   '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">' +
   '<meta name="robots" content="noindex">' +
-  '<title>410 Gone \u2014 CountryPilot</title></head><body>' +
+  '<title>410 Gone</title></head><body>' +
   '<h1>This guide has been permanently removed</h1>' +
   '<p>CountryPilot removed this page as part of a quality rebuild. ' +
   'Hundreds of thin template guides are being replaced with a smaller library ' +
