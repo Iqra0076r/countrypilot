@@ -186,6 +186,21 @@ figure.lead .credit{color:var(--credit);font-style:normal;white-space:nowrap}
   letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
 .bottom-line p{font-size:17px;line-height:1.7}
 .author-bio{border-top:3px double var(--ink);margin:48px 0 0;padding:32px 0}
+/* variant content classes from original article bodies */
+.faq-item{border-top:1px solid var(--line);padding:18px 0}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item summary{font-family:var(--sans);font-size:16px;font-weight:600;cursor:pointer;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::before{content:"+";color:var(--accent);margin-right:12px;font-weight:400}
+.faq-item[open] summary::before{content:"\2013"}
+.faq-item p,.faq-item div{font-family:var(--sans);font-size:15px;color:var(--muted);line-height:1.7;margin-top:12px}
+.src-name{font-weight:700;color:var(--ink)}
+.accessed{font-style:normal}
+table.entry-table{width:100%;border-collapse:collapse;margin:0 0 32px;font-family:var(--sans);font-size:14.5px}
+.entry-table th,.entry-table td{text-align:left;padding:12px 14px;border-top:1px solid var(--line);vertical-align:top}
+.entry-table thead th,.entry-table tr:first-child th{border-top:3px double var(--ink);
+  border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.entry-table tbody tr:last-child td,.entry-table tr:last-child td{border-bottom:1px solid var(--line)}
 nav.toc{border:1px solid var(--line);background:var(--soft);padding:26px 30px;margin:0 0 36px}
 nav.toc h2,nav.toc b{font-family:var(--sans);font-size:11px;font-weight:700;
   letter-spacing:.2em;text-transform:uppercase;display:block;margin-bottom:14px}
