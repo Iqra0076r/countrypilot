@@ -1,0 +1,30 @@
+name: CountryPilot Next.js preview build
+
+on:
+  push:
+    branches:
+      - nextjs-migration
+    paths:
+      - "next-app/**"
+      - ".github/workflows/next-app-build.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "next-app/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: next-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: next-app/package.json
+      - run: npm install
+      - run: npm run build
